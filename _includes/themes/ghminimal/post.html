@@ -8,6 +8,12 @@
 
   {{ content }}
 
+
+  {% for img in page.images %}
+  <a href="{{ BASE_PATH }}/assets/works/images/{{ img }}.png"><img class="work" src="{{ BASE_PATH }}/assets/works/thumbs/{{ img }}.png"></a>
+  {% endfor %}
+
+
   <footer>
     <section>
       {% unless page.tags == empty %}
