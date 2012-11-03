@@ -5,4 +5,4 @@ cd assets/works/
 cd images
 find * -maxdepth 1 -type d -print | xargs -I {} mkdir -p ../thumbs/{}
 
-find . -name *.png | xargs  -I {} convert -resize 500x300 {} ../thumbs/{}
+find . -name *.png | xargs  -I {} convert -resize 500x250 {} ../thumbs/{}
