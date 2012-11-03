@@ -6,7 +6,7 @@ tagline: Supporting tagline
 {% include JB/setup %}
 
 
-Howdy, stranger!
+Hello, stranger!
 
 ![Ilya Boyandin][me]
 
@@ -15,22 +15,34 @@ I am a Software Engineer and a researcher developing tools for Data Visualizatio
 at the University of Fribourg, Switzerland.
 
 
-## Works
+## Selection of works
 
-## Unrelated stuff
-Musical Experiments, Photography, More Photos, LinkedIn Profile, Facebook, LiveJournal (in Russian), Friendfeed.
-
-
-
-[me]: assets/images/ilya-320px.jpg "Ilya Boyandin"
-
-
-
-
-
-<ul class="posts">
+<ul class="works">
   {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+    {% if post.category == "works" %}
+      <li><!--<span>{{ post.date | date_to_string }}</span> &raquo; -->
+
+        <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>    <span class="date">{{ post.date | date_to_string }}</span>
+
+        {% for img in post.images %}
+        <a href="{{ BASE_PATH }}{{ post.url }}"><img class="work" src="{{ BASE_PATH }}/assets/works/{{ img }}"></a>
+        {% endfor %}
+              
+      </li>
+    {% endif %}
   {% endfor %}
 </ul>
+
+
+
+
+
+
+
+
+[me]: assets/images/myuserpic2-sm.jpg "Ilya Boyandin"
+
+
+
+
 
