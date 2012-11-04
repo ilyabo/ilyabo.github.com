@@ -3,7 +3,7 @@ layout: post
 title: "Swiss train flows"
 description: ""
 category: works
-tags: [ "D3", jQuery", "Polymaps", "JavaScript" ]
+tags: [ "D3", "jQuery", "Polymaps", "JavaScript" ]
 images: [ "swiss-trains/trains.png", "swiss-trains/trains-stations-zoom1.png", "swiss-trains/trains-stations-zoom2.png" ]
 ---
 {% include JB/setup %}
