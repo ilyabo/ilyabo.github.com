@@ -3,7 +3,7 @@ layout: post
 title: "ProClassify"
 description: ""
 category: works
-tags: [ "Java" ]
+tags: [ "Java", "LibSVM" ]
 images: [ 
 "ProClassify/about.png", 
 "ProClassify/dim_reduction_progress.png", 

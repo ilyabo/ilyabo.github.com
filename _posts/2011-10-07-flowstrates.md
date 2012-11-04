@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Flowstrates"
-description: ""
+description: "An interactive technique for analyzing temporal changes in origin-destination data, that is, flows of entities between geographic locations."
 category: works
 tags: [ "Java", "Piccolo" ]
 images: [ "flowstrates/Flowstrates-2012.png", "flowstrates/flowstrates2.png", "flowstrates/lasso.png", "flowstrates/flowline-coloring.png", "flowstrates/totals-in-maps4.png", "flowstrates/ethiopia-somalia-diff-staircase-full2--with-rect.png" ]
@@ -9,9 +9,7 @@ images: [ "flowstrates/Flowstrates-2012.png", "flowstrates/flowstrates2.png", "f
 {% include JB/setup %}
 
 
-An interactive technique for analyzing temporal changes in origin-destination data (flows of entities between geographic locations). 
-
-Flowstrates extend the idea of a flow map (which are used for representing entities flowing between geographic locations) to the temporal dimension and allow to analyze the changes of the flow magnitudes over time. In Flowstrates the origins and the destinations of the flows are displayed in two separate maps, and the temporal changes of the flow magnitudes are displayed between the two maps in a heatmap in which the columns represent time periods.
+Flowstrates extend the idea of a [flow map](http://en.wikipedia.org/wiki/Flow_map) (which are used for representing entities flowing between geographic locations) to the temporal dimension and allow to analyze the changes of the flow magnitudes over time. In Flowstrates the origins and the destinations of the flows are displayed in two separate maps, and the temporal changes of the flow magnitudes are displayed between the two maps in a heatmap in which the columns represent time periods.
 
 <object width="560" height="315"><param name="movie" value="http://www.youtube.com/v/nij8OUyiaV0?version=3&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/nij8OUyiaV0?version=3&amp;hl=en_US" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 
