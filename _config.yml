@@ -11,9 +11,12 @@ pygments: true
 #
 title : Ilya Boyandin
 tagline: Visualization software developer
+userpic: assets/images/myuserpic2-sm.jpg
+
 author :
   name : Ilya Boyandin
   email : ilyabo@gmail.com
+  org :  University of Fribourg, Switzerland
   github : ilyabo
   twitter : ilyabo
   linkedin : ilyabo

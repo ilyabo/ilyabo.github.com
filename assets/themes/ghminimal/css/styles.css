@@ -58,7 +58,7 @@ a:hover small {
 }
 
 .wrapper {
-  width:860px;
+  width:851px;
   margin:0 auto;
 }
 
@@ -110,7 +110,7 @@ img {
 header.main {
   width:270px;
   float:left;
-  position:fixed;
+ /* position:fixed;*/
 }
 
 header.main ul.buttons {
@@ -205,7 +205,7 @@ header.main h1 a:link {
 }
 
 section.main {
-  width:500px;
+  width:850px;
   float:right;
   padding-bottom:50px;
 }
@@ -223,17 +223,17 @@ hr {
 
 footer.main {
   width:270px;
-  float:left;
+  /*float:left;
   position:fixed;
-  bottom:50px;
+  bottom:50px;*/
 }
 
 
 aside {
   width:270px;
-  float:left;
-  position:fixed;
-  bottom:115px;
+  float:right;
+  /*position:fixed;
+  bottom:115px;*/
 }
 
 aside ul {
@@ -381,19 +381,32 @@ article footer p.gotop {
 }
 
 
-a[rel='me'] img { padding-right:5px; opacity:0.3; /*width:24px; height:24px; */ }
-a[rel='me']:hover img { opacity:0.7; }
+
+hgroup h1 { margin-bottom: 10px; }
+hgroup h2 { margin-bottom: 10px; }
+
+header.main { margin-bottom:25px; }
+section.main { margin-top:20px; }
+
+div.social {  }
+div.social a img { padding-right:5px; opacity:0.3; width:24px; height:24px;  }
+div.social a:hover img { opacity:0.7; }
 
 
-img.work { border:1px solid #ccc; margin:10px 0; padding:7px; border-radius:7px; }
+img.work { border:1px solid #eee; margin:10px 5px 10px 0px; padding:7px; border-radius:7px; }
 
 
 ul.works { list-style: none; margin-left: 0;  padding-left: 0; }
 
-ul.works li { margin-bottom:40px;}
+ul.works li { margin-bottom:40px; }
 
 span.date { float:right;}
 
 div.preview { margin-top:5px;}
 
-div.readmore { font-size: 11px; float:right;}
+div.readmore { font-size: 12px;  }
+
+#userpic { float:right;}
+
+section.tags { float:right;}
+

@@ -19,31 +19,14 @@
   </head>
   <body>
     <div class="wrapper">
-      <header class="main">
-        <hgroup>
-          <h1><a href="/">{{ site.title }}</a></h1>
-          {% if site.tagline %}
-          <h2>{{ site.tagline }}</h2>
-          {% endif %}
-        </hgroup>
-        <!--
-        <ul class="buttons">
-          <li><a href="http://github.com/{{ site.author.github }}/" rel="me">Code <strong>GitHub</strong></a></li>
-          <li><a href="http://www.linkedin.com/in/{{ site.author.linkedin }}/" rel="me">Connect <strong>LinkedIn</strong></a></li>
-          <li><a href="http://twitter.com/{{ site.author.twitter }}/" rel="me">Follow <strong>Twitter</strong></a></li>
-        </ul>
-        -->
-        <a href="http://github.com/{{ site.author.github }}/" rel="me" title="My code on GitHub"><img src="{{ BASE_PATH }}/assets/justvector/github_alt.png"></a>
-        <a href="http://www.linkedin.com/in/{{ site.author.linkedin }}/" rel="me" title="My profile on LinkedIn"><img src="{{ BASE_PATH }}/assets/justvector/linkedin_alt.png"></a>       
-        <a href="http://twitter.com/{{ site.author.twitter }}/" rel="me" title="My Twitter"><img src="{{ BASE_PATH }}/assets/justvector/twitter_alt.png"></a>       
-        <a href="http://flickr.com/photos/{{ site.author.flickr }}/" rel="me" title="My photos on Flickr"><img src="{{ BASE_PATH }}/assets/justvector/flickr.png"></a>       
-        <a href="http://picasaweb.google.com/{{ site.author.picasa }}/" rel="me" title="My photos on Picasa"><img src="{{ BASE_PATH }}/assets/justvector/picassa.png"></a>
-        <a href="http://soundcloud.com/{{ site.author.soundcloud }}/" rel="me" title="My musical experiments on Soundcloud"><img src="{{ BASE_PATH }}/assets/justvector/soundcloud.png"></a>
-      </header>
-      <section class="main">
-        {{ content }}
-      </section>
       <aside>
+        
+        <img src="{{ BASE_PATH }}/{{ site.userpic }}" id="userpic">
+        <ul>
+          <li class="contact"><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+          <li class="contact">{{ site.author.org }}</li>
+        </ul>
+
         <!--
         <nav>
           <ul>
@@ -53,13 +36,40 @@
           </ul>
         </nav>
       -->
-        <ul>
-          <li class="contact"><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-        </ul>
       </aside>
+      <header class="main">
+        <hgroup>
+          <h1>
+            <a href="/">{{ site.title }}</a>
+          </h1>
+          {% if site.tagline %}
+          <h2>{{ site.tagline }}</h2>
+          {% endif %}
+        </hgroup>
+
+          <div class="social">
+            <a href="http://github.com/{{ site.author.github }}/" rel="me" title="My code on GitHub"><img src="{{ BASE_PATH }}/assets/justvector/github_alt.png"></a>
+            <a href="http://www.linkedin.com/in/{{ site.author.linkedin }}/" rel="me" title="My profile on LinkedIn"><img src="{{ BASE_PATH }}/assets/justvector/linkedin_alt.png"></a>       
+            <a href="http://twitter.com/{{ site.author.twitter }}/" rel="me" title="My Twitter"><img src="{{ BASE_PATH }}/assets/justvector/twitter_alt.png"></a>       
+            <a href="http://flickr.com/photos/{{ site.author.flickr }}/" rel="me" title="My photos on Flickr"><img src="{{ BASE_PATH }}/assets/justvector/flickr.png"></a>       
+            <a href="http://picasaweb.google.com/{{ site.author.picasa }}/" rel="me" title="My photos on Picasa"><img src="{{ BASE_PATH }}/assets/justvector/picassa.png"></a>
+            <a href="http://soundcloud.com/{{ site.author.soundcloud }}/" rel="me" title="My musical experiments on Soundcloud"><img src="{{ BASE_PATH }}/assets/justvector/soundcloud.png"></a>
+          </div>
+
+        <!--
+        <ul class="buttons">
+          <li><a href="http://github.com/{{ site.author.github }}/" rel="me">Code <strong>GitHub</strong></a></li>
+          <li><a href="http://www.linkedin.com/in/{{ site.author.linkedin }}/" rel="me">Connect <strong>LinkedIn</strong></a></li>
+          <li><a href="http://twitter.com/{{ site.author.twitter }}/" rel="me">Follow <strong>Twitter</strong></a></li>
+        </ul>
+        -->
+      </header>
+      <section class="main">
+        {{ content }}
+      </section>
       <footer class="main">
         <p>
-          <small>Themed with <a href="http://sdb.github.com/jb-theme-ghminimal/">ghminimal</a> based on <a href="http://github.com/orderedlist/minimal/">minimal</a>. Powered by <a href="http://github.com/mojombo/jekyll">Jekyll</a> and <a href="http://pages.github.com/">GitHub Pages</a>.
+          <small>Theme based on <a href="http://sdb.github.com/jb-theme-ghminimal/">ghminimal</a> &raquo; <a href="http://github.com/orderedlist/minimal/">minimal</a>. Powered by <a href="http://github.com/mojombo/jekyll">Jekyll</a> and <a href="http://pages.github.com/">GitHub Pages</a>.
           Icons by <a href="http://designmoo.com/3783/justvector-social-media-icons/">designmoo</a>.
           </small>
         </p>

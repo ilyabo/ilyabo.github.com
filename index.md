@@ -1,19 +1,9 @@
 ---
 layout: page
 title: 
-tagline: Supporting tagline
+tagline: Ilya Boyandin
 ---
 {% include JB/setup %}
-
-<img src="assets/images/myuserpic2-sm.jpg" alt="Ilya Boyandin" style="float:right">
-
-## Hello, stranger!
-
-I am a Software Engineer and a researcher developing tools for Data Visualization
-at the University of Fribourg, Switzerland.
-
-
-<br>
 
 
 
@@ -29,8 +19,7 @@ at the University of Fribourg, Switzerland.
         <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>    <span class="date">{{ post.date | date_to_string }}</span>
 
         <div class="preview">
-        {{ post.content | strip_html | truncatewords:33}}<br>
-             <div class="readmore"><a href="{{ post.url }}">Read more...</a></div>
+        {{ post.content | strip_html | truncatewords:33}}
         </div>
 
 
@@ -38,18 +27,21 @@ at the University of Fribourg, Switzerland.
         <a href="{{ BASE_PATH }}/assets/works/images/{{ img }}"><img class="work" src="{{ BASE_PATH }}/assets/works/thumbs/{{ img }}"></a>
         {% endfor %}
 
-        <article class="post"><footer>
-          <section>
-          {% unless post.tags == empty %}
-            <h1>Tags:</h1>
-            <ul>
-            {% assign tags_list = post.tags %}
-            {% include JB/tags_list %}
-            </ul>
-          {% endunless %}
-          </section>
-        </footer>
-      </article>
+        <article class="post">
+          <footer>
+            <section class="tags">
+            {% unless post.tags == empty %}
+              <h1>Tags:</h1>
+              <ul>
+              {% assign tags_list = post.tags %}
+              {% include JB/tags_list %}
+              </ul>
+            {% endunless %}
+            </section>
+          </footer>
+        </article>
+
+       <div class="readmore"><a href="{{ post.url }}">Read more...</a></div>
               
       </li>
     {% endif %}
