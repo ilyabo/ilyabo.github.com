@@ -9,17 +9,21 @@ tagline: Ilya Boyandin
 
 
 
-## Selection of works
+## Selected work
 
 <ul class="works">
   {% for post in site.posts %}
     {% if post.category == "works" %}
       <li><!--<span>{{ post.date | date_to_string }}</span> &raquo; -->
 
-        <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>    <span class="date">{{ post.date | date_to_string }}</span>
+        <a href="{{ BASE_PATH }}{{ post.url }}" class="postTitle">{{ post.title }}</a>    <span class="date">{{ post.date | date_to_string }}</span>
 
         <div class="preview">
-        {{ post.content | strip_html | truncatewords:33}}
+        {% if post.description != "" %}
+          {{ post.description }}
+        {% else %}
+          {{ post.content | strip_html | truncatewords:33}}
+        {% endif %}
         </div>
 
 

@@ -222,7 +222,7 @@ hr {
 }
 
 footer.main {
-  width:270px;
+  width:300px;
   /*float:left;
   position:fixed;
   bottom:50px;*/
@@ -385,8 +385,8 @@ article footer p.gotop {
 hgroup h1 { margin-bottom: 10px; }
 hgroup h2 { margin-bottom: 10px; }
 
-header.main { margin-bottom:25px; }
-section.main { margin-top:20px; }
+header.main { margin-bottom:10px;  }
+section.main { margin-top:20px; border-top:1px solid #ddd; margin-top:0; padding-top:20px;}
 
 div.social {  }
 div.social a img { padding-right:5px; opacity:0.3; width:24px; height:24px;  }
@@ -410,3 +410,11 @@ div.readmore { font-size: 12px;  }
 
 section.tags { float:right;}
 
+.post header p { float:right; }
+.post header  { margin-bottom:10px; }
+
+a.postTitle { font-size:11pt; }
+
+div.pageImages { border-top:1px solid #ddd; margin-top:40px; padding-top:20px;  }
+
+article.post img { margin:15px 0px 10px 0px;}

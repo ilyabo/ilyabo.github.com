@@ -3,7 +3,7 @@ layout: post
 title: "ProClassifyWeb"
 description: ""
 category: works
-tags: [ "Java" ]
+tags: [ "Java", "Spring" ]
 images: [ 
 "ProClassifyWeb/addhealthysamples2.png", "ProClassifyWeb/crossvalidationresults.png", "ProClassifyWeb/classifyResults.png",  "ProClassifyWeb/crossvalidationresults2.png", "ProClassifyWeb/help.png", "ProClassifyWeb/login.png", "ProClassifyWeb/multipleupload.png", "ProClassifyWeb/myjobs.png", "ProClassifyWeb/newaccount.png", "ProClassifyWeb/samplelib.png", "ProClassifyWeb/trainprogress.png" ]
 ---
