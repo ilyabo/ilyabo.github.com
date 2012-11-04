@@ -4,8 +4,7 @@ title: "Swiss train flows"
 description: ""
 category: works
 tags: [ "D3", "jQuery", "Polymaps" ]
-images: [ "swiss-trains/trains.png" ]
-technologies: [  ]
+images: [ "swiss-trains/trains.png", "swiss-trains/trains-stations-zoom1.png", "swiss-trains/trains-stations-zoom2.png" ]
 ---
 {% include JB/setup %}
 
