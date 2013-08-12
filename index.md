@@ -22,13 +22,14 @@ tagline: Ilya Boyandin
         {% if post.description != "" %}
           {{ post.description }}
         {% else %}
-          {{ post.content | strip_html | truncatewords:33}}
+          <!--  post.content | strip_html | truncatewords:33 -->
+          {{ post.content | truncatewords:100 }}
         {% endif %}
         </div>
 
 
         {% for img in post.images limit:2 %}
-        <a href="{{ BASE_PATH }}/assets/works/images/{{ img }}"><img class="work" src="{{ BASE_PATH }}/assets/works/thumbs/{{ img }}"></a>
+        <a href="{{ BASE_PATH }}/assets/works/images/{{ img }}" target="_blank"><img class="work" src="{{ BASE_PATH }}/assets/works/thumbs/{{ img }}"></a>
         {% endfor %}
 
         <article class="post">

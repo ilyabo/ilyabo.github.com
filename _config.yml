@@ -10,14 +10,14 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : Ilya Boyandin
-tagline: Visualization software developer
+tagline: 
 userpic: assets/images/myuserpic2-sm.jpg
 
 author :
   name : Ilya Boyandin
   email : ilya@boyandin.me
-  position :  PhD student
-  org : University of Fribourg, Switzerland
+  position : Data visualization engineer
+  org : Interactive Things, Zürich, Switzerland
   github : ilyabo
   twitter : ilyabo
   linkedin : ilyabo
@@ -34,7 +34,7 @@ author :
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://boyandi.net
+production_url : http://ilya.boyandin.me
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #

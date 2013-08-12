@@ -25,7 +25,6 @@
         <ul>
           <li class="contact"><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
           <li class="contact">
-            {{ site.author.position }},
             {{ site.author.org }}
           </li>
         </ul>
@@ -46,8 +45,8 @@
           <h1>
             <a href="/">{{ site.title }}</a>
           </h1>
-          {% if site.tagline %}
-          <h2>{{ site.tagline }}</h2>
+          {% if site.author.position %}
+          <h2>{{ site.author.position }}</h2>
           {% endif %}
         </hgroup>
 

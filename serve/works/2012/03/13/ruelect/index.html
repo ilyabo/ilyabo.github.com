@@ -1,0 +1,228 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <title>Election fraud in Russia</title>
+
+    <meta name="description" content="Visualizing traces of fraud in Russian presidential election in 2012 and estimating the amount of fraud.">
+    <meta name="author" content="Ilya Boyandin">
+    
+    <link rel="stylesheet" href="/assets/themes/ghminimal/css/styles.css">
+    <link rel="stylesheet" href="/assets/themes/ghminimal/css/pygment_trac.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <aside>
+        
+        <img src="/assets/images/myuserpic2-sm.jpg" id="userpic">
+        <ul>
+          <li class="contact"><a href="mailto:ilya@boyandin.me">ilya@boyandin.me</a></li>
+          <li class="contact">
+            PhD student,
+            University of Fribourg, Switzerland
+          </li>
+        </ul>
+            <a href="assets/cv/cv.pdf">Résumé</a>
+
+        <!--
+        <nav>
+          <ul>
+            
+            
+            
+
+
+  
+    
+      
+      	
+      	<li><a href="/archive.html">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories.html">Categories</a></li>
+      	
+      
+    
+  
+    
+  
+    
+      
+      	
+      	<li><a href="/pages.html">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags.html">Tags</a></li>
+      	
+      
+    
+  
+
+
+
+          </ul>
+        </nav>
+      -->
+      </aside>
+      <header class="main">
+        <hgroup>
+          <h1>
+            <a href="/">Ilya Boyandin</a>
+          </h1>
+          
+          <h2>Visualization software developer</h2>
+          
+        </hgroup>
+
+          <div class="social">
+            <a href="http://github.com/ilyabo/" rel="me" title="My code on GitHub"><img src="/assets/justvector/github_alt.png"></a>
+            <a href="http://www.linkedin.com/in/ilyabo/" rel="me" title="My profile on LinkedIn"><img src="/assets/justvector/linkedin_alt.png"></a>       
+            <a href="http://twitter.com/ilyabo/" rel="me" title="My Twitter"><img src="/assets/justvector/twitter_alt.png"></a>       
+            <a href="http://flickr.com/photos/ibananti/" rel="me" title="My photos on Flickr"><img src="/assets/justvector/flickr.png"></a>       
+            <a href="http://picasaweb.google.com/ilyabo/" rel="me" title="My photos on Picasa"><img src="/assets/justvector/picassa.png"></a>
+            <a href="http://soundcloud.com/ibananti/" rel="me" title="My musical experiments on Soundcloud"><img src="/assets/justvector/soundcloud.png"></a>
+          </div>
+
+        <!--
+        <ul class="buttons">
+          <li><a href="http://github.com/ilyabo/" rel="me">Code <strong>GitHub</strong></a></li>
+          <li><a href="http://www.linkedin.com/in/ilyabo/" rel="me">Connect <strong>LinkedIn</strong></a></li>
+          <li><a href="http://twitter.com/ilyabo/" rel="me">Follow <strong>Twitter</strong></a></li>
+        </ul>
+        -->
+      </header>
+      <section class="main">
+        
+<article class="post">
+  <header>
+    <p>Published on <time datetime="2012-03-13T00:00:00+01:00" pubdate>
+      March 13, 2012
+    </time></p>
+    <h1>Election fraud in Russia</h1>
+  </header>
+
+  <p>The presidential election in 2012 in Russia was clearly fradulent. Despite manipulating the results the authorities published very detailed data on the elections which made it possible to analyse it and find traces of fraud.</p>
+
+<p>In this visualization the blue dots show polling stations which reported unlikely high votes for Putin: <img src='/assets/works/images/ruelect/2012-orangevaya-zaraza3-sm.png' alt='Vote for Putin in 2012 presidential elections in Russia.' /></p>
+
+<p>The interactive version can be found <a href='http://public.tableausoftware.com/views/russian-presidential-elections-2012-map-orange/sheet1?:embed=y'>here</a> (it is quite slow in loading).</p>
+
+<h2 id='vote_for_putin_vs_turnout'>Vote for Putin vs Turnout</h2>
+
+<p>Each dot is a polling station, x-axis is the turnout, y-axis is vote for Putin. Here you can see that there is a very high correlation between the turnout (the percentage of people who voted) and the vote for Putin. This correlation is most probably due to the fact that in the polling stations where the turnout was reported as unlikely high votes for Putin were injected. Anoter anomaly is “the grid pattern”, that is, the higher concentration of reported turnout and vote for Putin around 75, 80, 85, 90, 95%. This is a clear evidence of fraud.</p>
+
+<p><img src='/assets/works/images/ruelect/vote-to-turnout-sm.png' alt='Vote for Putin in 2012 presidential elections in Russia.' /></p>
+
+<h2 id='estimating_the_amount_of_fraud'>Estimating the amount of fraud</h2>
+
+<p>This simple visualization allows to estimate the amount of fraud by eliminating one of the suspicious anomalies of the vote distribution, namely, the correlation between turnout and vote for Putin. Click for the interactive version:</p>
+<a href='http://diuf.unifr.ch/people/boyandii/pub/elections/2012/'><img src='/assets/works/images/ruelect/estimate.png' title='Estimating the amount of fraud in 2012 presidential elections in Russia.' /></a>
+
+
+  <div class="pageImages">
+  
+  <a href="/assets/works/images/ruelect/2012-orangevaya-zaraza3-crop.png"><img class="work" src="/assets/works/thumbs/ruelect/2012-orangevaya-zaraza3-crop.png"></a>
+  
+  <a href="/assets/works/images/ruelect/estimate.png"><img class="work" src="/assets/works/thumbs/ruelect/estimate.png"></a>
+  
+  </div>
+
+
+  <footer>
+    <section>
+      
+        <h1>Tags:</h1>
+        <ul>
+        
+        
+
+
+  
+     
+    	<li><a href="/tags.html#Tableau-ref">Tableau <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#D3-ref">D3 <span>5</span></a></li>
+     
+    	<li><a href="/tags.html#JavaScript-ref">JavaScript <span>4</span></a></li>
+    
+  
+
+
+
+        </ul>
+      
+    </section>
+
+    <section>
+      
+        <h1>Categories:</h1>
+        <ul>
+        
+        
+
+
+  
+     
+    	<li><a href="/categories.html#works-ref">
+    		works <span>13</span>
+    	</a></li>
+    
+  
+
+
+        </ul>
+      
+    </section>
+
+    <!--
+    <p class="gotop">
+      <a href="#page">Back to Top</a>
+    </p>
+    -->
+  </footer>
+
+  
+</article>
+
+      </section>
+      <footer class="main">
+        <p>
+          <small>
+          Powered by <a href="http://github.com/mojombo/jekyll">Jekyll</a> and <a href="http://pages.github.com/">GitHub Pages</a>.
+          <br>Theme based on <a href="http://sdb.github.com/jb-theme-ghminimal/">ghminimal</a> which is in turn based on <a href="http://github.com/orderedlist/minimal/">minimal</a>. 
+          <br>Social media icons by <a href="http://designmoo.com/3783/justvector-social-media-icons/">designmoo</a>.
+          </small>
+        </p>
+      </footer>
+    </div>
+    <script src="/assets/themes/ghminimal/js/scale.fix.js"></script>
+
+    
+  </body>
+</html>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Ilya Boyandin</title>
+ <link href="http://boyandi.net/atom.xml" rel="self"/>
+ <link href="http://boyandi.net"/>
+ <updated>2013-08-12T12:52:27+02:00</updated>
+ <id>http://boyandi.net</id>
+ <author>
+   <name>Ilya Boyandin</name>
+   <email>ilya@boyandin.me</email>
+ </author>
+
+ 
+ <entry>
+   <title>Remittance flows</title>
+   <link href="http://boyandi.net/works/2013/04/01/remittances"/>
+   <updated>2013-04-01T00:00:00+02:00</updated>
+   <id>http://boyandi.net/works/2013/04/01/remittances</id>
+   <content type="html">&lt;p&gt;Visualizing flows of money sent by migrants to their home countries. Together with David Bauer and René Stalder.&lt;/p&gt;
+
+&lt;p&gt;View in action &lt;a href='http://remittances.herokuapp.com/?en'&gt;here&lt;/a&gt; or fork &lt;a href='https://github.com/ilyabo/remittances'&gt;on github&lt;/a&gt;.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>AidData</title>
+   <link href="http://boyandi.net/works/2012/09/01/aiddata"/>
+   <updated>2012-09-01T00:00:00+02:00</updated>
+   <id>http://boyandi.net/works/2012/09/01/aiddata</id>
+   <content type="html">&lt;p&gt;Visualizing flows of financial aid donated to countries by international organizations and by other countries. In collaboration with &lt;a href='http://aiddata.org'&gt;AidData.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;View in action &lt;a href='http://diuf.unifr.ch/diva/viz/aiddata/'&gt;here&lt;/a&gt; or fork &lt;a href='https://github.com/ilyabo/aiddata'&gt;on github&lt;/a&gt;.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Swiss train flows</title>
+   <link href="http://boyandi.net/works/2012/03/30/swiss-trains"/>
+   <updated>2012-03-30T00:00:00+02:00</updated>
+   <id>http://boyandi.net/works/2012/03/30/swiss-trains</id>
+   <content type="html">&lt;p&gt;Animated interactive visualization of train flows in Switzerland showing the numbers and the speeds of the trains during different time of the day. Developed in a team of fellow hackers during the &lt;a href='http://make.opendata.ch/'&gt;make.opendata camp&lt;/a&gt; in Zurich.&lt;/p&gt;
+
+&lt;p&gt;View in action &lt;a href='http://flows.transport.opendata.ch/'&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Election fraud in Russia</title>
+   <link href="http://boyandi.net/works/2012/03/13/ruelect"/>
+   <updated>2012-03-13T00:00:00+01:00</updated>
+   <id>http://boyandi.net/works/2012/03/13/ruelect</id>
+   <content type="html">&lt;p&gt;The presidential election in 2012 in Russia was clearly fradulent. Despite manipulating the results the authorities published very detailed data on the elections which made it possible to analyse it and find traces of fraud.&lt;/p&gt;
+
+&lt;p&gt;In this visualization the blue dots show polling stations which reported unlikely high votes for Putin: &lt;img src='/assets/works/images/ruelect/2012-orangevaya-zaraza3-sm.png' alt='Vote for Putin in 2012 presidential elections in Russia.' /&gt;&lt;/p&gt;
+
+&lt;p&gt;The interactive version can be found &lt;a href='http://public.tableausoftware.com/views/russian-presidential-elections-2012-map-orange/sheet1?:embed=y'&gt;here&lt;/a&gt; (it is quite slow in loading).&lt;/p&gt;
+
+&lt;h2 id='vote_for_putin_vs_turnout'&gt;Vote for Putin vs Turnout&lt;/h2&gt;
+
+&lt;p&gt;Each dot is a polling station, x-axis is the turnout, y-axis is vote for Putin. Here you can see that there is a very high correlation between the turnout (the percentage of people who voted) and the vote for Putin. This correlation is most probably due to the fact that in the polling stations where the turnout was reported as unlikely high votes for Putin were injected. Anoter anomaly is “the grid pattern”, that is, the higher concentration of reported turnout and vote for Putin around 75, 80, 85, 90, 95%. This is a clear evidence of fraud.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src='/assets/works/images/ruelect/vote-to-turnout-sm.png' alt='Vote for Putin in 2012 presidential elections in Russia.' /&gt;&lt;/p&gt;
+
+&lt;h2 id='estimating_the_amount_of_fraud'&gt;Estimating the amount of fraud&lt;/h2&gt;
+
+&lt;p&gt;This simple visualization allows to estimate the amount of fraud by eliminating one of the suspicious anomalies of the vote distribution, namely, the correlation between turnout and vote for Putin. Click for the interactive version:&lt;/p&gt;
+&lt;a href='http://diuf.unifr.ch/people/boyandii/pub/elections/2012/'&gt;&lt;img src='/assets/works/images/ruelect/estimate.png' title='Estimating the amount of fraud in 2012 presidential elections in Russia.' /&gt;&lt;/a&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>User study on visualizing temporal changes in flow maps</title>
+   <link href="http://boyandi.net/works/2011/11/30/user-study"/>
+   <updated>2011-11-30T00:00:00+01:00</updated>
+   <id>http://boyandi.net/works/2011/11/30/user-study</id>
+   <content type="html">&lt;p&gt;In this research study we analyzed ﬁndings made by the participants with ﬂow maps using animation and small-multiples as two alternative ways of representing temporal changes. The goal was to ﬁnd out whether there are qualitative differences between the types of ﬁndings users make with these two representations. This required a deep analysis of the collected ﬁndings and the interaction logs. To enable this analysis I developed web based tools for collaborative classification of the findings, resolving disagreements in the classification and a visualization of the interaction logs.&lt;/p&gt;
+
+&lt;p&gt;Check &lt;a href='http://diuf.unifr.ch/people/boyandii/papers/jflowmap-user-study.pdf'&gt;our publication&lt;/a&gt; for more details.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Flowstrates</title>
+   <link href="http://boyandi.net/works/2011/10/07/flowstrates"/>
+   <updated>2011-10-07T00:00:00+02:00</updated>
+   <id>http://boyandi.net/works/2011/10/07/flowstrates</id>
+   <content type="html">&lt;p&gt;Flowstrates extend the idea of a &lt;a href='http://en.wikipedia.org/wiki/Flow_map'&gt;flow map&lt;/a&gt; (which are used for representing entities flowing between geographic locations) to the temporal dimension and allow to analyze the changes of the flow magnitudes over time. In Flowstrates the origins and the destinations of the flows are displayed in two separate maps, and the temporal changes of the flow magnitudes are displayed between the two maps in a heatmap in which the columns represent time periods.&lt;/p&gt;
+&lt;object height='315' width='560'&gt;&lt;param value='http://www.youtube.com/v/nij8OUyiaV0?version=3&amp;amp;hl=en_US' name='movie' /&gt;&lt;param value='true' name='allowFullScreen' /&gt;&lt;param value='always' name='allowscriptaccess' /&gt;&lt;embed src='http://www.youtube.com/v/nij8OUyiaV0?version=3&amp;amp;hl=en_US' type='application/x-shockwave-flash' height='315' allowfullscreen='true' width='560' allowscriptaccess='always' /&gt;&lt;/object&gt;
+&lt;p&gt;As in most flow maps which focus on representing the flow magnitudes, the exact routes of the flows are not accurately represented in Flowstrates. Instead, the flow lines are rerouted so that they connect the flow origins and destinations with the corresponding rows of the heatmap, as if the flows were going through it. The flow lines help to see in the geographic maps the origins and the destinations corresponding to each of the flows shown in the heatmap.&lt;/p&gt;
+&lt;object height='315' width='560'&gt;&lt;param value='http://www.youtube.com/v/UQPN7o6A3Cg?version=3&amp;amp;hl=en_US&amp;amp;rel=0' name='movie' /&gt;&lt;param value='true' name='allowFullScreen' /&gt;&lt;param value='always' name='allowscriptaccess' /&gt;&lt;embed src='http://www.youtube.com/v/UQPN7o6A3Cg?version=3&amp;amp;hl=en_US&amp;amp;rel=0' type='application/x-shockwave-flash' height='315' allowfullscreen='true' width='560' allowscriptaccess='always' /&gt;&lt;/object&gt;
+&lt;p&gt;Flowstrates are meant for interactive exploration. Unlike OD-matrices which represent exactly one flow in each matrix cell, in Flowstrates every flow occupies one whole row of the heatmap for showing how the flow changed over time. Hence, much more screen real estate is used to represent the same number of flows, and for many datasets it is impossible to display all the flows simultaneously on the screen without filtering or aggregating them. Therefore, to allow the users to explore the whole data in every bit of detail Flowstrates provide interactive support for performing spatial visual queries, focusing on different regions of interest for the origins and destinations, zooming and panning, sorting and aggregating the heatmap rows.&lt;/p&gt;
+
+&lt;p&gt;Try out a &lt;a href='http://jflowmap.googlecode.com/svn/trunk/JFlowMap/demo/demo-applets.html?refugees-flowstrates'&gt;demo&lt;/a&gt; of Flowstrates representing refugee flows between the world&amp;#8217;s countries. You can also read our &lt;a href='http://diuf.unifr.ch/people/boyandii/papers/flowstrates-eurovis11.pdf'&gt;paper on Flowstrates&lt;/a&gt; published in Computer Graphics Forum.&lt;/p&gt;
+
+&lt;p&gt;Flowstrates is a part of &lt;a href='https://code.google.com/p/jflowmap/'&gt;JFlowMap&lt;/a&gt;, an open-source tool for the analysis of spatial interactions. You can download it &lt;a href='https://code.google.com/p/jflowmap/downloads/list'&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Edge bundling</title>
+   <link href="http://boyandi.net/works/2010/11/01/bundling"/>
+   <updated>2010-11-01T00:00:00+01:00</updated>
+   <id>http://boyandi.net/works/2010/11/01/bundling</id>
+   <content type="html">&lt;p&gt;Edge bundling can help making a cluttered graph visualization more readable by rerouting the edges so that they form bundles emphasizing the high-level graph structure. &lt;a href='https://code.google.com/p/jflowmap/'&gt;JFlowMap&lt;/a&gt; has an impementation of Danny Holten&amp;#8217;s &lt;a href='https://www.researchgate.net/publication/220506264_Force-Directed_Edge_Bundling_for_Graph_Visualization'&gt;force-directed bundling algorithm&lt;/a&gt;.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>JFlowMap</title>
+   <link href="http://boyandi.net/works/2010/10/01/jflowmap"/>
+   <updated>2010-10-01T00:00:00+02:00</updated>
+   <id>http://boyandi.net/works/2010/10/01/jflowmap</id>
+   <content type="html">&lt;p&gt;A visualization tool in which we experiment with various visualization techniques for spatial interactions, i.e. interactions between pairs of geographic locations. These can be migrations, movement of goods and people, network traffic, or any kind of entities &amp;#8220;flowing&amp;#8221; between locations. Spatial interactions are often represented as origin-destination data, meaning that only the origins, the destinations and the magnitudes of the flows are known, but not the exact flow routes.&lt;/p&gt;
+
+&lt;p&gt;JFlowMap is freely available at &lt;a href='https://code.google.com/p/jflowmap/'&gt;code.google.com/p/jflowmap/&lt;/a&gt;.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>BirdEye</title>
+   <link href="http://boyandi.net/works/2009/05/09/birdeye"/>
+   <updated>2009-05-09T00:00:00+02:00</updated>
+   <id>http://boyandi.net/works/2009/05/09/birdeye</id>
+   <content type="html">&lt;p&gt;&lt;a href='http://code.google.com/p/birdeye/'&gt;BirdEye&lt;/a&gt; is a Flex visualization library which follows the approach to building visualizations described by Leeland Wilkinson in his book &amp;#8221;&lt;a href='http://www.amazon.com/Grammar-Graphics-Statistics-Computing/dp/0387245448'&gt;Grammar of Graphics&lt;/a&gt;&amp;#8221;. BirdEye can be seen as a language for creating visualization which not only provides a set of predefined visualization types, but also allows the users to create new kinds of visualizations easily.&lt;/p&gt;
+
+&lt;p&gt;My contribution to BirdEye so far has been to make the animated graph layouts from the previous library version work within the new framework based on the Grammar of Graphics.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>CGVis</title>
+   <link href="http://boyandi.net/works/2009/01/01/cgvis"/>
+   <updated>2009-01-01T00:00:00+01:00</updated>
+   <id>http://boyandi.net/works/2009/01/01/cgvis</id>
+   <content type="html">&lt;p&gt;CGVis is an open source generic data visualization tool with an innovative zoomable user interface and animations which help the user find particular features in his data.&lt;/p&gt;
+
+&lt;p&gt;The tool is available for free download from &lt;a href='http://code.google.com/p/cgvis/'&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;object height='360' width='480'&gt;&lt;param value='http://www.youtube.com/v/uNuOjlZ0Rdw?version=3&amp;amp;hl=en_US&amp;amp;rel=0' name='movie' /&gt;&lt;param value='true' name='allowFullScreen' /&gt;&lt;param value='always' name='allowscriptaccess' /&gt;&lt;embed src='http://www.youtube.com/v/uNuOjlZ0Rdw?version=3&amp;amp;hl=en_US&amp;amp;rel=0' type='application/x-shockwave-flash' height='360' allowfullscreen='true' width='480' allowscriptaccess='always' /&gt;&lt;/object&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>FHLiteEditor</title>
+   <link href="http://boyandi.net/works/2007/03/25/fhlite"/>
+   <updated>2007-03-25T00:00:00+01:00</updated>
+   <id>http://boyandi.net/works/2007/03/25/fhlite</id>
+   <content type="html">&lt;p&gt;Screen or presentation manager which allows to create layouts from videos, images, flash movies and other media for a screen and then to schedule them.&lt;/p&gt;
+
+&lt;p&gt;My contribution to this project were the visual layout and schedule editors, that is, the most interesting parts of the UI :)&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>ProClassify</title>
+   <link href="http://boyandi.net/works/2007/02/26/proclassify"/>
+   <updated>2007-02-26T00:00:00+01:00</updated>
+   <id>http://boyandi.net/works/2007/02/26/proclassify</id>
+   <content type="html">&lt;p&gt;An implementation of the feature selection and classification method which was developed at the Institute for Genomics and Bioinformatics (TU Graz). The method was meant originally for cancer detection on proteomics mass-spectroscopy data, but appears to be useful for completely different datasets too.&lt;/p&gt;
+
+&lt;p&gt;ProClassify is free for non-commercial use and can be downloaded from &lt;a href='http://genome.tugraz.at/proclassify/proclassify_description.shtml'&gt;this website&lt;/a&gt;.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>ProClassifyWeb</title>
+   <link href="http://boyandi.net/works/2007/02/25/proclassifyweb"/>
+   <updated>2007-02-25T00:00:00+01:00</updated>
+   <id>http://boyandi.net/works/2007/02/25/proclassifyweb</id>
+   <content type="html">&lt;p&gt;A Web version of ProClassify developed to facilitate sharing of datasets and computational capacities by the users. The features of the web version are mostly identical to the standalone version except the data visualization which is missing in the web version.&lt;/p&gt;
+
+&lt;p&gt;The online version is available &lt;a href='https://esus.genome.tugraz.at/ProClassify'&gt;here&lt;/a&gt;. And here is the &lt;a href='https://esus.genome.tugraz.at/ProClassify/help/showHelp.jsp'&gt;User&amp;#8217;s Guide&lt;/a&gt;.&lt;/p&gt;</content>
+ </entry>
+ 
+ 
+</feed>
