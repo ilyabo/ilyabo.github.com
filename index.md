@@ -8,7 +8,6 @@ tagline: Ilya Boyandin
 
 
 
-
 ## Selected work
 
 <ul class="works">
