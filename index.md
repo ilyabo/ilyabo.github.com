@@ -46,7 +46,7 @@ tagline: Ilya Boyandin
           </footer>
         </article>
 
-       <div class="readmore"><a href="{{ post.url }}">Read more...</a></div>
+       <div class="readmore"><a href="{{ post.url }}">View all...</a></div>
               
       </li>
     {% endif %}

@@ -1,0 +1,1632 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tobler",
+				"tobler2004movement"
+			],
+			[
+				"jflowm",
+				"jflowmap_geova_2010"
+			],
+			[
+				"blok",
+				"Blok_2000_MonitoringChange"
+			],
+			[
+				"ho",
+				"horizon"
+			],
+			[
+				"reci",
+				"recipients"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"band",
+				"bandHeight"
+			],
+			[
+				"value",
+				"valueProp"
+			],
+			[
+				"index",
+				"indexedMode"
+			],
+			[
+				"mouse",
+				"mouseover"
+			],
+			[
+				"break",
+				"breakDownBy"
+			],
+			[
+				"tran",
+				"transform"
+			],
+			[
+				"loading",
+				"loadingStarted"
+			],
+			[
+				"bre",
+				"breaknsplit"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"purp",
+				"purposeTree"
+			],
+			[
+				"indi",
+				"indicatorData"
+			],
+			[
+				"indica",
+				"indicator"
+			],
+			[
+				"valu",
+				"valueProp"
+			],
+			[
+				"indic",
+				"indicator"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"al",
+				"vertical-align"
+			],
+			[
+				"la",
+				"labelsFormat"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"pur",
+				"purposeTree"
+			],
+			[
+				"loadingSt",
+				"loadingStopped"
+			],
+			[
+				"update",
+				"updateSplitPanel"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"prop",
+				"prop"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"item",
+				"itemHeight"
+			],
+			[
+				"show",
+				"showLegend"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"has",
+				"hasForward"
+			],
+			[
+				"q",
+				"queryHistory"
+			],
+			[
+				"forward",
+				"forwardHistory"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"add",
+				"addFilter"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"date",
+				"dateFormat"
+			],
+			[
+				"va",
+				"values"
+			],
+			[
+				"val",
+				"valueProp"
+			],
+			[
+				"upda",
+				"updateDuration"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"brea",
+				"breakDownBy"
+			],
+			[
+				"rec",
+				"recipients"
+			],
+			[
+				"commi",
+				"Commitment"
+			],
+			[
+				"flowA",
+				"flowOriginAttr"
+			],
+			[
+				"que",
+				"queue"
+			],
+			[
+				"labels",
+				"labelsTooltipFormat"
+			],
+			[
+				"err",
+				"error"
+			],
+			[
+				"chil",
+				"children"
+			],
+			[
+				"num",
+				"numerize"
+			],
+			[
+				"find",
+				"findCol"
+			],
+			[
+				"cou",
+				"countries"
+			],
+			[
+				"recip",
+				"recipient"
+			],
+			[
+				"for",
+				"forin	Array Comprehension"
+			],
+			[
+				"ru",
+				"runImports"
+			],
+			[
+				"pg",
+				"pgurl"
+			],
+			[
+				"aid",
+				"aiddata_id"
+			],
+			[
+				"row",
+				"rowCallback"
+			],
+			[
+				"tick",
+				"tickFormat"
+			],
+			[
+				"count",
+				"countryCode"
+			],
+			[
+				"-",
+				"e-resize"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"s",
+				"style"
+			],
+			[
+				"sub",
+				"substring"
+			],
+			[
+				"load",
+				"loadingProgress"
+			],
+			[
+				"ma",
+				"magnitudeFormat"
+			],
+			[
+				"navbar",
+				"navbar-fixed-top"
+			],
+			[
+				"hor",
+				"horizonChart"
+			],
+			[
+				"sel",
+				"selAttrIndex"
+			],
+			[
+				"year",
+				"yearTicks"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"clear",
+				"clearNodeSelection"
+			],
+			[
+				"sele",
+				"selectedNode"
+			],
+			[
+				"selected",
+				"selectedData"
+			],
+			[
+				"back",
+				"background	background-image: url"
+			],
+			[
+				"magnA",
+				"selMagnAttr"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"flow",
+				"flows"
+			],
+			[
+				"visi",
+				"visibility"
+			],
+			[
+				"select",
+				"selectedNode"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"sta",
+				"start"
+			],
+			[
+				"bubb",
+				"bubblesChartWidth"
+			],
+			[
+				"Or",
+				"OrRd"
+			],
+			[
+				"a",
+				"attr"
+			],
+			[
+				"ff",
+				"ffprints"
+			],
+			[
+				"dest",
+				"destsMap"
+			],
+			[
+				"use",
+				"useGeoNodePositions"
+			],
+			[
+				"ori",
+				"originsMap"
+			],
+			[
+				"ffpri",
+				"ffprintsMap"
+			],
+			[
+				"dat",
+				"datum"
+			],
+			[
+				"m",
+				"max"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"origin",
+				"originTotals"
+			],
+			[
+				"out",
+				"outbound"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"col",
+				"columns"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"group",
+				"groupBy"
+			],
+			[
+				"r",
+				"recipient"
+			],
+			[
+				"donor",
+				"donorcode"
+			],
+			[
+				"recipient",
+				"recipientcode"
+			],
+			[
+				"pro",
+				"projection"
+			],
+			[
+				"mat",
+				"matches"
+			],
+			[
+				"flowM",
+				"flowMagnAttrs"
+			],
+			[
+				"in",
+				"inbound"
+			],
+			[
+				"midd",
+				"middle"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_posts/2013-04-01-remittances.md",
+			"settings":
+			{
+				"buffer_size": 958,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/Rubber_PDF.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"s",
+				"Snippet: Section"
+			],
+			[
+				"coffee",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"coff",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"javasc",
+				"Coffee: Display JavaScript"
+			],
+			[
+				"ja",
+				"Set Syntax: Java"
+			],
+			[
+				"jav",
+				"Coffee: Display JavaScript"
+			],
+			[
+				"coffe",
+				"Coffee: Display JavaScript"
+			],
+			[
+				"set sy coff",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"mul",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Package Control:",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"About"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 238.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ilya/Workspace/boyandin.me/_posts/2013-04-01-remittances.md",
+		"/Users/ilya/Workspace/boyandin.me/makethumbs",
+		"/Users/ilya/Thesis/MyThesis/main.tex",
+		"/Users/ilya/Thesis/MyThesis/chapter-conclusions.tex",
+		"/Users/ilya/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/ilya/Thesis/MyThesis/chapter-flowstrates.tex",
+		"/Users/ilya/Thesis/MyThesis/thesis-acknowl.tex",
+		"/Users/ilya/Thesis/MyThesis/chapter-flow-maps.tex",
+		"/Users/ilya/Thesis/MyThesis/chapter-design-space.tex",
+		"/Users/ilya/Thesis/MyThesis/chapter-data.tex",
+		"/Users/ilya/Thesis/MyThesis/main.bib",
+		"/Users/ilya/Thesis/MyThesis/chapter-aiddata.tex",
+		"/Users/ilya/Thesis/MyThesis/chapter-intro.tex",
+		"/Users/ilya/Thesis/MyThesis/chapter-user-study.tex",
+		"/Users/ilya/Thesis/MyThesis/chapter-tasks.tex",
+		"/Users/ilya/Thesis/MyThesis/prolog.tex",
+		"/Users/ilya/Thesis/MyThesis/images/chapter-design-space/macrofocus/TreeMap-refugees-2008-2009.svg",
+		"/Users/ilya/Data/Migration in Switzerland/seriation/migration-number.tsv",
+		"/Users/ilya/Learning/overtone/kraftwerk/project.clj",
+		"/Users/ilya/Teaching/techmm/miniproject-datasets/transform/project.clj",
+		"/Users/ilya/Thesis/MyThesis/od-task-classes-table.tex",
+		"/Users/ilya/Thesis/MyThesis/thesis-title.tex",
+		"/Users/ilya/Learning/overtone/mymusic/project.clj",
+		"/Users/ilya/Devel/flowmap/js/app.js",
+		"/Users/ilya/Devel/flowmap/shaders/flows.vs.glsl",
+		"/Users/ilya/Devel/flowmap/data/suisse_flows.json",
+		"/Users/ilya/Devel/flowmap/data/flows_flows.json",
+		"/Users/ilya/Workspace/CGVis/build/cgvis-0.1/sample-data/cgv/Data1.csv",
+		"/Users/ilya/Workspace/jflowmap.js/public/odmatrix.html",
+		"/Users/ilya/Workspace/remittances/remittances/doc/thoughts.txt",
+		"/Users/ilya/Workspace/remittances/remittances/README.md",
+		"/Users/ilya/Thesis/MyThesis/cv.html",
+		"/Users/ilya/Workspace/jflowmap.js/public/js/odmatrix.js",
+		"/Users/ilya/Workspace/jflowmap.js/public/data/odmatrix.csv",
+		"/Users/ilya/Data/comtrade/old/downloaded/rfCommoditiesList.aspx",
+		"/Users/ilya/Workspace/jflowmap.js/public/data/refugee-flows.csv",
+		"/Users/ilya/Downloads/the teachers/strassen.xsl",
+		"/Users/ilya/Downloads/the teachers/messstellen.xml",
+		"/Users/ilya/Data/comtrade/H1-all/downloader.scala",
+		"/Users/ilya/Data/comtrade/H1-all/merge",
+		"/Users/ilya/Data/comtrade/H1-all/go",
+		"/Users/ilya/Thesis/MyThesis/knat.bst",
+		"/Users/ilya/Dropbox/Public/sophia-genetics/sophia.coffee",
+		"/Users/ilya/Workspace/boyandin.me/assets/cv/cv.html",
+		"/Users/ilya/Thesis/MyThesis/allo.diff",
+		"/Users/ilya/Thesis/MyThesis/chapter-state-of-art.tex",
+		"/Users/ilya/Thesis/MyThesis/allo",
+		"/Users/ilya/Workspace/aiddata-static/Cakefile",
+		"/Users/ilya/Workspace/aiddata-static/app/app.coffee",
+		"/Users/ilya/Workspace/boyandin.me/_includes/themes/ghminimal/default.html",
+		"/Users/ilya/Workspace/boyandin.me/_config.yml",
+		"/Users/ilya/Workspace/boyandin.me/_layouts/default.html",
+		"/Users/ilya/Downloads/exercise7-solutions/nouveaux-logements/accomodations.html",
+		"/Users/ilya/Downloads/exercise7-solutions/nouveaux-logements/accomodations.js",
+		"/Users/ilya/Downloads/Chicago_Area_Transportation_Study.bibtex",
+		"/Users/ilya/Workspace/aiddata/Cakefile",
+		"/Users/ilya/Workspace/aiddata/.gitignore",
+		"/Users/ilya/Workspace/aiddata/config.coffee",
+		"/Users/ilya/Desktop/4nestle.txt",
+		"/Users/ilya/Thesis/MyThesis/od-tasks-table.tex",
+		"/Users/ilya/Library/Application Support/Sublime Text 2/Packages/LaTeX/Fig.sublime-snippet",
+		"/Users/ilya/Desktop/Привет Ринат.txt",
+		"/Users/ilya/Thesis/MyThesis/thesis-macros.tex",
+		"/Users/ilya/Thesis/MyThesis/thesis-contents.tex",
+		"/Users/ilya/Thesis/MyThesis/od-techniques-table.tex",
+		"/Users/ilya/tanjas_relatives_emails.txt",
+		"/Users/ilya/Books/Visualization/Stasko-Infovis-Lectures/wgets.txt~",
+		"/Library/Contextual Menu Items/NuFile.plugin/Contents/MacOS/NuFile",
+		"/Users/ilya/Library/Application Support/Sublime Text 2/Packages/LaTeX/citep.sublime-snippet",
+		"/Users/ilya/Thesis/ThesisTemplates/Florian/general.tex",
+		"/Users/ilya/Library/Application Support/Sublime Text 2/Packages/LaTeX/cite.sublime-snippet",
+		"/Users/ilya/Thesis/MyThesis/chapter-background.tex",
+		"/Users/ilya/Library/Application Support/Sublime Text 2/Packages/LaTeX/Figure.sublime-snippet",
+		"/Users/ilya/Data/comtrade/arms/desc.txt",
+		"/Users/ilya/Data/comtrade/downloaded/rfCommoditiesList.aspx",
+		"/Users/ilya/Thesis/MyThesis/Exported Items.bib",
+		"/Users/ilya/Data/comtrade/arms/dqBasicQueryResultsd.aspx?action=dcsv&px=H1&cc=93",
+		"/Users/ilya/Data/comtrade/downloaded/daCommoditiesResults.aspx?px=H1&cc=03",
+		"/Users/ilya/Data/Small Arms Trade/sources.urls",
+		"/Users/ilya/Data/Small Arms Trade/centroids.json",
+		"/Users/ilya/Data/Small Arms Trade/all.json",
+		"/Users/ilya/Data/comtrade/src/downloader.scala",
+		"/Users/ilya/Workspace/ilyabo.github.com/_theme_packages/ghminimal/assets/themes/ghminimal/css/styles.css",
+		"/Users/ilya/Workspace/other-peoples-stuff/tubefy/variable-stroke-width.svg",
+		"/Users/ilya/Thesis/Flowmaps/sankey-diagrams.com/sources.url",
+		"/Users/ilya/Workspace/other-peoples-stuff/tubefy/artubefy.js",
+		"/Users/ilya/Workspace/other-peoples-stuff/tubefy/example.svg",
+		"/Users/ilya/Workspace/other-peoples-stuff/tubefy/my--variable-stroke-width.svg",
+		"/Users/ilya/Data/comtrade/downloaded/dqBasicQueryResultsd.aspx?action=csv&px=H0&cc=TOTAL&r=4&y=2008",
+		"/Users/ilya/Data/comtrade/dqBasicQueryResultsd.aspx?action=csv&px=H0&cc=TOTAL&r=4&y=2008",
+		"/Users/ilya/Data/comtrade/TotalCommoditiesAvailability-HS0--links.html",
+		"/Users/ilya/Data/comtrade/downloader.scala",
+		"/Users/ilya/Data/comtrade/downloader.sh",
+		"/Users/ilya/Data/comtrade/downloader2.scala",
+		"/Users/ilya/Data/comtrade/TotalCommoditiesAvailability-HS0.html",
+		"/Users/ilya/Data/comtrade/country-codes.csv",
+		"/Users/ilya/Data/comtrade/downloaded/dqBasicQueryResultsd.aspx?action=csv",
+		"/Users/ilya/Data/comtrade/downloaded/dqBasicQueryResultsd.aspx?action=csv.1",
+		"/Users/ilya/Workspace/other-peoples-stuff/tubefy/many.xml",
+		"/Users/ilya/Downloads/variableStrokeWidth.svg",
+		"/Users/ilya/Data/About Russia/Orphans/sources.url",
+		"/Users/ilya/Data/About Russia/Deti/ideas.txt",
+		"/Users/ilya/Data/About Russia/Budget 2013-2015/source.url",
+		"/Users/ilya/Data/About Russia/Budget 2013-2015/2008-2010/source.url",
+		"/Users/ilya/Workspace/ilyabo.github.com/_theme_packages/ghminimal/_includes/themes/ghminimal/default.html",
+		"/Users/ilya/Workspace/ilyabo.github.com/_config.yml",
+		"/Users/ilya/Workspace/ilyabo.github.com/_includes/themes/ghminimal/default.html",
+		"/Users/ilya/Workspace/ilyabo.github.com/index.md",
+		"/Users/ilya/Workspace/ilyabo.github.com/_theme_packages/ghminimal/_includes/themes/ghminimal/post.html",
+		"/Users/ilya/Workspace/ilyabo.github.com/_theme_packages/ghminimal/_includes/themes/ghminimal/page.html",
+		"/Users/ilya/Dropbox/Public/TemptationBlocker.js",
+		"/Users/ilya/Thesis/Flowmaps/sources.url",
+		"/Users/ilya/Library/Application Support/Sublime Text 2/Packages/LaTeX/subsection-..-(sub).sublime-snippet",
+		"/Users/ilya/Workspace/jflowmap-user-study/error-barcharts/d3vis/eurovis12-barcharts.html",
+		"/Users/ilya/Thesis/Rekacewicz/sources.url",
+		"/Users/ilya/Workspace/d3-tests/lambert-proj/world-110m.json",
+		"/Users/ilya/Workspace/d3-tests/lambert-proj/lambert-azimuthal.html",
+		"/Users/ilya/Workspace/d3-tests/lambert-proj/lambert-conicConformal.html",
+		"/Users/ilya/Thesis/Clochard et Rekacewicz/sources.url",
+		"/Users/ilya/Workspace/jflowmap.js/jflowmap-js.html",
+		"/Users/ilya/Workspace/node-webkit-d3-test/RUNME",
+		"/Users/ilya/Devel/node-webkit-sample-apps/d3-test/package.json",
+		"/Users/ilya/Devel/node-webkit-sample-apps/d3-test/jflowmap-js.html",
+		"/Users/ilya/Devel/node-webkit-sample-apps/d3-test/res/d3.v2.js",
+		"/Users/ilya/Devel/node-webkit-sample-apps/d3-test/d3-test-white.html",
+		"/Users/ilya/Devel/node-webkit-sample-apps/d3-test/d3-test.html",
+		"/Users/ilya/Devel/node-webkit-sample-apps/d3-test/run-d3-test",
+		"/Users/ilya/Devel/node-webkit-sample-apps/run-d3-test"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<open files>,<open folders>",
+			"<open files>,<open folders>,/Users/ilya/Thesis/MyThesis",
+			"<open files>,<open folders>",
+			"<open files>",
+			"/Users/ilya/Workspace/aiddata/",
+			"/Users/ilya/Workspace/aiddata/*.coffee",
+			"/Users/ilya/Workspace/aiddata,<open files>",
+			"/Users/ilya/Workspace/aiddata",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			",",
+			"ram6",
+			"mathe",
+			",",
+			"fig:flow-aggregation",
+			"here all the",
+			"flow aggreg",
+			";",
+			"related to flow maps",
+			"questions related to flo",
+			"questions related to",
+			"selection of q",
+			"What was their orig",
+			"very easy to use",
+			"that switching",
+			"below the view",
+			"and substantial",
+			"(very)",
+			"datasets with ",
+			"several year",
+			"will be agg",
+			"falls into",
+			"radial layout",
+			"its three f",
+			"the goal we ",
+			"dorling car",
+			"model for drawing",
+			"half-barbed arr",
+			"half-bar",
+			"unless half",
+			"and destination of migrants",
+			"several realwo",
+			"these data consist",
+			"acknow",
+			"slice",
+			"habe ich",
+			"teractive maps for visual data e",
+			"interactiv",
+			"why heat",
+			"bi-direc",
+			"first-proto",
+			"the feedback",
+			"In this view we used horizon graphs",
+			"allows to",
+			"but Flow",
+			"taxonomy",
+			"conclusion",
+			"keef",
+			"keefe",
+			"father",
+			"great opp",
+			"combin",
+			"combini",
+			"combining",
+			"particular",
+			"two partic",
+			"od-matrix",
+			"metro",
+			"ColorBrewer",
+			"ColorBrewer’s",
+			"us migrations bu",
+			"Flow map showing only differences betw",
+			" Flow map showing only differences betw",
+			"s which gained with th",
+			"results",
+			"blue",
+			"white",
+			"in other wo",
+			"interactive f",
+			"Hence",
+			"supplement",
+			"od-tree",
+			"considerations_for_the_choice_of_representation_of_time",
+			"allows to",
+			"misc",
+			"jflowmap",
+			"bederson",
+			"\n\\",
+			"Limitation",
+			"common",
+			"common c",
+			"fig:lasso",
+			"design:specific",
+			"embedding",
+			"newpage",
+			"map distor",
+			"zusammenf",
+			"small mu",
+			"the relations",
+			"small mult",
+			"small mu",
+			"layout",
+			"rdered treemap lay",
+			"tbe recta",
+			"font-size:16px",
+			"font-size:16",
+			"font-size:11",
+			"od-map",
+			"seriation",
+			"od-matrix",
+			"\n \\begin{figure}[h]\n     \\centering\\includegraphics[width=0.6\\linewidth]{images/chapter-design-space/odmatrix-crop3.pdf}\n     \\caption{OD-matrix showing the largest refugee flows in 2006. It is remarkable how the USA, the UK and Germany  attract refugees from  almost all of the origins in this view. (Image produced by the author of this thesis).\n     }\\label{fig:od-matrix}\n   \\end{figure}\n",
+			"temporal od",
+			"\\item {\\ith Superposition} \\\\\n  Representation of the compared objects are shown on top of one another.\n",
+			"\\item {\\ith Juxtaposition} \\\\\n  Representations of the compared objects are shown next to each other like in small multiples.\n",
+			"ith",
+			"closenes",
+			"od-matrix",
+			",",
+			"\",\"",
+			"],",
+			"nsole.l",
+			"od-matrix",
+			"matrix",
+			"od-matrix",
+			">2006<",
+			"cv",
+			"Gleicher",
+			"“in most cases they do not significantly reduce the amount of clutte",
+			"chiara2011chorem",
+			"Wood:2008:SPT",
+			"wood",
+			"treemap",
+			":",
+			"not",
+			"dorling",
+			"minard",
+			"ff",
+			"andrienko"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"font-size:19px",
+			"font-size:16px",
+			"font-size:16",
+			";",
+			"thickness",
+			"chapsummary",
+			"\\subsec",
+			"\\citep{",
+			"Small mul",
+			"small mul",
+			"Sankey flow maps",
+			"Sankey ",
+			"$1",
+			"\\subsection",
+			"\\section",
+			"\\subsubsection{",
+			"$1\\t$2",
+			"\\\\citep{$1}",
+			"citep{",
+			"  \\\\subsubsection{$1}",
+			"  \\\\subsection{$1}",
+			"\\subsection{$1}",
+			"  \\subsection{$1}",
+			"{\\sffamily \\minitoc}",
+			"miditemize",
+			"arrangement",
+			"\\\\begin{itemize}[label=--]",
+			"\\begin{itemize}[label=--]",
+			"{\\ith ",
+			"{\\ith",
+			"\\textbf{",
+			":flowstrates-tasks",
+			"subsection",
+			"",
+			"is",
+			" ",
+			"ictograph",
+			"subsec",
+			"$\\rightarrow$",
+			"}\n\n@article",
+			"}\n}\n\n@article\n",
+			"}\n\n@",
+			"}",
+			"",
+			">value<",
+			">diff<",
+			"diff",
+			"normal",
+			"value",
+			"",
+			"anim,sm",
+			"\n<tr><td>",
+			"sm,anim",
+			"yscale",
+			"y",
+			"xscale",
+			"yscale",
+			"q = currentQuery()",
+			"q = makeQuery(History.getState().data)",
+			"History.getState().data",
+			"breakdProp",
+			"breakDownProp",
+			"Domain",
+			"history",
+			"updateCtrls",
+			"",
+			"$(\"#loading\").fadeOut()",
+			"loadingStarted",
+			"startLoading()",
+			"$(\"#loading\").fadeIn(loadingFadeInDuration)",
+			"val",
+			"rule",
+			"moveRule",
+			"breakDown",
+			"load",
+			"recipient",
+			"donor",
+			"ytickFormat",
+			"p",
+			"vis",
+			"td",
+			"[dateProp]",
+			".outbound",
+			".inbound",
+			"svg",
+			"recipient",
+			"purpose",
+			"recipient",
+			"donor",
+			"",
+			"breadcrumbText",
+			"values",
+			"code",
+			"entries",
+			"elements",
+			"subcats",
+			"\"subcategories\"",
+			"prefix",
+			"when \"$2\" then \"$1\"",
+			"when \"$2\" then \"$1\"\n",
+			"]\n",
+			"node",
+			"length) then ",
+			"length) then return ",
+			"valueAccessor",
+			"getFlowTotalsByPurposeAndDate",
+			"getPurposeTree",
+			"pu.",
+			"/mongo/",
+			"getFlows",
+			"table",
+			"[codeAttr]",
+			"[totalNumAttr]",
+			"[totalAmountAttr]",
+			"[nameAttr]",
+			"[codeAttr]",
+			"",
+			"DEBUG_updateRowsLimit",
+			"os",
+			"callWhenEnded",
+			"aiddataColl",
+			"purposes.groupPurposesByCode",
+			"@",
+			"conf",
+			"util.run",
+			"util.mkdir",
+			"cu.mkdir",
+			"mongodb"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_posts/2013-04-01-remittances.md",
+					"settings":
+					{
+						"buffer_size": 958,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 160.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 179.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"con",
+				"chapter-conclusions.tex"
+			],
+			[
+				"co",
+				"chapter-conclusions.tex"
+			],
+			[
+				"conc",
+				"chapter-conclusions.tex"
+			],
+			[
+				"dat",
+				"chapter-data.tex"
+			],
+			[
+				"",
+				"chapter-flowstrates.tex"
+			],
+			[
+				"flow",
+				"chapter-flow-maps.tex"
+			],
+			[
+				"fl",
+				"chapter-flowstrates.tex"
+			],
+			[
+				"aidd",
+				"chapter-aiddata.tex"
+			],
+			[
+				"tit",
+				"thesis-title.tex"
+			],
+			[
+				"title",
+				"thesis-title.tex"
+			],
+			[
+				"titl",
+				"thesis-title.tex"
+			],
+			[
+				"titt",
+				"thesis-title.tex"
+			],
+			[
+				"intro",
+				"chapter-intro.tex"
+			],
+			[
+				"main",
+				"main.bib"
+			],
+			[
+				"flo",
+				"chapter-flowstrates.tex"
+			],
+			[
+				"des",
+				"chapter-design-space.tex"
+			],
+			[
+				"data",
+				"chapter-data.tex"
+			],
+			[
+				"aid",
+				"chapter-aiddata.tex"
+			],
+			[
+				"conclu",
+				"chapter-conclusions.tex"
+			],
+			[
+				"user",
+				"chapter-user-study.tex"
+			],
+			[
+				"bib",
+				"main.bib"
+			],
+			[
+				"u",
+				"chapter-user-study.tex"
+			],
+			[
+				"od-task-classes-table",
+				"od-task-classes-table.tex"
+			],
+			[
+				"tasks",
+				"chapter-tasks.tex"
+			],
+			[
+				"tas",
+				"chapter-tasks.tex"
+			],
+			[
+				"user-",
+				"chapter-user-study.tex"
+			],
+			[
+				"flowmap",
+				"chapter-flow-maps.tex"
+			],
+			[
+				"flowst",
+				"chapter-flowstrates.tex"
+			],
+			[
+				"design",
+				"chapter-design-space.tex"
+			],
+			[
+				"task",
+				"chapter-tasks.tex"
+			],
+			[
+				"desi",
+				"chapter-design-space.tex"
+			],
+			[
+				"stat",
+				"chapter-state-of-art.tex"
+			],
+			[
+				"flows",
+				"chapter-flowstrates.tex"
+			],
+			[
+				"concl",
+				"chapter-conclusions.tex"
+			],
+			[
+				"tast",
+				"chapter-tasks.tex"
+			],
+			[
+				"aiddata",
+				"chapter-aiddata.tex"
+			],
+			[
+				"tite",
+				"thesis-title.tex"
+			],
+			[
+				"state",
+				"chapter-state-of-art.tex"
+			],
+			[
+				"it",
+				"chapter-intro.tex"
+			],
+			[
+				"flowm",
+				"chapter-flow-maps.tex"
+			],
+			[
+				"pr",
+				"prolog.tex"
+			],
+			[
+				"prolog",
+				"prolog.tex"
+			],
+			[
+				"pro",
+				"prolog.tex"
+			],
+			[
+				"int",
+				"chapter-intro.tex"
+			],
+			[
+				"intre",
+				"chapter-intro.tex"
+			],
+			[
+				"chapter-des",
+				"chapter-design-space.tex"
+			],
+			[
+				"chapter-de",
+				"chapter-design-space.tex"
+			],
+			[
+				"chapter-da",
+				"chapter-data.tex"
+			],
+			[
+				"t",
+				"thesis-title.tex"
+			],
+			[
+				"chflow",
+				"chapter-flowstrates.tex"
+			],
+			[
+				"main.te",
+				"main.tex"
+			],
+			[
+				"mainbib",
+				"main.bib"
+			],
+			[
+				"chaptertas",
+				"chapter-tasks.tex"
+			],
+			[
+				"table",
+				"od-techniques-table.tex"
+			],
+			[
+				"chda",
+				"chapter-data.tex"
+			],
+			[
+				"user-stud",
+				"chapter-user-study.tex"
+			],
+			[
+				"prol",
+				"prolog.tex"
+			],
+			[
+				"ack",
+				"thesis-acknowl.tex"
+			],
+			[
+				"chapter-data",
+				"chapter-data.tex"
+			],
+			[
+				"chap-data",
+				"chapter-data.tex"
+			],
+			[
+				"expo",
+				"Exported Items.bib"
+			],
+			[
+				"exp",
+				"Exported Items.bib"
+			],
+			[
+				"back",
+				"chapter-background.tex"
+			],
+			[
+				"od-tasks-table.tex",
+				"od-tasks-table.tex"
+			],
+			[
+				"d3",
+				"/Users/ilya/Devel/node-webkit-sample-apps/d3-test/d3-test.js"
+			],
+			[
+				"conte",
+				"thesis-contents.tex"
+			],
+			[
+				"od-task-classes-table.tex",
+				"od-task-classes-table.tex"
+			],
+			[
+				"to",
+				"thesis-contents.tex"
+			],
+			[
+				"main.t",
+				"main.tex"
+			],
+			[
+				"chata",
+				"chapter-tasks.tex"
+			],
+			[
+				"xsl",
+				"xmind-tables.xsl"
+			],
+			[
+				"desig",
+				"chapter-design-space.tex"
+			],
+			[
+				"exo",
+				"Exported Items.bib"
+			],
+			[
+				"od",
+				"od-tasks-table.tex"
+			],
+			[
+				"chapter-re",
+				"chapter-state-of-art.tex"
+			],
+			[
+				"chapter",
+				"chapter-aiddata.tex"
+			],
+			[
+				"main.bib",
+				"main.bib"
+			],
+			[
+				".",
+				".gitignore"
+			],
+			[
+				".gi",
+				".gitignore"
+			],
+			[
+				"tittl",
+				"thesis-title.tex"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"thesis-title",
+				"thesis-title.tex"
+			],
+			[
+				"ex",
+				"Exported Items.bib"
+			],
+			[
+				"horizonc",
+				"static/css/horizon.css"
+			],
+			[
+				"bubb",
+				"static/css/bubbles.css"
+			],
+			[
+				"utilaiddata",
+				"app/frontend/utils-aiddata.coffee"
+			],
+			[
+				"util",
+				"app/frontend/utils.coffee"
+			],
+			[
+				"utils-a",
+				"app/frontend/utils-aiddata.coffee"
+			],
+			[
+				"horizon.c",
+				"static/css/horizon.css"
+			],
+			[
+				"route",
+				"app/routes-data.coffee"
+			],
+			[
+				"re",
+				"app/routes-data-extern.coffee"
+			],
+			[
+				"horizon-aid",
+				"app/frontend/horizon/horizon-aiddata.coffee"
+			],
+			[
+				"time-",
+				"app/charts/time-series.coffee"
+			],
+			[
+				"break",
+				"app/frontend/breaknsplit.coffee"
+			],
+			[
+				"license",
+				"node_modules/d3/LICENSE"
+			],
+			[
+				"lice",
+				"LICENSE"
+			],
+			[
+				"cubism",
+				"node_modules/cubism/cubism.v1.js"
+			],
+			[
+				"utils",
+				"app/frontend/utils.coffee"
+			],
+			[
+				"horizon-",
+				"app/frontend/horizon/horizon-aiddata.coffee"
+			],
+			[
+				"routes",
+				"app/routes-views.coffee"
+			],
+			[
+				"lay",
+				"app/layout.coffee"
+			],
+			[
+				"p",
+				"package.json"
+			],
+			[
+				"view",
+				"app/views.coffee"
+			],
+			[
+				"horizon",
+				"app/frontend/horizon/horizon-aiddata.coffee"
+			],
+			[
+				"uti",
+				"app/frontend/utils-aiddata.coffee"
+			],
+			[
+				"purpose-pa",
+				"static/css/purpose-pack.css"
+			],
+			[
+				"purposepack",
+				"app/frontend/purpose-tree/purpose-pack.coffee"
+			],
+			[
+				"bubbles",
+				"app/charts/bubbles.coffee"
+			],
+			[
+				"time-se",
+				"static/css/charts/time-series.css"
+			],
+			[
+				"bubble",
+				"app/charts/bubbles.coffee"
+			],
+			[
+				"routes-",
+				"app/routes-views.coffee"
+			],
+			[
+				"layot",
+				"app/layout.coffee"
+			],
+			[
+				"d3.",
+				"node_modules/d3/d3.v2.js"
+			],
+			[
+				"app",
+				"app/app.coffee"
+			],
+			[
+				"pac",
+				"package.json"
+			],
+			[
+				"queryhi",
+				"app/frontend/query-history.coffee"
+			],
+			[
+				"dv",
+				"app/dv-table.coffee"
+			],
+			[
+				"csv",
+				"node_modules/csv/lib/csv.js"
+			],
+			[
+				"bubbl",
+				"app/charts/bubbles.coffee"
+			],
+			[
+				"bar-h",
+				"app/charts/bar-hierarchy.coffee"
+			],
+			[
+				"time-slcss",
+				"static/css/charts/time-slider.css"
+			],
+			[
+				"purpose",
+				"static/css/purpose-bars.css"
+			],
+			[
+				"bar",
+				"static/css/charts/bar-hierarchy.css"
+			],
+			[
+				"purposebarscss",
+				"static/css/purpose-bars.css"
+			],
+			[
+				"tser",
+				"static/css/charts/time-series.css"
+			],
+			[
+				"timese",
+				"static/css/charts/time-series.css"
+			],
+			[
+				"timesl",
+				"static/css/charts/time-slider.css"
+			],
+			[
+				"purposescss",
+				"static/css/purpose-bars.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 234.0,
+	"status_bar_visible": true
+}
