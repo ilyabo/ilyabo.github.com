@@ -45,8 +45,10 @@ tagline: Ilya Boyandin
           </footer>
         </article>
 
-       <div class="readmore"><a href="{{ post.url }}">View all...</a></div>
-              
+       {% if post.images.size > 2 %}
+       <div class="readmore"><a href="{{ post.url }}">Show more images...</a></div>
+       {% endif %}
+
       </li>
     {% endif %}
   {% endfor %}

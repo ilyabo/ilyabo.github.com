@@ -6,7 +6,8 @@ cd images
 find * -maxdepth 1 -type d -print | xargs -I {} mkdir -p ../thumbs/{}
 
 
-find . -name "*.png" -o -name "*.jpg" -type f -print0 | while IFS= read -r -d '' file; do
+find . -name "*.png" -o -name "*.jpg" -type f | while IFS= read -r -d '' file; do
+  echo "Converting $file"
   [ -f ../thumbs/"$file" ]  ||  convert -resize 400x210 "$file" ../thumbs/"$file"
 done
 
