@@ -398,8 +398,10 @@ img.work { border:1px solid #eee; margin:10px 5px 10px 0px !important; padding:7
 
 
 ul.works { list-style: none; margin-left: 0;  padding-left: 0; }
-
 ul.works li { margin-bottom:40px; }
+
+ul.posts { list-style: none; margin-left: 0;  padding-left: 0; }
+ul.posts li { margin-bottom:40px; }
 
 span.date { float:right;}
 
