@@ -6,43 +6,43 @@ tagline: Ilya Boyandin
 {% include JB/setup %}
 
 
-## Posts
+<!--## Posts-->
 
-<ul class="posts">
-  {% for post in site.posts %}
-    {% if post.category == "blog" %}
-      <li><!--<span>{{ post.date | date_to_string }}</span> &raquo; -->
+<!--<ul class="posts">-->
+  <!--{% for post in site.posts %}-->
+    <!--{% if post.category == "blog" %}-->
+      <!--<li><!--<span>{{ post.date | date_to_string }}</span> &raquo; -->-->
 
-        <a href="{{ BASE_PATH }}{{ post.url }}" class="postTitle">{{ post.title }}</a>    <span class="date">{{ post.date | date_to_string }}</span>
+        <!--<a href="{{ BASE_PATH }}{{ post.url }}" class="postTitle">{{ post.title }}</a>    <span class="date">{{ post.date | date_to_string }}</span>-->
 
-        <div class="preview">
-        {% if post.description != "" %}
-          {{ post.description }}
-        {% else %}
-          <!--  post.content | strip_html | truncatewords:33 -->
-          {{ post.content | truncatewords:100 }}
-        {% endif %}
-        </div>
+        <!--<div class="preview">-->
+        <!--{% if post.description != "" %}-->
+          <!--{{ post.description }}-->
+        <!--{% else %}-->
+          <!--<!--  post.content | strip_html | truncatewords:33 -->-->
+          <!--{{ post.content | truncatewords:100 }}-->
+        <!--{% endif %}-->
+        <!--</div>-->
 
 
-        <article class="post">
-          <footer>
-            <section class="tags">
-            {% unless post.tags == empty %}
-              <h1>Tags:</h1>
-              <ul>
-              {% assign tags_list = post.tags %}
-              {% include JB/tags_list %}
-              </ul>
-            {% endunless %}
-            </section>
-          </footer>
-        </article>
+        <!--<article class="post">-->
+          <!--<footer>-->
+            <!--<section class="tags">-->
+            <!--{% unless post.tags == empty %}-->
+              <!--<h1>Tags:</h1>-->
+              <!--<ul>-->
+              <!--{% assign tags_list = post.tags %}-->
+              <!--{% include JB/tags_list %}-->
+              <!--</ul>-->
+            <!--{% endunless %}-->
+            <!--</section>-->
+          <!--</footer>-->
+        <!--</article>-->
 
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
+      <!--</li>-->
+    <!--{% endif %}-->
+  <!--{% endfor %}-->
+<!--</ul>-->
 
 
 
