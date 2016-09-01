@@ -67,7 +67,7 @@ tagline: Ilya Boyandin
 
 
         {% for img in post.images limit:2 %}
-        <a href="{{ BASE_PATH }}/assets/works/images/{{ img }}" target="_blank"><img class="work" src="{{ BASE_PATH }}/assets/works/thumbs/{{ img }}"></a>
+        <a href="{{ BASE_PATH }}/assets/works/images/{{ img }}" target="_blank"><img height="250" class="work" src="{{ BASE_PATH }}/assets/works/thumbs/{{ img }}"></a>
         {% endfor %}
 
         <article class="post">
