@@ -47,7 +47,7 @@ tagline: Ilya Boyandin
 
 
 
-## Selected works
+## Projects
 
 <ul class="works">
   {% for post in site.posts %}
