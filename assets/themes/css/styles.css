@@ -412,7 +412,7 @@ div.preview { margin-top:5px;}
 
 div.readmore { font-size: 12px;  }
 
-#userpic { float:right;}
+#userpic { float:right; width: 100px; border-radius: 50%; }
 
 section.tags { float:right;}
 

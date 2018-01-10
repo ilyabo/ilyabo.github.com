@@ -100,7 +100,7 @@ tagline: Ilya Boyandin
 
 
 
-[me]: assets/images/myuserpic2-sm.jpg "Ilya Boyandin"
+[me]: assets/images/me-userpic.jpg "Ilya Boyandin"
 
 
 
