@@ -1,14 +1,6 @@
 import Typography from 'typography'
 
-const typography = new Typography({
-  baseFontSize: '18px',
-  baseLineHeight: 1.666,
-  headerFontFamily: ['Lato', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
-  bodyFontFamily: ['Georgia', 'serif'],
-})
-
 // import Wordpress2016 from 'typography-theme-wordpress-2016'
-//
 // Wordpress2016.overrideThemeStyles = () => ({
 //   'a.gatsby-resp-image-link': {
 //     boxShadow: 'none',
@@ -18,7 +10,15 @@ const typography = new Typography({
 // delete Wordpress2016.googleFonts
 //
 // const typography = new Typography(Wordpress2016)
-//
+
+
+const typography = new Typography({
+  baseFontSize: '18px',
+  baseLineHeight: 1.45,
+  headerFontFamily: ['Lato', 'Helvetica Neue', 'Segoe UI', 'Helvetica', 'Arial', 'sans-serif'],
+  bodyFontFamily: ['Lato', 'Helvetica', 'Arial', 'sans-serif'],
+})
+
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== 'production') {

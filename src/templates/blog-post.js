@@ -3,10 +3,11 @@ import Helmet from 'react-helmet'
 import { Link,graphql } from 'gatsby'
 import get from 'lodash/get'
 
-import Layout from '../components/Layout'
+import Bio from '../components/Bio'
+import Layout from '../components/layout'
 import { rhythm, scale } from '../utils/typography'
 
-export default class PostTemplate extends React.Component {
+class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
@@ -68,6 +69,8 @@ export default class PostTemplate extends React.Component {
     )
   }
 }
+
+export default BlogPostTemplate
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
