@@ -144,6 +144,16 @@ const Resume = () => {
         <h2>Education</h2>
 
         <div className="block">
+          <span className="em">MSc Computer Science, St. Petersburg State University, Russia, 2003</span><br/>
+          <span className="flabel">Thesis title:</span> Statistical Query Transformations for Question Answering in the Web<br/>
+
+          <span className="flabel">Summary:</span>
+          Developed an improvement for a state-of-the-art machine learning approach transforming
+          natural language questions into search engine queries achieving a better
+          quality of <Go to="http://en.wikipedia.org/wiki/Question_answering">question answering</Go>.
+        </div>
+
+        <div className="block">
           <span className="em">PhD in Computer Science, University of Fribourg, Switzerland, 2013</span><br/>
           <span className="flabel">Thesis title:</span> Visualization of Temporal Origin-Destination Data<br/>
 
@@ -156,17 +166,6 @@ const Resume = () => {
           representations of changes in flow maps.
 
         </div>
-
-        <div className="block">
-          <span className="em">MSc Computer Science, St. Petersburg State University, Russia, 2003</span><br/>
-          <span className="flabel">Thesis title:</span> Statistical Query Transformations for Question Answering in the Web<br/>
-
-          <span className="flabel">Summary:</span>
-          Developed an improvement for a state-of-the-art machine learning approach transforming
-          natural language questions into search engine queries achieving a better
-          quality of <Go to="http://en.wikipedia.org/wiki/Question_answering">question answering</Go>.
-        </div>
-
 
 
         <h2>Experience</h2>
@@ -235,7 +234,7 @@ const Resume = () => {
           <ul>
             <li> Developed <Go to="http://code.google.com/p/jflowmap/">JFlowMap</Go>, an experimental tool for the visualization of spatial interactions.</li>
             <li>Developed web-based <Go to="http://ilya.boyandin.me/works/2012/09/01/aiddata">visualizations of AidData</Go>
-              (financial aid given to developing countries).</li>
+              {' '}(financial aid given to developing countries).</li>
             <li>Contributed to the <Go to="http://code.google.com/p/birdeye/">BirdEye</Go> visualization library developed at the UN Centre for Advanced Visual Analytics.
               {/*<!-- Making the animated graph layouts from the previous library version work within the new framework based on the*/}
               {/*<Go to="http://www.springer.com/statistics/computanional+statistics/book/978-0-387-24544-7">Grammar of Graphics</Go>.-->*/}
@@ -411,9 +410,9 @@ const Resume = () => {
           <span className="em">Web:</span> React, Node.js, Express, GraphQL, Canvas, SVG, WebGL<br/>
           <span className="em">Visualization:</span> D3, Deck.gl, Vega, Tableau<br/>
           <span className="em">GIS:</span> Mapbox, PostGIS, QGIS<br/>
-          <span className="em">Databases:</span> PostgreSQL, MySQL, SQL Server, BigQuery, Clickhouse, MongoDB<br/>
+          <span className="em">Databases:</span> PostgreSQL, MySQL, SQL Server, BigQuery, Redis, Clickhouse, MongoDB<br/>
           <span className="em">UI Design:</span> Figma, Sketch, Photoshop<br/>
-          <span className="em">Cloud:</span> Heroku, Netlify, AWS, Marathon<br/>
+          <span className="em">Cloud:</span> Heroku, Digital Ocean, Netlify, AWS, Marathon<br/>
         </div>
 
 
@@ -462,7 +461,7 @@ const Resume = () => {
             <li><span className="pubTitle"><Go to="https://www.youtube.com/watch?v=dcLrbiHIX5M">Interactive Data Visualization with React: Taming the Complexity of the Changing State</Go></span> at <Go to="http://openvisconf.com/">OpenVis Conf 2015</Go> in Boston</li>
             <li><span className="pubTitle">Data Visualization for Media: Processes and Tools</span> at <Go to="https://tech.ebu.ch/devcon14">EBU DevCon 2014</Go>  in Geneva</li>
             <li><span className="pubTitle">Making Sense of Data with Visualization</span> at SICHH Forum Data Visualization & Big Data, 2014</li>
-            <li>Presented research work at the data visualization conferences: EuroVis, VisWeek</li>
+            <li>Presented research work at the scientific data visualization conferences EuroVis and VisWeek</li>
           </ul>
         </div>
 
@@ -485,6 +484,9 @@ const Resume = () => {
               {' '}published by the newspapers <Go to="http://www.tageswoche.ch/de/2013_19/schweiz/540004/milliarden-aus-der-fremde.htm">TagesWoche.ch</Go> and <Go to="http://derstandard.at/1363710784566/Wieviel-Geld-Migranten-zurueck-in-ihre-Heimat-schicken">derStandard.at</Go>.
             </li>
             <li>Developed a <Go to="http://ilya.boyandin.me/works/2012/03/30/swiss-trains">visualization of SBB train flows</Go> in a team of several developers at the Make Opendata Camp in Zurich.</li>
+            <li>
+              Developed a mobile app for Pocket PC for vocabulary training.
+            </li>
             <li>
               {
                 // <!--Participated in the organization of the Russian Information Retrieval Evaluation Sembit.ly/sichhinar (ROMIP) and-->

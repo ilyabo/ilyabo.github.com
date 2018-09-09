@@ -1,8 +1,39 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import styled from 'react-emotion'
 
 import { rhythm, scale } from '../utils/typography'
 import Sidebar from './Sidebar'
+
+const breakPoint = 30
+
+const Container = styled('div')`
+  margin-left: auto;
+  margin-right: auto;
+  max-width: ${rhythm(24)}; 
+  @media (min-width: ${rhythm(breakPoint)}) {
+    max-width: ${rhythm(35)}; 
+  }
+`
+
+const SidebarContainer = styled('div')`
+  display: flex;
+  justify-content: center;
+  margin-top: ${rhythm(1.0)};
+  padding-top: ${rhythm(0.5)};
+  padding-left: ${rhythm(1.5)};
+  @media (min-width: ${rhythm(breakPoint)}) {
+    position: fixed;
+    width: ${rhythm(9)};
+  }
+`
+
+const ContentContainer = styled('div')`
+  padding: ${rhythm(1.5)} ${rhythm(3 / 4)};
+  @media (min-width: ${rhythm(breakPoint)}) {
+    margin-left: ${rhythm(11)};
+  }
+`
 
 export default class Layout extends React.Component {
   render() {
@@ -34,20 +65,14 @@ export default class Layout extends React.Component {
     //   )
     // }
     return (
-      <div>
-        <Sidebar />
-
-        <div
-          style={{
-            marginLeft: 'auto',
-            marginRight: 'auto',
-            maxWidth: rhythm(24),
-            padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-          }}
-        >
+      <Container>
+        <SidebarContainer>
+          <Sidebar />
+        </SidebarContainer>
+        <ContentContainer>
           {children}
-        </div>
-      </div>
+        </ContentContainer>
+      </Container>
     )
   }
 }

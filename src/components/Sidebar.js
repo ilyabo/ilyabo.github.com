@@ -12,13 +12,10 @@ import { Link } from 'gatsby'
 
 const Container = styled('div')`
   display: flex;
-  margin-top: ${rhythm(1.0)};
-  padding-top: ${rhythm(0.5)};
-  padding-left: ${rhythm(1.5)};
-	position: fixed;
 `
 
 const Content = styled('div')`
+  text-align: center;
   &:after {
     background: #eee;
     background: linear-gradient(to bottom, #fff 0%, #eee 20%, #eee 80%, #fff 100%);
@@ -32,22 +29,32 @@ const Content = styled('div')`
 `
 
 const Header = () =>
-  <h1
-    className={css({
-      ...scale(0.75),
-    })}
-  >
-    <Link
-      style={{
-        boxShadow: 'none',
-        textDecoration: 'none',
-        color: 'inherit',
-      }}
-      to={'/'}
+  <div className={css(`
+    margin-bottom: 20px;
+  `)}>
+    <h1
+      className={css({
+        ...scale(0.75),
+        marginBottom: 0,
+      })}
     >
-      Ilya Boyandin
-    </Link>
-  </h1>
+      <Link
+        style={{
+          boxShadow: 'none',
+          textDecoration: 'none',
+          color: 'inherit',
+        }}
+        to={'/'}
+      >
+        Ilya Boyandin
+      </Link>
+    </h1>
+    <div className={css({
+      fontSize: 16,
+    })}>
+      Data Visualization Engineer
+    </div>
+  </div>
 
 
 const Sidebar = () =>
