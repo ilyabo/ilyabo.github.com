@@ -6,7 +6,7 @@ import styled from 'react-emotion'
 // import 'typeface-montserrat'
 // import 'typeface-merriweather'
 
-import profilePic from './profile-pic.jpg'
+import profilePic from '../assets/profile-pic.jpg'
 import { rhythm, scale } from '../utils/typography'
 import { Link } from 'gatsby'
 
