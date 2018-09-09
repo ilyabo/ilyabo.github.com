@@ -460,8 +460,8 @@ const Resume = () => {
             <li><span className="pubTitle"><Go to="https://docs.google.com/presentation/d/1G6wZe8n7zo-NCNz7J6KdoZjBz6o7gFxjIoXzszQerhY/edit?usp=sharing">Data Visualization Engineer: Ist das ein richtiger Beruf?</Go></span> invited lecture at Hochschule Mannheim, 2017</li>
             <li><span className="pubTitle"><Go to="https://www.youtube.com/watch?v=UdFxjsf5vsA">Visualizing People Movement with React</Go></span> at <Go to="http://www.meetup.com/Zurich-ReactJS-Meetup/events/226391438/">React.js Meetup</Go> in Zurich, 2015</li>
             <li><span className="pubTitle"><Go to="https://www.youtube.com/watch?v=dcLrbiHIX5M">Interactive Data Visualization with React: Taming the Complexity of the Changing State</Go></span> at <Go to="http://openvisconf.com/">OpenVis Conf 2015</Go> in Boston</li>
-            <li><span className="pubTitle"><Go to="http://bit.ly/devcon14-vis">Data Visualization for Media: Processes and Tools</Go></span> at <Go to="https://tech.ebu.ch/devcon14">EBU DevCon 2014</Go>  in Geneva</li>
-            <li><span className="pubTitle"><Go to="http://bit.ly/sichh">Making Sense of Data with Visualization</Go></span> at SICHH Forum Data Visualization & Big Data, 2014</li>
+            <li><span className="pubTitle">Data Visualization for Media: Processes and Tools</span> at <Go to="https://tech.ebu.ch/devcon14">EBU DevCon 2014</Go>  in Geneva</li>
+            <li><span className="pubTitle">Making Sense of Data with Visualization</span> at SICHH Forum Data Visualization & Big Data, 2014</li>
             <li>Presented research work at the data visualization conferences: EuroVis, VisWeek</li>
           </ul>
         </div>
