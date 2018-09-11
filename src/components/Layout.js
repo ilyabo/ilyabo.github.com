@@ -11,8 +11,10 @@ const Container = styled('div')`
   margin-left: auto;
   margin-right: auto;
   max-width: ${rhythm(24)}; 
+  padding-left: ${rhythm(1.5)};
+  padding-right: ${rhythm(1.5)};
   @media (min-width: ${rhythm(breakPoint)}) {
-    max-width: ${rhythm(35)}; 
+    max-width: ${rhythm(45)}; 
   }
 `
 
@@ -21,7 +23,6 @@ const SidebarContainer = styled('div')`
   justify-content: center;
   margin-top: ${rhythm(1.0)};
   padding-top: ${rhythm(0.5)};
-  padding-left: ${rhythm(1.5)};
   @media (min-width: ${rhythm(breakPoint)}) {
     position: fixed;
     width: ${rhythm(9)};
