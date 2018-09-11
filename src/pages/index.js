@@ -7,7 +7,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/Layout'
 import { rhythm } from '../utils/typography'
 import Img from 'gatsby-image'
-
+import Fade from 'react-reveal/Fade'
 
 class BlogIndex extends React.Component {
   render() {
@@ -25,6 +25,7 @@ class BlogIndex extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={siteTitle}
         />
+        <Fade bottom cascade>
         <div
           className={css({
             display: 'flex',
@@ -64,7 +65,8 @@ class BlogIndex extends React.Component {
             </div>
           )
         })}
-        </div>
+          </div>
+        </Fade>
       </Layout>
     )
   }
