@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Swiss maps"
+title: "NZZ Summer Series: Swiss maps"
 description: "A series of twenty visualizations for Neue Zürcher Zeitung 
               telling stories about Switzerland."
 date: "2013-08-30"
@@ -10,7 +10,7 @@ preview: "./img/restaurants.png"
 
 ---
 
-As a new member of the team at <a href="http://interactivethings.com">Interactive Things</a> 
+As a member of the team at <a href="http://interactivethings.com">Interactive Things</a> 
 I worked on a series of twenty visualizations called "Swiss maps" for <a href="http://www.nzz.ch/aktuell/inland-sommerserie-schweizer-karten-interaktiv/">Neue Zürcher Zeitung</a>. 
 
 Here's a <a href="http://work.interactivethings.com/nzz-swiss-maps/">showcase of their interactive versions</a>. 

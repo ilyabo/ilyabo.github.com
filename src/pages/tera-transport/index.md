@@ -5,7 +5,7 @@ description: "An exploratory tool for the analysis of geographic movement of peo
 date: "2016-09-01"
 category: work
 tags: [ "React", "Redux", "D3", "JavaScript"]
-preview: "./img/transport-us-w-border2.png"
+preview: ./img/transport-berlin.png
 ---
 
 Working at <a href="http://www.teralytics.net" target="_blank">Teralytics</a> 

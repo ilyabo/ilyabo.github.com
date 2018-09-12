@@ -6,6 +6,7 @@ import get from 'lodash/get'
 import Sidebar from '../components/Sidebar'
 import Layout from '../components/Layout'
 import { rhythm, scale } from '../utils/typography'
+import Fade from 'react-reveal/Fade'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -21,53 +22,57 @@ class BlogPostTemplate extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={`${post.frontmatter.title} | ${siteTitle}`}
         />
-        <h1
-          style={{
-            marginBottom: rhythm(1.5),
-          }}
-        >{post.frontmatter.title}</h1>
-        <p
-          style={{
-            ...scale(-1 / 5),
-            display: 'block',
-            marginBottom: rhythm(1),
-            marginTop: rhythm(-1),
-          }}
-        >
-          {post.frontmatter.date}
-        </p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
+        <Fade bottom cascade>
+          <div>
+            <ul
+              style={{
+                display: 'flex',
+                flexWrap: 'wrap',
+                justifyContent: 'space-between',
+                listStyle: 'none',
+                padding: 0,
+                marginLeft: 0,
+              }}
+            >
+              <li>
+                {next && (
+                  <Link to={next.fields.slug} rel="prev">
+                    ← {next.frontmatter.title}
+                  </Link>
+                )}
+              </li>
 
-        <ul
-          style={{
-            display: 'flex',
-            flexWrap: 'wrap',
-            justifyContent: 'space-between',
-            listStyle: 'none',
-            padding: 0,
-          }}
-        >
-          {previous && (
-            <li>
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            </li>
-          )}
+              <li>
+                {previous && (
+                  <Link to={previous.fields.slug} rel="next">
+                    {previous.frontmatter.title} →
+                  </Link>
+                )}
+              </li>
+            </ul>
+            <h1
+              style={{
+                marginBottom: rhythm(1.5),
+              }}
+            >{post.frontmatter.title}</h1>
+            <p
+              style={{
+                ...scale(-1 / 5),
+                display: 'block',
+                marginBottom: rhythm(1),
+                marginTop: rhythm(-1),
+              }}
+            >
+              {post.frontmatter.date}
+            </p>
 
-          {next && (
-            <li>
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            </li>
-          )}
-        </ul>
+
+
+            <div dangerouslySetInnerHTML={{ __html: post.html }} />
+
+
+          </div>
+        </Fade>
       </Layout>
     )
   }

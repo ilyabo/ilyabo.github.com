@@ -45,21 +45,27 @@ class BlogIndex extends React.Component {
                 borderRadius: 5,
               })}
             >
+
               <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
-                <div
+                <h4
                   style={{
                     marginBottom: rhythm(1 / 4),
                   }}
                 >
                   {title}
-                </div>
+                </h4>
                 <Img
                   className={css({
                     border: '1px solid #eef',
                     borderRadius: 5,
-                    boxShadow: '0px 0px 4px #ccd',
+                    boxShadow: '0px 0px 5px #ccc',
+                    '&:hover': {
+                      boxShadow: '0px 0px 10px #2af',
+                    },
                   })}
-                  resolutions={node.frontmatter.preview.childImageSharp.resolutions}
+                  resolutions={
+                    get(node, 'frontmatter.preview.childImageSharp.resolutions', {})
+                  }
                 />
               </Link>
             </div>
@@ -94,7 +100,7 @@ export const pageQuery = graphql`
             title
             preview {
               childImageSharp {
-                resolutions(width: 320, height: 200) {
+                resolutions(width: 250, height: 170) {
                   ...GatsbyImageSharpResolutions 
                 }
               }
