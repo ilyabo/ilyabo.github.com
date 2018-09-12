@@ -2,10 +2,7 @@
   "name": "ilya.boyandin.me",
   "description": "Home Page of Ilya Boyandin",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby-starter-blog/issues"
-  },
+  "author": "Ilya Boyandin",
   "dependencies": {
     "emotion": "^9.2.8",
     "emotion-server": "^9.2.8",
@@ -44,7 +41,7 @@
     "gh-pages": "^1.2.0",
     "prettier": "^1.12.0"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "http://ilyabo.github.io/",
   "keywords": [
     "gatsby"
   ],
@@ -52,7 +49,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/ilyabo/ilyabo.github.io.git"
   },
   "scripts": {
     "dev": "gatsby develop",
