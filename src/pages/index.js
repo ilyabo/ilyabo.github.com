@@ -32,7 +32,7 @@ class BlogIndex extends React.Component {
             flexDirection: 'row',
             justifyContent: 'center',
             flexWrap: 'wrap',
-            padding: 10,
+            padding: '10px 20px',
           })}
         >
         {posts.map(({ node }) => {
@@ -41,8 +41,12 @@ class BlogIndex extends React.Component {
             <div
               key={node.fields.slug}
               className={css({
-                margin: 10,
+                margin: '5px 10px',
+                padding: '5px 10px',
                 borderRadius: 5,
+                '&:hover': {
+                  boxShadow: '0px 0px 10px #419eda',
+                },
               })}
             >
 
@@ -59,9 +63,6 @@ class BlogIndex extends React.Component {
                     border: '1px solid #eef',
                     borderRadius: 5,
                     boxShadow: '0px 0px 5px #ccc',
-                    '&:hover': {
-                      boxShadow: '0px 0px 10px #2af',
-                    },
                   })}
                   resolutions={
                     get(node, 'frontmatter.preview.childImageSharp.resolutions', {})
@@ -100,7 +101,7 @@ export const pageQuery = graphql`
             title
             preview {
               childImageSharp {
-                resolutions(width: 300, height: 200) {
+                resolutions(width: 250, height: 170) {
                   ...GatsbyImageSharpResolutions 
                 }
               }
