@@ -8,6 +8,5 @@ if (process.env.NODE_ENV !== 'production') {
   typography.injectStyles()
 }
 
-export default typography
-export const rhythm = typography.rhythm
-export const scale = typography.scale
+const { rhythm, scale } = typography
+export { rhythm, scale, typography as default }
