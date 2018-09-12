@@ -32,6 +32,7 @@ class BlogIndex extends React.Component {
             flexDirection: 'row',
             justifyContent: 'center',
             flexWrap: 'wrap',
+            padding: 10,
           })}
         >
         {posts.map(({ node }) => {
@@ -40,8 +41,7 @@ class BlogIndex extends React.Component {
             <div
               key={node.fields.slug}
               className={css({
-                padding: 10,
-                margin: '5px 10px',
+                margin: 10,
                 borderRadius: 5,
               })}
             >
@@ -100,7 +100,7 @@ export const pageQuery = graphql`
             title
             preview {
               childImageSharp {
-                resolutions(width: 250, height: 170) {
+                resolutions(width: 300, height: 200) {
                   ...GatsbyImageSharpResolutions 
                 }
               }
