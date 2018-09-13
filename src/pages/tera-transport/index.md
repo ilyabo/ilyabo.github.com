@@ -15,9 +15,18 @@ The following dashboard makes it possible to explore the movement of people
  on the scales of a city or even a country:
 
 
-![Berlin](./img/transport-berlin.png)
-*Movement of people in Berlin*
+<div align=center>
+<img src=./img/transport-berlin.png>
+<i>Movement of people in Berlin</i>
+</div><br>
 
-  
-![Transport dashboard](./img/transport-us-w-border2.png)
-*Transport dashboard US*
+<div align=center>
+<img src=./img/od-sacramento.png>
+<i>Interesting structure in Sacramento</i>
+</div><br>
+
+<div align=center>
+<img src=./img/transport-us-w-border2.png>
+<i>Transport dashboard US</i>
+</div><br>
+
