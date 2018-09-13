@@ -220,7 +220,7 @@ const Resume = () => {
             </li>
             <li>Developed an <Go to="/snf">exploratory data analysis tool</Go> for Swiss National Science Foundation related to research proposals and activities.</li>
             <li>Developed a <Go to="http://expertisenkarte.zhaw.ch">visualization of research expertise</Go> for Zurich University of Applied Sciences. </li>
-            <li>Developed <Go to="http://www.gemeinwohl.ch/">Public Value Atlas</Go> for University of St. Gallen</li>
+            <li>Developed <Go to="https://www.gemeinwohl.ch/en/atlas">Public Value Atlas</Go> with the University of St. Gallen</li>
             <li>Developed an interactive visualization of the  <Go to="http://lab.interactivethings.com/global-trade-africa/">trade of the world's countries with Africa.</Go></li>
           </ul>
 
