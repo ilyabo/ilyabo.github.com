@@ -483,7 +483,7 @@ const Resume = () => {
               {' '}<Go to="/remittances/?en">visualization of the worldwide remittance flows</Go>
               {' '}published by the newspapers <Go to="http://www.tageswoche.ch/de/2013_19/schweiz/540004/milliarden-aus-der-fremde.htm">TagesWoche.ch</Go> and <Go to="http://derstandard.at/1363710784566/Wieviel-Geld-Migranten-zurueck-in-ihre-Heimat-schicken">derStandard.at</Go>.
             </li>
-            <li>Developed a <Go to="http://ilya.boyandin.me/works/2012/03/30/swiss-trains">visualization of SBB train flows</Go> in a team of several developers at the Make Opendata Camp in Zurich.</li>
+            <li>Developed a <Go to="/swiss-trains">visualization of SBB train flows</Go> in a team of several developers at the Make Opendata Camp in Zurich.</li>
             <li>
               Developed a mobile app for Pocket PC for vocabulary training.
             </li>
