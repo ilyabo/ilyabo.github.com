@@ -13,40 +13,40 @@ preview: "./img/restaurants.png"
 As a member of the team at <a href="http://interactivethings.com">Interactive Things</a> 
 I worked on a series of twenty visualizations called "Swiss maps" for <a href="http://www.nzz.ch/aktuell/inland-sommerserie-schweizer-karten-interaktiv/">Neue Zürcher Zeitung</a>. 
 
-Here's a <a href="https://storytelling.nzz.ch/2013/sommerserie/">showcase of their interactive versions</a>. 
-
 The series won the first prize in the category of interactive graphics in the German Press Agency <a href="http://www.dpa.de/Pressemitteilungen-Detailansic.107+M5d04e3a21eb.0.html">DPA Infographic Awards 2013</a>.
 
-![](./img/restaurants.png)
+Click on the images below to see the interactive versions: 
 
-![](./img/migration.png)
+[![](./img/restaurants.png)](https://storytelling.nzz.ch/2013/sommerserie/#restaurants)
 
-![](./img/strompreise.png)
+[![](./img/migration.png)](https://storytelling.nzz.ch/2013/sommerserie/#migration)
 
-![](./img/wald.png)
+[![](./img/strompreise.png)](https://storytelling.nzz.ch/2013/sommerserie/#strompreise)
 
-![](./img/porsche.png)
+[![](./img/wald.png)](https://storytelling.nzz.ch/2013/sommerserie/#wald)
 
-![](./img/distanzen.png)
+[![](./img/porsche.png)](https://storytelling.nzz.ch/2013/sommerserie/#porsche)
 
-![](./img/religions.png)
+[![](./img/distanzen.png)](https://storytelling.nzz.ch/2013/sommerserie/#distanzen)
 
-![](./img/gliederung.png)
+[![](./img/schweizen.png)](https://storytelling.nzz.ch/2013/sommerserie/#schweizen)
 
-![](./img/legislative.png)
+[![](./img/religions.png)](https://storytelling.nzz.ch/2013/sommerserie/#religions)
 
-![](./img/matura.png)
+[![](./img/gliederung.png)](https://storytelling.nzz.ch/2013/sommerserie/#gliederung)
 
-![](./img/wohnraum.png)
+[![](./img/legislative.png)](https://storytelling.nzz.ch/2013/sommerserie/#legislative)
 
-![](./img/polizisten.png)
+[![](./img/matura.png)](https://storytelling.nzz.ch/2013/sommerserie/#matura)
 
-![](./img/sbb.png)
+[![](./img/wohnraum.png)](https://storytelling.nzz.ch/2013/sommerserie/#wohnraum)
 
-![](./img/schweizen.png)
+[![](./img/polizisten.png)](https://storytelling.nzz.ch/2013/sommerserie/#polizisten)
 
-![](./img/verkehr.png)
+[![](./img/sbb.png)](https://storytelling.nzz.ch/2013/sommerserie/#sbb)
 
-![](./img/wetter.png)
+[![](./img/verkehr.png)](https://storytelling.nzz.ch/2013/sommerserie/#verkehr)
 
-![](./img/anthems.png)
+[![](./img/wetter.png)](https://storytelling.nzz.ch/2013/sommerserie/#wetter)
+
+[![](./img/anthems.png)](https://storytelling.nzz.ch/2013/sommerserie/#anthems)
