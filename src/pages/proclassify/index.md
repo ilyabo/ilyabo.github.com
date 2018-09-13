@@ -39,29 +39,3 @@ ProClassify is free for non-commercial use and can be downloaded from [this webs
 ![](xv_results.png)
 
 
-A Web version of ProClassify developed to facilitate sharing of datasets and computational capacities by the users. The features of the web version are mostly identical to the standalone version except the data visualization which is missing in the web version. 
-
-The online version is available [here](https://esus.genome.tugraz.at/ProClassify). And here is the [User's Guide](https://esus.genome.tugraz.at/ProClassify/help/showHelp.jsp). 
-
-
-![](addhealthysamples2.png) 
-
-![](crossvalidationresults.png) 
-
-![](classifyResults.png)  
-
-![](crossvalidationresults2.png) 
-
-![](help.png) 
-
-![](login.png) 
-
-![](multipleupload.png) 
-
-![](myjobs.png) 
-
-![](newaccount.png) 
-
-![](samplelib.png) 
-
-![](trainprogress.png)
