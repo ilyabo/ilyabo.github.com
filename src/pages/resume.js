@@ -45,7 +45,7 @@ const CV = styled('div')`
   font-weight:300;
   padding:20px;
   padding-bottom:0;
-  font-size:13px;
+  font-size:15px;
 
   h2 {
     text-align:left;
@@ -218,10 +218,10 @@ const Resume = () => {
               <Go to="/ww1">Interactive timeline of WWI</Go>,{' '}
               pieces on unemployment and <Go to="http://maps.nzzdali.ch/nzzdata/sommerserie-2014/medical-care/">medical care</Go>.
             </li>
-            <li>Developed an <Go to="/snf">exploratory data analysis tool</Go> for Swiss National Science Foundation related to research proposals and activities.</li>
+            <li>Developed an interactive visualization of the  <Go to="http://lab.interactivethings.com/global-trade-africa/">trade of the world's countries with Africa.</Go></li>
             <li>Developed a <Go to="http://expertisenkarte.zhaw.ch">visualization of research expertise</Go> for Zurich University of Applied Sciences. </li>
             <li>Developed <Go to="https://www.gemeinwohl.ch/en/atlas">Public Value Atlas</Go> with the University of St. Gallen</li>
-            <li>Developed an interactive visualization of the  <Go to="http://lab.interactivethings.com/global-trade-africa/">trade of the world's countries with Africa.</Go></li>
+            <li>Developed an <Go to="/snf">exploratory data analysis tool</Go> for Swiss National Science Foundation related to research proposals and activities.</li>
           </ul>
 
 
@@ -243,8 +243,7 @@ const Resume = () => {
             <li>Assisted in courses on Web technologies and Functional programming. Tutoring, giving occasional lectures, preparing materials, building supporting websites and utilities.</li>
             {/*<!--<li>Developing a webapp with  (randomly generated) exercises for the students on XML, XSLT, and SVG and with the ability to run a competition and see the*/}
             {/*students' ranking updating in real-time.</li>-->*/}
-            <li>Helped to organize and tutoring in workshops on programming and computer graphics for students and school children.</li>
-            <li>Technical maintenance of the <Go to="http://diuf.unifr.ch/main/diva/">research group website</Go>.</li>
+            <li>Tutoring in workshops on programming and computer graphics for students and school children.</li>
           </ul>
 
           <br/>
@@ -309,11 +308,11 @@ const Resume = () => {
             </li>
 
             <li>Improved the implementation of an algorithm detecting the behavior type  of a user looking at a web page
+              {' '}based on the real-time eye-tracking data.
               {
                 // <!-- (skimming, reading, searching, or learning)-->
                 // <!--Implemented a visualization of the web page reading process.-->
               }
-              based on the real-time eye-tracking data.
               {/*<!--<li>Migrated the <Go to="http://adele.fh-joanneum.at/">AdeLE project website</Go>*/}
               {/*from static HTML to XML and XSLT using a self-developed Java XSLT-engine.-->*/}
             </li>
