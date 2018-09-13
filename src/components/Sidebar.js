@@ -76,7 +76,7 @@ const Sidebar = () =>
         marginTop: 10,
       })}>
         <div><a href="mailto:ilya@boyandin.me">ilya@boyandin.me</a></div>
-        <div><Link to="/resume">Resume</Link></div>
+        <div><Link to="/resume/">Resume</Link></div>
         <div><a href="/assets/thesis.pdf">Thesis</a></div>
         <div><a href="https://twitter.com/ilyabo">Twitter</a></div>
       </div>
