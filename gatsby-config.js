@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: 'Ilya Boyandin\'s Home Page',
-    author: 'Kyle Mathews',
-    description: 'A starter blog demonstrating what Gatsby can do.',
-    siteUrl: 'https://gatsbyjs.github.io/gatsby-starter-blog/',
+    author: 'Ilya Boyandin',
+    description: 'Home page of Ilya Boyandin, a data visualization engineer.',
+    siteUrl: 'https://ilya.boyandin.me/',
   },
   plugins: [
     {
