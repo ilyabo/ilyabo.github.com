@@ -51,7 +51,7 @@ module.exports = {
         short_name: `Ilya Boyandin`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#00a1d1`,
+        theme_color: `#419eda`,
         display: `minimal-ui`,
         // icon: `src/assets/gatsby-icon.png`,
       },
