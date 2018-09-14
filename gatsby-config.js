@@ -20,7 +20,14 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
+              maxWidth: 850,
+              wrapperStyle: `
+                margin: 20px 0;
+                padding: 10px;
+                border: 1px solid #eef;
+                border-radius: 5;
+                box-shadow: 0px 0px 5px #ccc;
+              `,
             },
           },
           {
