@@ -14,4 +14,4 @@ with the Lego Boost robot:
 ![](./robotics-workshop2.jpg)
 
 
-The kids asked me to come again soon! :)
+After the workshop the kids asked me to come again soon :)
