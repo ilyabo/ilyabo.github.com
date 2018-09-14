@@ -14,7 +14,7 @@ const Container = styled('div')`
   padding-left: ${rhythm(1.5)};
   padding-right: ${rhythm(1.5)};
   @media (min-width: ${rhythm(breakPoint)}) {
-    max-width: ${rhythm(55)}; 
+    max-width: ${rhythm(80)}; 
   }
 `
 

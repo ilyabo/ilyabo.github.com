@@ -3,10 +3,8 @@ import Helmet from 'react-helmet'
 import { Link,graphql } from 'gatsby'
 import get from 'lodash/get'
 
-import Sidebar from '../components/Sidebar'
 import Layout from '../components/Layout'
 import { rhythm, scale } from '../utils/typography'
-import Fade from 'react-reveal/Fade'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -22,7 +20,6 @@ class BlogPostTemplate extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={`${post.frontmatter.title} | ${siteTitle}`}
         />
-        <Fade bottom cascade>
           <div>
             <ul
               style={{
@@ -72,7 +69,6 @@ class BlogPostTemplate extends React.Component {
 
 
           </div>
-        </Fade>
       </Layout>
     )
   }

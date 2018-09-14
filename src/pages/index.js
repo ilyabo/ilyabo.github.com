@@ -7,7 +7,6 @@ import Helmet from 'react-helmet'
 import Layout from '../components/Layout'
 import { rhythm } from '../utils/typography'
 import Img from 'gatsby-image'
-import Fade from 'react-reveal/Fade'
 
 class BlogIndex extends React.Component {
   render() {
@@ -25,14 +24,13 @@ class BlogIndex extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={siteTitle}
         />
-        <Fade bottom cascade>
         <div
           className={css({
             display: 'flex',
             flexDirection: 'row',
             justifyContent: 'center',
             flexWrap: 'wrap',
-            padding: '10px 10px',
+            padding: '10px 20px',
           })}
         >
         {posts.map(({ node }) => {
@@ -41,8 +39,8 @@ class BlogIndex extends React.Component {
             <div
               key={node.fields.slug}
               className={css({
-                margin: '0px 5px 20px 5px',
-                padding: '10px 5px',
+                margin: '0px 20px 20px 20px',
+                padding: '10px 20px',
                 borderRadius: 5,
                 '&:hover': {
                   boxShadow: '0px 0px 10px #419eda',
@@ -53,7 +51,7 @@ class BlogIndex extends React.Component {
               <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
                 <h4
                   style={{
-                    marginBottom: rhythm(1 / 4),
+                    marginBottom: rhythm(1 / 2),
                   }}
                 >
                   {title}
@@ -73,7 +71,6 @@ class BlogIndex extends React.Component {
           )
         })}
           </div>
-        </Fade>
       </Layout>
     )
   }
