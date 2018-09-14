@@ -15,7 +15,7 @@ Check out the <a target="_blank" href="https://lab.interactivethings.com/global-
 
 
 
-![](./0.png)
+[![](./0.png)](https://lab.interactivethings.com/global-trade-africa/)
 
 ![](./1.png)
 
