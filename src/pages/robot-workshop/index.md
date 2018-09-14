@@ -13,5 +13,9 @@ with the Lego Boost robot:
  
 ![](./robotics-workshop2.jpg)
 
+![](./robotics-workshop3.jpg)
+
+![](./robotics-workshop4.png)
+
 
 After the workshop the kids asked me to come again soon :)
