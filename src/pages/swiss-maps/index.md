@@ -27,7 +27,7 @@ Click on the images below to see the interactive versions:
 
 [![](./img/porsche.png)](https://storytelling.nzz.ch/2013/sommerserie/#porsche)
 
-[![](./img/distanzen.png)](https://storytelling.nzz.ch/2013/sommerserie/#distanzen)
+[![](./img/distanzen.jpg)](https://storytelling.nzz.ch/2013/sommerserie/#distanzen)
 
 [![](./img/schweizen.png)](https://storytelling.nzz.ch/2013/sommerserie/#schweizen)
 
