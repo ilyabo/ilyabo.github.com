@@ -1,3 +1,5 @@
+const colors = require('./colors')
+
 module.exports = {
   siteMetadata: {
     title: 'Ilya Boyandin\'s Home Page',
@@ -58,7 +60,7 @@ module.exports = {
         short_name: `Ilya Boyandin`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#055385`,
+        theme_color: colors.primary[1],
         display: `minimal-ui`,
         // icon: `src/assets/gatsby-icon.png`,
       },

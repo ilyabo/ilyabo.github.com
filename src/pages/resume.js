@@ -99,7 +99,6 @@ const CV = styled('div')`
     margin:0 0 10px 0;
     padding:0px;
   }
-  a, a:visited, a:link { color:#17589a;  text-decoration: none;  }
 `
 
 const Go = ({ to, children }) =>
