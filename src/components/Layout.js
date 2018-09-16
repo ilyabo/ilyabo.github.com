@@ -6,16 +6,20 @@ import { rhythm, scale } from '../utils/typography'
 import Sidebar from './Sidebar'
 
 const breakPoint = 30
-const SIDEBAR_WIDTH = 9
+const SIDEBAR_WIDTH = 10
 
 const Container = styled('div')`
   margin-left: auto;
   margin-right: auto;
   max-width: ${rhythm(24)}; 
-  padding-left: ${rhythm(1.5)};
-  padding-right: ${rhythm(1.5)};
   @media (min-width: ${rhythm(breakPoint)}) {
     max-width: ${rhythm(80)}; 
+    padding-left: ${rhythm(1.5)};
+    padding-right: ${rhythm(1.5)};
+  }
+  @media (max-width: ${rhythm(breakPoint)}) {
+    padding-left: ${rhythm(0.5)};
+    padding-right: ${rhythm(0.5)};
   }
 `
 

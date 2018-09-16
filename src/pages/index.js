@@ -8,7 +8,7 @@ import Layout from '../components/Layout'
 import { rhythm } from '../utils/typography'
 import Img from 'gatsby-image'
 
-const spacing = rhythm(0.75)
+const spacing = rhythm(1)
 
 class BlogIndex extends React.Component {
   render() {
@@ -100,7 +100,7 @@ export const pageQuery = graphql`
             title
             preview {
               childImageSharp {
-                resolutions(width: 360, height: 240) {
+                resolutions(width: 320, height: 213, quality: 95) {
                   ...GatsbyImageSharpResolutions 
                 }
               }
