@@ -34,6 +34,47 @@ const styles = {
   }),
 }
 
+
+
+const PostNav = ({ next, prev, top, bottom }) =>
+  <ul
+    className={styles.nav}
+    style={{
+      marginTop: bottom ? rhythm(2) : 0,
+    }}
+  >
+    <li className="left">
+      {next && (
+        <Link to={next.fields.slug} rel="prev">
+          <div className="item left">
+            <div>←</div> <div>{next.frontmatter.title}</div>
+          </div>
+        </Link>
+      )}
+    </li>
+
+    <li className="home">
+      <Link to="/" rel="next">
+        <div className="item">
+          <div>Home</div>
+        </div>
+      </Link>
+    </li>
+
+    <li className="right">
+      {prev && (
+        <Link to={prev.fields.slug} rel="next">
+          <div className="item">
+            <div>{prev.frontmatter.title}</div> <div>→</div>
+          </div>
+        </Link>
+      )}
+    </li>
+  </ul>
+
+
+
+
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
@@ -48,58 +89,38 @@ class BlogPostTemplate extends React.Component {
           meta={[{ name: 'description', content: siteDescription }]}
           title={`${post.frontmatter.title} | ${siteTitle}`}
         />
-          <div>
-            <ul className={styles.nav}>
-              <li className="left">
-                {next && (
-                  <Link to={next.fields.slug} rel="prev">
-                    <div className="item left">
-                      <div>←</div> <div>{next.frontmatter.title}</div>
-                    </div>
-                  </Link>
-                )}
-              </li>
+        <div>
+          <PostNav
+            next={next}
+            prev={previous}
+            top
+          />
 
-              <li className="home">
-                <Link to="/" rel="next">
-                  <div className="item">
-                     <div>Home</div>
-                  </div>
-                </Link>
-              </li>
+          <h1
+            style={{
+              marginBottom: rhythm(1.5),
+            }}
+          >{post.frontmatter.title}</h1>
+          <p
+            style={{
+              ...scale(-1 / 5),
+              display: 'block',
+              marginBottom: rhythm(1),
+              marginTop: rhythm(-1),
+            }}
+          >
+            {post.frontmatter.date}
+          </p>
 
-              <li className="right">
-                {previous && (
-                  <Link to={previous.fields.slug} rel="next">
-                    <div className="item">
-                       <div>{previous.frontmatter.title}</div> <div>→</div>
-                    </div>
-                  </Link>
-                )}
-              </li>
-            </ul>
-            <h1
-              style={{
-                marginBottom: rhythm(1.5),
-              }}
-            >{post.frontmatter.title}</h1>
-            <p
-              style={{
-                ...scale(-1 / 5),
-                display: 'block',
-                marginBottom: rhythm(1),
-                marginTop: rhythm(-1),
-              }}
-            >
-              {post.frontmatter.date}
-            </p>
+          <div dangerouslySetInnerHTML={{ __html: post.html }} />
 
+          <PostNav
+            next={next}
+            prev={previous}
+            bottom
+          />
 
-
-            <div dangerouslySetInnerHTML={{ __html: post.html }} />
-
-
-          </div>
+        </div>
       </Layout>
     )
   }
