@@ -1,14 +1,10 @@
 import React from 'react'
 import { css } from 'emotion'
 import styled from 'react-emotion'
-
-// Import typefaces
-// import 'typeface-montserrat'
-// import 'typeface-merriweather'
-
 import profilePic from '../assets/profile-pic.jpg'
 import { rhythm, scale } from '../utils/typography'
 import { Link } from 'gatsby'
+import { FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa'
 
 const Container = styled('div')`
   display: flex;
@@ -51,24 +47,35 @@ const Sidebar = () =>
   <Container>
     <Content>
       <Header/>
-      <img
-        src={profilePic}
-        alt="Ilya Boyandin"
-        className={css({
-          marginRight: rhythm(1 / 2),
-          marginBottom: 0,
-          width: rhythm(4),
-          height: rhythm(4),
-          borderRadius: '50%',
-        })}
-      />
+      <Link to="/">
+        <img
+          src={profilePic}
+          alt="Ilya Boyandin"
+          className={css({
+            marginRight: rhythm(1 / 2),
+            marginBottom: 0,
+            width: rhythm(4),
+            height: rhythm(4),
+            borderRadius: '50%',
+          })}
+        />
+      </Link>
       <div className={css({
         marginTop: 10,
       })}>
         <div><a href="mailto:ilya@boyandin.me">ilya@boyandin.me</a></div>
-        <div><Link to="/resume/">Resume</Link></div>
         <div><a href="/assets/thesis.pdf">Thesis</a></div>
-        <div><a href="https://twitter.com/ilyabo">Twitter</a></div>
+        <div><Link to="/resume/">Resume</Link></div>
+        <div className={css({
+          padding: 20,
+          '& > * + *': {
+            marginLeft: 7,
+          }
+        })}>
+          <a href="https://twitter.com/ilyabo"><FaTwitter/></a>
+          <a href="https://www.linkedin.com/in/ilyabo/"><FaLinkedin/></a>
+          <a href="https://github.com/ilyabo"><FaGithub/></a>
+        </div>
       </div>
     </Content>
   </Container>
