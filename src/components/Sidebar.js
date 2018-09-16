@@ -16,16 +16,6 @@ const Container = styled('div')`
 
 const Content = styled('div')`
   text-align: center;
-  &:after {
-    background: #eee;
-    background: linear-gradient(to bottom, #fff 0%, #eee 20%, #eee 80%, #fff 100%);
-    position: absolute;
-    content: '';
-    width: 1px;
-    height: 100%;
-    right: -30px;
-    bottom: 0;
-  }
 `
 
 const Header = () =>

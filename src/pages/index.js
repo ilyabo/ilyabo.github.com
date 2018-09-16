@@ -8,6 +8,8 @@ import Layout from '../components/Layout'
 import { rhythm } from '../utils/typography'
 import Img from 'gatsby-image'
 
+const spacing = rhythm(0.75)
+
 class BlogIndex extends React.Component {
   render() {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
@@ -30,7 +32,7 @@ class BlogIndex extends React.Component {
             flexDirection: 'row',
             justifyContent: 'center',
             flexWrap: 'wrap',
-            padding: '10px 20px',
+            padding: `10px ${spacing}`,
           })}
         >
         {posts.map(({ node }) => {
@@ -39,7 +41,7 @@ class BlogIndex extends React.Component {
             <div
               key={node.fields.slug}
               className={css({
-                margin: '0px 20px 20px 20px',
+                margin: `0px ${spacing} 20px ${spacing}`,
                 padding: '10px 20px',
                 borderRadius: 5,
                 '&:hover': {
@@ -98,7 +100,7 @@ export const pageQuery = graphql`
             title
             preview {
               childImageSharp {
-                resolutions(width: 300, height: 200) {
+                resolutions(width: 360, height: 240) {
                   ...GatsbyImageSharpResolutions 
                 }
               }

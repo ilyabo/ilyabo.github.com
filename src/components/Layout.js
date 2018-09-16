@@ -6,6 +6,7 @@ import { rhythm, scale } from '../utils/typography'
 import Sidebar from './Sidebar'
 
 const breakPoint = 30
+const SIDEBAR_WIDTH = 9
 
 const Container = styled('div')`
   margin-left: auto;
@@ -21,18 +22,27 @@ const Container = styled('div')`
 const SidebarContainer = styled('div')`
   display: flex;
   justify-content: center;
-  margin-top: ${rhythm(1.0)};
-  padding-top: ${rhythm(0.5)};
+  padding: ${rhythm(1.5)} ${rhythm(1)} 0 0;
   @media (min-width: ${rhythm(breakPoint)}) {
     position: fixed;
-    width: ${rhythm(9)};
+    width: ${rhythm(SIDEBAR_WIDTH)};
+    &:after {
+      background: #eee;
+      background: linear-gradient(to bottom, #fff 0%, #eee 20%, #eee 80%, #fff 100%);
+      position: absolute;
+      content: '';
+      width: 1px;
+      height: 100%;
+      right: 0;
+      bottom: 0;
+    }
   }
 `
 
 const ContentContainer = styled('div')`
   padding: ${rhythm(1.5)} ${rhythm(3 / 4)};
   @media (min-width: ${rhythm(breakPoint)}) {
-    margin-left: ${rhythm(11)};
+    margin-left: ${rhythm(SIDEBAR_WIDTH + 1)};
   }
 `
 
