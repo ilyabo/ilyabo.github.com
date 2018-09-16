@@ -7,6 +7,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/Layout'
 import { rhythm } from '../utils/typography'
 import Img from 'gatsby-image'
+import * as colors from '../../colors'
 
 const spacing = rhythm(1)
 
@@ -45,7 +46,7 @@ class BlogIndex extends React.Component {
                 padding: '10px 20px',
                 borderRadius: 5,
                 '&:hover': {
-                  boxShadow: '0px 0px 10px #419eda',
+                  boxShadow: `0px 0px 15px ${colors.primary[2]}`,
                 },
               })}
             >
