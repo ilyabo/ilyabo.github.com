@@ -5,8 +5,8 @@ import styled from 'react-emotion'
 import { rhythm, scale } from '../utils/typography'
 import Sidebar from './Sidebar'
 
-const breakPoint = 30
-const SIDEBAR_WIDTH = 10
+const breakPoint = 26
+const SIDEBAR_WIDTH = 9
 
 const Container = styled('div')`
   margin-left: auto;
@@ -18,6 +18,9 @@ const Container = styled('div')`
     padding-right: ${rhythm(1.5)};
   }
   @media (max-width: ${rhythm(breakPoint)}) {
+    display: ${props => props.isHome ? 'block' : 'flex' };
+    flex-direction: ${props => props.isHome ? 'column' : 'column-reverse' };
+    padding-bottom: ${props => props.isHome ? 0 : rhythm(2)};
     padding-left: ${rhythm(0.5)};
     padding-right: ${rhythm(0.5)};
   }
@@ -26,7 +29,7 @@ const Container = styled('div')`
 const SidebarContainer = styled('div')`
   display: flex;
   justify-content: center;
-  padding: ${rhythm(1.5)} ${rhythm(1)} 0 0;
+  padding-top: ${rhythm(1.5)};
   @media (min-width: ${rhythm(breakPoint)}) {
     position: fixed;
     width: ${rhythm(SIDEBAR_WIDTH)};
@@ -37,7 +40,7 @@ const SidebarContainer = styled('div')`
       content: '';
       width: 1px;
       height: 100%;
-      right: 0;
+      right: -${rhythm(0.5)};
       bottom: 0;
     }
   }
@@ -54,33 +57,9 @@ export default class Layout extends React.Component {
   render() {
     const { location, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
-    // let header
-
-    // if (location.pathname === rootPath) {
-    // } else {
-    //   header = (
-    //     <h3
-    //       style={{
-    //         fontFamily: 'Montserrat, sans-serif',
-    //         marginTop: 0,
-    //         marginBottom: rhythm(-1),
-    //       }}
-    //     >
-    //       <Link
-    //         style={{
-    //           boxShadow: 'none',
-    //           textDecoration: 'none',
-    //           color: 'inherit',
-    //         }}
-    //         to={'/'}
-    //       >
-    //         Ilya Boyandin
-    //       </Link>
-    //     </h3>
-    //   )
-    // }
+    const isHome = (location.pathname === rootPath)
     return (
-      <Container>
+      <Container isHome={isHome}>
         <SidebarContainer>
           <Sidebar />
         </SidebarContainer>

@@ -5,6 +5,34 @@ import get from 'lodash/get'
 
 import Layout from '../components/Layout'
 import { rhythm, scale } from '../utils/typography'
+import { css } from 'react-emotion'
+
+const styles = {
+  nav: css({
+    display: 'flex',
+    justifyContent: 'space-between',
+    listStyle: 'none',
+    padding: 0,
+    marginLeft: 0,
+    '& > li': {
+      display: 'flex',
+      flex: '1 0 0',
+      '&.right': {
+        justifyContent: 'flex-end',
+        textAlign: 'right',
+      },
+      '&.home': {
+        justifyContent: 'center',
+      },
+    },
+    '& .item': {
+      display: 'flex',
+      '& > * + *': {
+        marginLeft: rhythm(0.25),
+      },
+    },
+  }),
+}
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -21,28 +49,31 @@ class BlogPostTemplate extends React.Component {
           title={`${post.frontmatter.title} | ${siteTitle}`}
         />
           <div>
-            <ul
-              style={{
-                display: 'flex',
-                flexWrap: 'wrap',
-                justifyContent: 'space-between',
-                listStyle: 'none',
-                padding: 0,
-                marginLeft: 0,
-              }}
-            >
-              <li>
+            <ul className={styles.nav}>
+              <li className="left">
                 {next && (
                   <Link to={next.fields.slug} rel="prev">
-                    ← {next.frontmatter.title}
+                    <div className="item left">
+                      <div>←</div> <div>{next.frontmatter.title}</div>
+                    </div>
                   </Link>
                 )}
               </li>
 
-              <li>
+              <li className="home">
+                <Link to="/" rel="next">
+                  <div className="item">
+                     <div>Home</div>
+                  </div>
+                </Link>
+              </li>
+
+              <li className="right">
                 {previous && (
                   <Link to={previous.fields.slug} rel="next">
-                    {previous.frontmatter.title} →
+                    <div className="item">
+                       <div>{previous.frontmatter.title}</div> <div>→</div>
+                    </div>
                   </Link>
                 )}
               </li>
