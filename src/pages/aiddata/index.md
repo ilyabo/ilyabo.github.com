@@ -10,7 +10,7 @@ preview: bubbles.png
 
 Visualizing flows of financial aid donated to countries by international organizations and by other countries. In collaboration with [AidData.org](http://aiddata.org).
 
- [View in action](http://aiddata.herokuapp.com/) or fork [on github](https://github.com/ilyabo/aiddata).
+ [Try in action](http://aiddata.herokuapp.com/) or fork [on github](https://github.com/ilyabo/aiddata).
 
 
 ![](bubbles.png) 

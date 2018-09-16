@@ -11,7 +11,7 @@ Visualizing flows of money sent by migrants to their home countries.
 Together with <a href="http://www.davidbauer.ch/">David Bauer</a> and 
 <a href="http://renestalder.me/">René Stalder</a>.
 
- [View in action](https://ilyabo.github.io/remittances/?en) or [fork on github](https://github.com/ilyabo/remittances).
+ [Try in action](https://ilyabo.github.io/remittances/?en) or [fork on github](https://github.com/ilyabo/remittances).
  
  ![](./kaz.png)
 
