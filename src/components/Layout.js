@@ -5,19 +5,19 @@ import styled from 'react-emotion'
 import { rhythm, scale } from '../utils/typography'
 import Sidebar from './Sidebar'
 
-const breakPoint = 26
+const getBreakPoint = (isHome) => isHome ? 26 : 30
 const SIDEBAR_WIDTH = 9
 
 const Container = styled('div')`
   margin-left: auto;
   margin-right: auto;
   max-width: ${rhythm(24)}; 
-  @media (min-width: ${rhythm(breakPoint)}) {
+  @media (min-width: ${props => rhythm(getBreakPoint(props.isHome))}) {
     max-width: ${rhythm(80)}; 
     padding-left: ${rhythm(1.5)};
     padding-right: ${rhythm(1.5)};
   }
-  @media (max-width: ${rhythm(breakPoint)}) {
+  @media (max-width: ${props => rhythm(getBreakPoint(props.isHome))}) {
     display: ${props => props.isHome ? 'block' : 'flex' };
     flex-direction: ${props => props.isHome ? 'column' : 'column-reverse' };
     padding-bottom: ${props => props.isHome ? 0 : rhythm(2)};
@@ -30,7 +30,7 @@ const SidebarContainer = styled('div')`
   display: flex;
   justify-content: center;
   padding-top: ${rhythm(1.5)};
-  @media (min-width: ${rhythm(breakPoint)}) {
+  @media (min-width: ${props => rhythm(getBreakPoint(props.isHome))}) {
     position: fixed;
     width: ${rhythm(SIDEBAR_WIDTH)};
     &:after {
@@ -48,7 +48,7 @@ const SidebarContainer = styled('div')`
 
 const ContentContainer = styled('div')`
   padding: ${rhythm(1.5)} ${rhythm(3 / 4)};
-  @media (min-width: ${rhythm(breakPoint)}) {
+  @media (min-width: ${props => rhythm(getBreakPoint(props.isHome))}) {
     margin-left: ${rhythm(SIDEBAR_WIDTH + 1)};
   }
 `
@@ -60,10 +60,10 @@ export default class Layout extends React.Component {
     const isHome = (location.pathname === rootPath)
     return (
       <Container isHome={isHome}>
-        <SidebarContainer>
+        <SidebarContainer isHome={isHome}>
           <Sidebar />
         </SidebarContainer>
-        <ContentContainer>
+        <ContentContainer isHome={isHome}>
           {children}
         </ContentContainer>
       </Container>
