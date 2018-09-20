@@ -1,5 +1,5 @@
 ---
-layout: post
+kind: post
 title: Galaxy of covers
 category: works
 preview: galaxy1.png

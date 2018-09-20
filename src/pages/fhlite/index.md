@@ -1,5 +1,5 @@
 ---
-layout: post
+kind: post
 title: "FHLiteEditor"
 description: ""
 category: works

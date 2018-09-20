@@ -1,5 +1,5 @@
 ---
-layout: post
+kind: post
 title: Berlin streets
 category: works
 preview: dot-map.png

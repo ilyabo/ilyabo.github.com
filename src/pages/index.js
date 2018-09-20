@@ -89,7 +89,10 @@ export const pageQuery = graphql`
         description
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+    sort: { fields: [frontmatter___date], order: DESC },
+    filter: {frontmatter: {kind: {eq: "post"}}}
+    ) {
       edges {
         node {
           excerpt

@@ -1,5 +1,5 @@
 ---
-layout: post
+kind: post
 title: "Global Trade: Africa"
 description: ""
 date: "2014-10-20"

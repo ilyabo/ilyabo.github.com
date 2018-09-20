@@ -1,5 +1,5 @@
 ---
-layout: post
+kind: post
 title: "Programming workshop for kids"
 description: ""
 date: "2018-03-06"

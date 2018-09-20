@@ -1,5 +1,5 @@
 ---
-layout: post
+kind: post
 title: Singapore Trains
 category: works
 date: 2018-09-03

@@ -1,5 +1,5 @@
 ---
-layout: post
+kind: post
 title: "NZZ Summer Series: Swiss maps"
 description: "A series of twenty visualizations for Neue Zürcher Zeitung 
               telling stories about Switzerland."

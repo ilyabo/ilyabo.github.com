@@ -1,5 +1,5 @@
 ---
-layout: post
+kind: post
 title: "Flowmap.gl"
 description: ""
 category: works

@@ -1,5 +1,5 @@
 ---
-layout: post
+kind: post
 title: "OpenVis conference talk"
 date: "2015-04-03"
 description: "I had the great pleasure to speak at the OpenVis conference about 

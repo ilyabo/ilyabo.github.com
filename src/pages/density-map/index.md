@@ -1,5 +1,5 @@
 ---
-layout: post
+kind: post
 title: "Hex density map"
 description: ""
 category: works

@@ -1,5 +1,5 @@
 ---
-layout: post
+kind: post
 title: "Swiss train flows"
 description: ""
 category: works

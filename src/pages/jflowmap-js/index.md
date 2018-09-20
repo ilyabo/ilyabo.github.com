@@ -1,5 +1,5 @@
 ---
-layout: post
+kind: post
 title: "jflowmap.js"
 category: works
 date: 2012-08-31

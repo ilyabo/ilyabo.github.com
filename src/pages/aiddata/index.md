@@ -1,5 +1,5 @@
 ---
-layout: post
+kind: post
 title: "AidData"
 description: "Visualizing flows of financial aid donated to countries by international organizations and by other countries. In collaboration with AidData.org."
 category: works

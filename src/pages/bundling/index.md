@@ -1,5 +1,5 @@
 ---
-layout: post
+kind: post
 title: "Edge bundling"
 description: ""
 category: works

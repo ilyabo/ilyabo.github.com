@@ -1,5 +1,5 @@
 ---
-layout: post
+kind: post
 title: Swissinfo ballot results
 description: ""
 date: "2014-01-12"

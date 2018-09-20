@@ -1,5 +1,5 @@
 ---
-layout: post
+kind: post
 title: "d3-bipartite"
 date: "2015-07-07"
 category: works

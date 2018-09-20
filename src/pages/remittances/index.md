@@ -1,5 +1,5 @@
 ---
-layout: post
+kind: post
 title: "Remittance Flows"
 description: ""
 date: 2013-04-01

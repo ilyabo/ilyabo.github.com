@@ -1,5 +1,5 @@
 ---
-layout: post
+kind: post
 title: "CGVis"
 description: ""
 category: works

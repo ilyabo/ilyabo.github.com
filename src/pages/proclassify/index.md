@@ -1,5 +1,5 @@
 ---
-layout: post
+kind: post
 title: "ProClassify"
 description: ""
 category: works

@@ -1,5 +1,5 @@
 ---
-layout: post
+kind: post
 title: "React meetup talk '18"
 date: 2018-07-11
 category: talk

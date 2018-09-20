@@ -63,9 +63,10 @@ const Sidebar = () =>
       <div className={css({
         marginTop: 10,
       })}>
+        <div><Link to="/">Home</Link></div>
+        <div><Link to="/about/">About</Link></div>
+        <br/>
         <div><a href="mailto:ilya@boyandin.me">ilya@boyandin.me</a></div>
-        <div><a href="/assets/thesis.pdf">Thesis</a></div>
-        <div><Link to="/resume/">Resume</Link></div>
         <div className={css({
           padding: 20,
           '& > * + *': {

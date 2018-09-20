@@ -1,5 +1,5 @@
 ---
-layout: post
+kind: post
 title: Public Value Atlas
 category: works
 date: 2014-04-03

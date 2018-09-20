@@ -1,5 +1,5 @@
 ---
-layout: post
+kind: post
 title: "Flowstrates"
 description: "An interactive technique for analyzing temporal changes in origin-destination data, that is, flows of entities between geographic locations."
 category: works
