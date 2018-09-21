@@ -7,14 +7,15 @@ preview: swiss-cantons-migration.png
 date: 2018-07-01
 ---
 
-As a member of the team at Teralytics I worked on the development of the 
-[flowmap.gl](https://github.com/teralytics/flowmap.gl) library.
+[Flowmap.gl](https://github.com/teralytics/flowmap.gl) is a library
+for visualizing movement of people (e.g. migration) or objects between 
+geographic locations: 
 
-![](swiss-cantons-migration.png)
+
+[![](swiss-cantons-migration.png)](https://github.com/teralytics/flowmap.gl)
  
-The library can be used for visualizing movement of people (e.g. migration) or objects between 
-geographic locations. The layer is rendered in WebGL and can handle large numbers 
-of flows with a good rendering performance.
+The library uses WebGL for rendering. Hence, it can handle relatively 
+large numbers of flows with a good rendering performance:
 
 
 <div style="text-align: center">

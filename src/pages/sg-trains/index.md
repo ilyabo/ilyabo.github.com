@@ -6,6 +6,10 @@ date: 2018-09-03
 preview: alerting-new.png
 ---
 
+Interactive dashboards 
+for monitoring, incident analysis, 
+and planning for the public transportation network in Singapore:
+
 ![](alerting-new.png)
 
 ![](first-mile.png)

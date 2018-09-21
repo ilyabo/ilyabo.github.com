@@ -9,7 +9,7 @@ tags: [ "React", "OpenVis Conf" ]
 preview: "./openvis.png"
 
 ---
-I had the great pleasure to speak at the <a href="https://openvisconf.com/2015/">OpenVis conference</a> about 
+I gave a talk at the <a href="https://openvisconf.com/2015/">OpenVis conference</a> about 
 using React for data visualization: 
 
 <div style="text-align: center">
