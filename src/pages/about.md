@@ -26,6 +26,6 @@ I am a fan of React, D3, Mapbox and Clojure.
 
 I am a father of two wonderful kids. 
 
-I also like to play guitar and piano and 
+I like to play guitar and piano and 
 <a href="https://soundcloud.com/ibananti" target="_blank" rel="noopener">produce electronic music</a>.
 
