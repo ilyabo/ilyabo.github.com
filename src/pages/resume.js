@@ -4,7 +4,7 @@ import styled, { css } from 'react-emotion'
 import { injectGlobal } from 'emotion'
 import profilePic from '../assets/profile-pic.jpg'
 import { rhythm } from '../utils/typography'
-import jflowmapPdf from './jflowmap/jflowmap-geova10.pdf'
+import jflowmapPdf from './p/jflowmap/jflowmap-geova10.pdf'
 
 injectGlobal(`
   @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
@@ -159,7 +159,7 @@ const Resume = () => {
           <span className="flabel">Summary:</span>
           Carried out an in-depth study of temporal origin-destination data
           which can represent movement of people, energy, material, etc between locations in geographic space.
-          Developed <Go to="/flowstrates/">Flowstrates</Go>,
+          Developed <Go to="/p/flowstrates/">Flowstrates</Go>,
           a novel approach for visualizing and exploring temporal origin-destination data.
           Carried out a qualitative <Go to="http://onlinelibrary.wiley.com/doi/10.1111/j.1467-8659.2012.03093.x/abstract">user study</Go> comparing animated and small-multiple
           representations of changes in flow maps.
@@ -212,14 +212,14 @@ const Resume = () => {
             <span className="wtime">June 2013 - January 2015</span></div>
           <ul>
             <li>Developed numerous interactive visualizations for Neue Zürcher Zeitung, e.g.
-              a series of <Go to="/swiss-maps/">geograpic visualizations about Switzerland</Go>,{' '}
-              <Go to="/ww1/">Interactive timeline of WWI</Go>,{' '}
+              a series of <Go to="/p/swiss-maps/">geograpic visualizations about Switzerland</Go>,{' '}
+              <Go to="/p/ww1/">Interactive timeline of WWI</Go>,{' '}
               pieces on unemployment and <Go to="http://maps.nzzdali.ch/nzzdata/sommerserie-2014/medical-care/">medical care</Go>.
             </li>
             <li>Developed an interactive visualization of the  <Go to="http://lab.interactivethings.com/global-trade-africa/">trade of the world's countries with Africa.</Go></li>
             <li>Developed a <Go to="http://expertisenkarte.zhaw.ch">visualization of research expertise</Go> for Zurich University of Applied Sciences. </li>
             <li>Developed <Go to="https://www.gemeinwohl.ch/en/atlas">Public Value Atlas</Go> with the University of St. Gallen</li>
-            <li>Developed an <Go to="/snf/">exploratory data analysis tool</Go> for Swiss National Science Foundation related to research proposals and activities.</li>
+            <li>Developed an <Go to="/p/snf/">exploratory data analysis tool</Go> for Swiss National Science Foundation related to research proposals and activities.</li>
           </ul>
 
 
@@ -231,10 +231,10 @@ const Resume = () => {
             &nbsp;&ndash;&nbsp;
             <span className="wtime">April 2009 - May 2013</span></div>
           <ul>
-            <li> Developed <Go to="/jflowmap/">JFlowMap</Go>, an experimental tool for the visualization of spatial interactions.</li>
-            <li>Developed web-based <Go to="/aiddata/">visualizations of AidData</Go>
+            <li> Developed <Go to="/p/jflowmap/">JFlowMap</Go>, an experimental tool for the visualization of spatial interactions.</li>
+            <li>Developed web-based <Go to="/p/aiddata/">visualizations of AidData</Go>
               {' '}(financial aid given to developing countries).</li>
-            <li>Contributed to the <Go to="/birdeye/">BirdEye</Go> visualization library developed at the UN Centre for Advanced Visual Analytics.
+            <li>Contributed to the <Go to="/p/birdeye/">BirdEye</Go> visualization library developed at the UN Centre for Advanced Visual Analytics.
               {/*<!-- Making the animated graph layouts from the previous library version work within the new framework based on the*/}
               {/*<Go to="http://www.springer.com/statistics/computanional+statistics/book/978-0-387-24544-7">Grammar of Graphics</Go>.-->*/}
             </li>
@@ -275,7 +275,7 @@ const Resume = () => {
             &nbsp;&ndash;&nbsp;
             <span className="wtime">September 2005 - March 2007</span></div>
           <ul>
-            <li>Designed and developed <Go to="/cgvis/">CGVis</Go>, a visualization tool facilitating hierarchical clustering, zooming and animation for the exploration of multidimensional datasets.
+            <li>Designed and developed <Go to="/p/cgvis/">CGVis</Go>, a visualization tool facilitating hierarchical clustering, zooming and animation for the exploration of multidimensional datasets.
               {
                 //               <!--The tool
                 // facilitates hierarchical clustering, zooming and animation to help the users to explore their datasets.-->
@@ -284,7 +284,7 @@ const Resume = () => {
               }
             </li>
 
-            <li>Designed and developed a standalone and a web version of a <Go to="/proclassify/">proteomic data classification tool</Go> implementing a cancer diagnosis method based on mass-spectrometry data facilitating multi-step feature reduction and SVM classification.
+            <li>Designed and developed a standalone and a web version of a <Go to="/p/proclassify/">proteomic data classification tool</Go> implementing a cancer diagnosis method based on mass-spectrometry data facilitating multi-step feature reduction and SVM classification.
               {
                 //                     <!--which implements a data reduction algorithm developed at the Institute for Genomics and Bioinformatics (TU Graz) and uses SVM for
                 // the subsequent sample classification. -->
@@ -299,7 +299,7 @@ const Resume = () => {
 
             </li>
 
-            <li>Participated in the development of a <Go to="/fhlite">presentation management tool</Go> for the information screens installed at the university.
+            <li>Participated in the development of a <Go to="/p/fhlite">presentation management tool</Go> for the information screens installed at the university.
               Developed the visual layout editor for arranging multimedia
               objects on the screen and the schedule editor similar to calendar in Outlook.
 
@@ -477,10 +477,10 @@ const Resume = () => {
         <div className="block notitles">
           <ul>
             <li>Developed an interactive
-              {' '}<Go to="/remittances/">visualization of the worldwide remittance flows</Go>
+              {' '}<Go to="/p/remittances/">visualization of the worldwide remittance flows</Go>
               {' '}published by the newspapers <Go to="http://www.tageswoche.ch/de/2013_19/schweiz/540004/milliarden-aus-der-fremde.htm">TagesWoche.ch</Go> and <Go to="http://derstandard.at/1363710784566/Wieviel-Geld-Migranten-zurueck-in-ihre-Heimat-schicken">derStandard.at</Go>.
             </li>
-            <li>Developed a <Go to="/swiss-trains/">visualization of SBB train flows</Go> in a team of several developers at the Make Opendata Camp in Zurich.</li>
+            <li>Developed a <Go to="/p/swiss-trains/">visualization of SBB train flows</Go> in a team of several developers at the Make Opendata Camp in Zurich.</li>
             <li>
               Developed a mobile app for Pocket PC for vocabulary training.
             </li>

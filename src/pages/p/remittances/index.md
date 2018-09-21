@@ -13,7 +13,7 @@ Together with <a href="http://www.davidbauer.ch/">David Bauer</a> and
 
  [Try in action](https://ilyabo.github.io/remittances/?en) or [fork on github](https://github.com/ilyabo/remittances).
  
- ![](./kaz.png)
+ ![](kaz.png)
 
 The visualization was published by the newspapers 
 <a href="http://www.tageswoche.ch/de/2013_19/schweiz/540004/milliarden-aus-der-fremde.htm">TagesWoche.ch</a> 

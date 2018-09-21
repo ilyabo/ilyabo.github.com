@@ -11,5 +11,5 @@ preview: "./atms-dashboard.png"
 
 How many people pass by ATMs on the streets of a city:
 
-![ATMs dashboard](./atms-dashboard.png)
+![ATMs dashboard](atms-dashboard.png)
 *ATMs dashboard*

@@ -12,7 +12,7 @@ preview: ./react-meetup-2018.png
  (presented at [Zurich ReactJS Meetup](https://www.meetup.com/Zurich-ReactJS-Meetup/events/251517816/)).  
 
 
-[![](./react-meetup-2018.png)](https://ilya.boyandin.me/graphics-with-react/#/)
+[![](react-meetup-2018.png)](https://ilya.boyandin.me/graphics-with-react/#/)
 
 
 The source code for the slides (which are a React app) is available at 

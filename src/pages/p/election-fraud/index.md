@@ -12,11 +12,11 @@ preview: ./2012-orangevaya-zaraza3-crop.png
   Despite manipulating the results the authorities published very detailed data on the elections
   which made it possible to analyse it and find traces of fraud.
 
-![Vote for Putin in 2012 presidential elections in Russia.](./2012-orangevaya-zaraza3-crop.png)
+![Vote for Putin in 2012 presidential elections in Russia.](2012-orangevaya-zaraza3-crop.png)
 
 
 In this visualization the blue dots show polling stations which reported unlikely high votes for Putin:
-![Vote for Putin in 2012 presidential elections in Russia.](./2012-orangevaya-zaraza3-sm.png)
+![Vote for Putin in 2012 presidential elections in Russia.](2012-orangevaya-zaraza3-sm.png)
 
 The above visualization was used by the Danish online magazine Europa in [this article](http://translate.google.com/translate?sl=auto&tl=en&js=n&prev=_t&hl=en&ie=UTF-8&u=http%3A%2F%2Fmagasineteuropa.dk%2F%3Fp%3D5544&act=url) (translated from Danish).
 

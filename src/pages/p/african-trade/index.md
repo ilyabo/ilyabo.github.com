@@ -15,12 +15,12 @@ Check out the <a target="_blank" href="https://lab.interactivethings.com/global-
 
 
 
-[![](./0.png)](https://lab.interactivethings.com/global-trade-africa/)
+[![](0.png)](https://lab.interactivethings.com/global-trade-africa/)
 
-![](./1.png)
+![](1.png)
 
-![](./2.png)
+![](2.png)
 
-![](./3.png)
+![](3.png)
 
-![](./4.png)
+![](4.png)

@@ -20,8 +20,8 @@ Check out the <a target="_blank" href="http://maps.nzzdali.ch/nzzdata/erster-wel
 <img src="ww1-anim.gif"/> 
 </div>
 
-![](./ww1.png) 
+![](ww1.png) 
 
-![](./ww1-2.png) 
+![](ww1-2.png) 
 
 
