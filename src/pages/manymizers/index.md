@@ -14,9 +14,11 @@ It was a way for me to learn this beautiful language.
 The tool was largely inspired by the original version of 
 [ChoiceMap](https://techcrunch.com/2014/01/09/meet-choicemap-a-new-app-that-helps-you-make-better-decisions/).
 
+[Try in action](http://ilya.boyandin.me/manymizers/).
+
 The source code is available at [github.com/ilyabo/manymizers](https://github.com/ilyabo/manymizers).
 
-![](manymizers.png)
+[![](manymizers.png)](http://ilya.boyandin.me/manymizers/).
 
          
 
