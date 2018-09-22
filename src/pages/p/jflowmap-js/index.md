@@ -13,7 +13,5 @@ the "flying meteor" metaphor to show the directions of the flows.
 ![jflowmap-js: flow map showing refugees data by UNHCR](refugees-js.png)
 
 
-[action]: http://jflowmap-js.herokuapp.com/
-
 
 The source code is available at [github.com/ilyabo/jflowmap.js](https://github.com/ilyabo/jflowmap.js).
