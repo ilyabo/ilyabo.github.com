@@ -8,7 +8,7 @@ preview: refugees-js.png
 Flow map visualization showing refugees data by UNHCR using tapered arrows and 
 the "flying meteor" metaphor to show the directions of the flows. 
 
-Try in action [here][action].
+[Try in action](https://ilya.boyandin.me/jflowmap.js/).
 
 ![jflowmap-js: flow map showing refugees data by UNHCR](refugees-js.png)
 
