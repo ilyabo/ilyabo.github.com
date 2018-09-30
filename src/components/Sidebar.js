@@ -4,7 +4,6 @@ import styled from 'react-emotion'
 import profilePic from '../assets/profile-pic.jpg'
 import { rhythm, scale } from '../utils/typography'
 import { Link } from 'gatsby'
-import { FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa'
 
 const Container = styled('div')`
   display: flex;
@@ -63,20 +62,7 @@ const Sidebar = () =>
       <div className={css({
         marginTop: 10,
       })}>
-        <div><Link to="/">Home</Link></div>
-        <div><Link to="/about/">About</Link></div>
-        <br/>
         <div><a href="mailto:ilya@boyandin.me">ilya@boyandin.me</a></div>
-        <div className={css({
-          padding: 20,
-          '& > * + *': {
-            marginLeft: 7,
-          }
-        })}>
-          <a href="https://twitter.com/ilyabo"><FaTwitter/></a>
-          <a href="https://www.linkedin.com/in/ilyabo/"><FaLinkedin/></a>
-          <a href="https://github.com/ilyabo"><FaGithub/></a>
-        </div>
       </div>
     </Content>
   </Container>

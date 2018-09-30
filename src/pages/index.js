@@ -4,7 +4,7 @@ import { css } from 'react-emotion'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
-import Layout from '../components/Layout'
+import Layout, { getBreakPoint } from '../components/Layout'
 import { rhythm } from '../utils/typography'
 import Img from 'gatsby-image'
 import * as colors from '../../colors'
@@ -42,7 +42,7 @@ class BlogIndex extends React.Component {
             <div
               key={node.fields.slug}
               className={css({
-                margin: `0px ${spacing} 20px ${spacing}`,
+                margin: `0px ${spacing} ${rhythm(2)} ${spacing}`,
                 padding: '10px 20px',
                 borderRadius: 5,
                 '&:hover': {
@@ -64,9 +64,19 @@ class BlogIndex extends React.Component {
                     border: '1px solid #eef',
                     borderRadius: 5,
                     boxShadow: '0px 0px 5px #ccc',
+                    width: rhythm(18),
+                    [`@media (max-width: ${rhythm(68)})`]: {
+                      width: rhythm(13),
+                    },
+                    [`@media (max-width: ${rhythm(16)})`]: {
+                      width: rhythm(12),
+                    },
+                    [`@media (max-width: ${rhythm(14)})`]: {
+                      width: rhythm(10),
+                    },
                   })}
-                  resolutions={
-                    get(node, 'frontmatter.preview.childImageSharp.resolutions', {})
+                  fluid={
+                    get(node, 'frontmatter.preview.childImageSharp.fluid', {})
                   }
                 />
               </Link>
@@ -104,8 +114,8 @@ export const pageQuery = graphql`
             title
             preview {
               childImageSharp {
-                resolutions(width: 320, height: 213, quality: 95) {
-                  ...GatsbyImageSharpResolutions 
+                fluid(maxWidth: 480, maxHeight: 320, quality: 95) {
+                  ...GatsbyImageSharpFluid 
                 }
               }
             }

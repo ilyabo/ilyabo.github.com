@@ -13,6 +13,8 @@ Together with <a href="http://www.davidbauer.ch/">David Bauer</a> and
 
  [Try in action](https://ilyabo.github.io/remittances/?en) or [fork on github](https://github.com/ilyabo/remittances).
  
+ ![](intro.png)
+ 
  ![](kaz.png)
 
 The visualization was published by the newspapers 
