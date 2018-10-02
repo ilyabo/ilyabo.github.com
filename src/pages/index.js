@@ -45,6 +45,7 @@ class BlogIndex extends React.Component {
                 margin: `0px ${spacing} ${rhythm(2)} ${spacing}`,
                 padding: '10px 20px',
                 borderRadius: 5,
+                userSelect: 'none',
                 '&:hover': {
                   boxShadow: `0px 0px 15px ${colors.primary[2]}`,
                 },
@@ -68,10 +69,10 @@ class BlogIndex extends React.Component {
                     [`@media (max-width: ${rhythm(68)})`]: {
                       width: rhythm(15),
                     },
-                    [`@media (max-width: ${rhythm(60)})`]: {
+                    [`@media (max-width: ${rhythm(61)})`]: {
                       width: rhythm(14),
                     },
-                    [`@media (max-width: ${rhythm(58)})`]: {
+                    [`@media (max-width: ${rhythm(59)})`]: {
                       width: rhythm(13),
                     },
                     [`@media (max-width: ${rhythm(16)})`]: {
