@@ -21,6 +21,9 @@ const styles = {
         justifyContent: 'flex-end',
         textAlign: 'right',
       },
+      '&.home': {
+        justifyContent: 'center',
+      },
     },
     '& .item': {
       display: 'flex',
@@ -48,6 +51,14 @@ const PostNav = ({ next, prev, top, bottom }) =>
           </div>
         </Link>
       )}
+    </li>
+
+    <li className="home">
+      <Link to="/" rel="next">
+        <div className="item">
+          <div>Home</div>
+        </div>
+      </Link>
     </li>
 
     <li className="right">
