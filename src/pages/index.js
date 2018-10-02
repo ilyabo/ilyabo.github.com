@@ -9,7 +9,7 @@ import { rhythm } from '../utils/typography'
 import Img from 'gatsby-image'
 import * as colors from '../../colors'
 
-const spacing = rhythm(1)
+const spacing = rhythm(0.75)
 
 class BlogIndex extends React.Component {
   render() {
@@ -66,6 +66,12 @@ class BlogIndex extends React.Component {
                     boxShadow: '0px 0px 5px #ccc',
                     width: rhythm(18),
                     [`@media (max-width: ${rhythm(68)})`]: {
+                      width: rhythm(15),
+                    },
+                    [`@media (max-width: ${rhythm(60)})`]: {
+                      width: rhythm(14),
+                    },
+                    [`@media (max-width: ${rhythm(58)})`]: {
                       width: rhythm(13),
                     },
                     [`@media (max-width: ${rhythm(16)})`]: {

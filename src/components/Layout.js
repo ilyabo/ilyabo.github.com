@@ -49,7 +49,7 @@ const SidebarContainer = styled('div')`
 const ContentContainer = styled('div')`
   padding: ${rhythm(1.5)} ${rhythm(0.5)};
   @media (min-width: ${rhythm(BREAK_POINT)}) {
-    padding: ${rhythm(1.5)} ${rhythm(5)};
+    padding: ${rhythm(1.1)} ${rhythm(6)};
   }
 `
 
