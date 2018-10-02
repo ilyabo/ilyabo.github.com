@@ -36,8 +36,8 @@ import { rhythm } from '../utils/typography'
 
 
 const Outer = styled('div')`
-  // position: fixed;
   background-color: ${colors.primary[1]};
+  transform: translate3D(0,0,0);
   width: 100%;
   z-index: 2;
   padding: ${rhythm(0.3)} ${rhythm(1)};
@@ -58,7 +58,13 @@ const Outer = styled('div')`
 
 
 const Header = ({ data }) =>
-  <Headroom>
+  <Headroom
+    className={css({
+      '.headroom--scrolled': {
+        opacity: 0.9,
+      },
+    })}
+  >
     <Outer>
       {/*<Logo/>*/}
       <Link to="/">Home</Link>
