@@ -4,7 +4,7 @@ import { rhythm } from '../utils/typography'
 import Sidebar from './Sidebar'
 import Header from './Header'
 
-export const BREAK_POINT = 40
+export const BREAK_POINT = 57
 const SIDEBAR_WIDTH = 7
 
 const Container = styled('div')`
@@ -17,6 +17,7 @@ const Container = styled('div')`
     padding-right: ${rhythm(2)};
   }
   @media (max-width: ${rhythm(BREAK_POINT)}) {
+    max-width: ${rhythm(BREAK_POINT)};
     flex-direction: ${props => props.isHome ? 'column' : 'column-reverse' };
     padding-bottom: ${props => props.isHome ? 0 : rhythm(2)};
     padding-left: ${rhythm(0.5)};
@@ -27,7 +28,7 @@ const Container = styled('div')`
 const SidebarContainer = styled('div')`
   display: flex;
   justify-content: center;
-  padding-top: ${rhythm(1.5)};
+  padding-top: ${rhythm(1.8)};
   @media (min-width: ${rhythm(BREAK_POINT)}) {
     position: absolute;
     left: ${rhythm(1)}; 
@@ -49,7 +50,7 @@ const SidebarContainer = styled('div')`
 const ContentContainer = styled('div')`
   padding: ${rhythm(1.5)} ${rhythm(0.5)};
   @media (min-width: ${rhythm(BREAK_POINT)}) {
-    padding: ${rhythm(1.1)} ${rhythm(6)};
+    padding: ${rhythm(1.4)} ${rhythm(6)};
   }
 `
 
