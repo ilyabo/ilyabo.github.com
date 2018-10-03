@@ -24,7 +24,7 @@ details on my background and experience.
 
 I am a fan of React, D3, Mapbox and Clojure.
 
-I am a father of two wonderful kids. 
+I am the father of two wonderful kids. 
 
 I like to play guitar and piano and 
 <a href="https://soundcloud.com/ibananti" target="_blank" rel="noopener">produce electronic music</a>.
