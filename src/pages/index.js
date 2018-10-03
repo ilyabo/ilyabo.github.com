@@ -46,6 +46,7 @@ class BlogIndex extends React.Component {
                 padding: '10px 20px',
                 borderRadius: 5,
                 WebkitTouchCallout: 'none',
+                WebkitTapHighlightColor: 'transparent',
                 userSelect: 'none',
                 '&:hover': {
                   boxShadow: `0px 0px 15px ${colors.primary[2]}`,
