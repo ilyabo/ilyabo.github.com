@@ -14,9 +14,9 @@ const Content = styled('div')`
 `
 
 const Header = () =>
-  <div className={css(`
-    margin-bottom: 20px;
-  `)}>
+  <div className={css({
+    marginBottom: rhythm(1),
+  })}>
     <h1
       className={css({
         ...scale(0.75),
@@ -24,18 +24,19 @@ const Header = () =>
       })}
     >
       <Link
-        style={{
+        className={css({
           boxShadow: 'none',
-          textDecoration: 'none',
+          textDecoration: 'none !important',
           color: 'inherit',
-        }}
-        to={'/'}
+          fontSize: rhythm(1.3 * 0.9),
+        })}
+        to={'/about'}
       >
         Ilya Boyandin
       </Link>
     </h1>
     <div className={css({
-      fontSize: 16,
+      fontSize: rhythm(0.6 * 0.9),
     })}>
       Data Visualization Engineer
     </div>
@@ -46,7 +47,7 @@ const Sidebar = () =>
   <Container>
     <Content>
       <Header/>
-      <Link to="/">
+      <Link to="/about">
         <img
           src={profilePic}
           alt="Ilya Boyandin"

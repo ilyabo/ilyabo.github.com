@@ -18,8 +18,8 @@ const Container = styled('div')`
   }
   @media (max-width: ${rhythm(BREAK_POINT)}) {
     max-width: ${rhythm(BREAK_POINT)};
-    flex-direction: ${props => props.isHome ? 'column' : 'column-reverse' };
-    padding-bottom: ${props => props.isHome ? 0 : rhythm(2)};
+    flex-direction: ${'column'};
+    padding-bottom: 0;
     padding-left: ${rhythm(0.5)};
     padding-right: ${rhythm(0.5)};
   }
@@ -31,19 +31,20 @@ const SidebarContainer = styled('div')`
   padding-top: ${rhythm(1.8)};
   @media (min-width: ${rhythm(BREAK_POINT)}) {
     position: absolute;
-    left: ${rhythm(1)}; 
-    width: ${rhythm(SIDEBAR_WIDTH)};
-    &:after {
-      background: #eee;
-      background: linear-gradient(to bottom, #fff 0%, #eee 20%, #eee 80%, #fff 100%);
-      position: absolute;
-      content: '';
-      width: 1px;
-      height: 100%;
-      top: ${rhythm(1)};
-      right: -${rhythm(1)};
-      bottom: 0;
-    }
+    left: ${rhythm(0.5)}; 
+    padding-left: ${rhythm(1.5)};
+    // width: ${rhythm(SIDEBAR_WIDTH)};
+    // &:after {
+    //   background: #eee;
+    //   background: linear-gradient(to bottom, #fff 0%, #eee 20%, #eee 80%, #fff 100%);
+    //   position: absolute;
+    //   content: '';
+    //   width: 1px;
+    //   height: 100%;
+    //   top: ${rhythm(1)};
+    //   right: -${rhythm(1)};
+    //   bottom: 0;
+    // }
   }
 `
 

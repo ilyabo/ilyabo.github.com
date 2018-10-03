@@ -45,6 +45,7 @@ class BlogIndex extends React.Component {
                 margin: `0px ${spacing} ${rhythm(2)} ${spacing}`,
                 padding: '10px 20px',
                 borderRadius: 5,
+                WebkitTouchCallout: 'none',
                 userSelect: 'none',
                 '&:hover': {
                   boxShadow: `0px 0px 15px ${colors.primary[2]}`,
