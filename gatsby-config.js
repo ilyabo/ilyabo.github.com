@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Ilya Boyandin - Data Visualization Engineer',
     author: 'Ilya Boyandin',
-    description: 'Home page of Ilya Boyandin, a data visualization engineer.',
+    description: 'I develop interactive data visualizations for the web.',
     siteUrl: 'https://ilya.boyandin.me/',
   },
   plugins: [
