@@ -1,6 +1,7 @@
 import Typography from 'typography'
 import moragaTheme from 'typography-theme-moraga'
 import * as colors from '../../colors'
+import { injectGlobal } from 'emotion'
 
 moragaTheme.overrideThemeStyles = ({ rhythm }, options) => ({
   'a': {
@@ -10,6 +11,10 @@ moragaTheme.overrideThemeStyles = ({ rhythm }, options) => ({
     color: colors.primary[3],
   },
 })
+
+injectGlobal(`
+  @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+`)
 
 const typography = new Typography({
   ...moragaTheme,
@@ -21,6 +26,7 @@ const typography = new Typography({
 if (process.env.NODE_ENV !== 'production') {
   typography.injectStyles()
 }
+
 
 const { rhythm, scale } = typography
 export { rhythm, scale, typography as default }
