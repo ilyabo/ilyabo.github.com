@@ -1,9 +1,9 @@
 ---
 kind: page
-title: Nice to meet you
+title: Hello 
 category: work
 ---
-Hello and welcome!
+Nice to meet you!
 
 My name is Ilya Boyandin. I am a software engineer specializing in data visualization.
 

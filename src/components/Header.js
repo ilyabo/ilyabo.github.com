@@ -60,6 +60,9 @@ const Outer = styled('div')`
 const Header = ({ data }) =>
   <Headroom
     className={css({
+      '.headroom': {
+        transition: 'opacity 0.5s',
+      },
       '.headroom--scrolled': {
         opacity: 0.9,
       },
