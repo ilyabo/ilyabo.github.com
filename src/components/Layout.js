@@ -22,6 +22,11 @@ const Container = styled('div')`
     padding-left: ${rhythm(0.5)};
     padding-right: ${rhythm(0.5)};
   }
+  @media print {
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
 `
 
 const Sidebars = styled('div')`
@@ -71,6 +76,9 @@ const ContentContainer = styled('div')`
   padding: ${rhythm(1.5)} ${rhythm(0.5)};
   @media (min-width: ${rhythm(BREAK_POINT)}) {
     padding: ${rhythm(1.4)} ${rhythm(6)};
+  }
+  @media print {
+    padding: 0;
   }
 `
 

@@ -18,7 +18,7 @@ I wrote <a href="/assets/thesis.pdf" target="_blank" rel="noopener">my thesis</a
 
 I am a fan of React, D3, Mapbox and Clojure.
 
-Check out <a href="/resume/" target="_blank" rel="noopener">my full resume</a> for more 
+Check out <a href="/resume">my full resume</a> for more 
 details on my professional background and experience.
 
 I am the father of two wonderful kids. 

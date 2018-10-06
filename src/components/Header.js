@@ -41,28 +41,33 @@ const Outer = styled('div')`
   transform: translate3D(0,0,0);
   width: 100%;
   z-index: 2;
-  padding: 0 ${rhythm(0)};
+  padding: 0 ${rhythm(0.5)};
   display: flex;
   align-items: center;
   .filler {
     flex-grow: 1;
   }
   a {
-    text-decoration: none;
+    text-decoration: none !important;
     display: flex;
     color: #fff;
-    padding: ${rhythm(0.3)} ${rhythm(1)};
+    padding: ${rhythm(0.3)} ${rhythm(0.5)};
     font-size: 11pt;
     cursor: pointer;
-    transition: color 0.25s, background-color 0.25s; 
+    transition: color 0.2s, background-color 0.2s; 
     &:hover {
       background-color: #ffffff80;
       color: ${colors.primary[0]} !important;
     }
   }
+  @media print {
+    visibility: hidden;
+    padding: 0;
+  }
 `
 
 const activeLinkCss = css(`
+  // text-decoration: underline !important;
   background-color: #ffffffb0 !important;
   color: ${colors.primary[0]} !important;
 `)
@@ -70,7 +75,10 @@ const activeLinkCss = css(`
 
 const SocialLinksArea = styled('div')`
   display: flex;
-  margin-right: ${rhythm(0.7)}; 
+  margin-right: ${rhythm(0.2)}; 
+  & > * + * {
+    margin-left: ${rhythm(0.5)}; 
+  }
   a {
     padding: ${rhythm(0.3)} ${rhythm(0.3)} !important;
   }  
@@ -78,20 +86,23 @@ const SocialLinksArea = styled('div')`
 
 const Header = ({ data }) =>
   <Headroom
-    className={css({
-      '.headroom': {
-        transition: 'opacity 0.5s',
-      },
-      '.headroom--scrolled': {
-        opacity: 0.9,
-      },
-    })}
+    className={css(`
+      @media print {
+        visibility: hidden;
+      }
+      .headroom {
+        transition: opacity 0.5s;
+      }
+      .headroom--scrolled {
+        opacity: 0.9;
+      }
+    `)}
   >
     <Outer>
       {/*<Logo/>*/}
       <Link to="/" activeClassName={activeLinkCss}>Home</Link>
-      <Link to="/about/" activeClassName={activeLinkCss}>About</Link>
-      <a href="/resume/" target="_blank" rel="noopener">CV</a>
+      <Link to="/about" activeClassName={activeLinkCss}>About</Link>
+      <Link to="/resume" activeClassName={activeLinkCss}>CV</Link>
       <div className="filler"/>
       <SocialLinksArea>
         <a href="https://twitter.com/ilyabo" target="_blank" rel="noopener"><FaTwitter/></a>

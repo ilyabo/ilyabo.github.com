@@ -11,7 +11,11 @@ moragaTheme.overrideThemeStyles = ({ rhythm }, options) => ({
   },
 })
 
-const typography = new Typography(moragaTheme)
+const typography = new Typography({
+  ...moragaTheme,
+  headerFontFamily: ['Lato', 'Helvetica Neue', 'Segoe UI', 'Helvetica', 'Arial', 'sans-serif'],
+  bodyFontFamily: ['Lato', 'Helvetica Neue', 'Segoe UI', 'Helvetica', 'Arial', 'sans-serif'],
+})
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== 'production') {
