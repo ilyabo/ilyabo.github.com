@@ -12,12 +12,17 @@ moragaTheme.overrideThemeStyles = ({ rhythm }, options) => ({
   },
 })
 
-injectGlobal(`
-  @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
-`)
+// injectGlobal(`
+//   @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+// `)
 
 const typography = new Typography({
   ...moragaTheme,
+  googleFonts: [{
+      name: 'Lato',
+      styles: ['400', '700', '400i', '700i'],
+    },
+  ],
   headerFontFamily: ['Lato', 'Helvetica Neue', 'Segoe UI', 'Helvetica', 'Arial', 'sans-serif'],
   bodyFontFamily: ['Lato', 'Helvetica Neue', 'Segoe UI', 'Helvetica', 'Arial', 'sans-serif'],
 })
