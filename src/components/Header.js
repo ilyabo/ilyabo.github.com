@@ -54,9 +54,9 @@ const Outer = styled('div')`
     padding: ${rhythm(0.3)} ${rhythm(0.5)};
     font-size: 11pt;
     cursor: pointer;
-    transition: color 0.2s, background-color 0.2s; 
+    transition: color 0.1s, background-color 0.1s; 
     &:hover {
-      background-color: #ffffff80;
+      background-color: #ffffffc0;
       color: ${colors.primary[0]} !important;
     }
   }

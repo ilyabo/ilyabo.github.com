@@ -52,7 +52,7 @@ const SidebarContainer = styled('div')`
   text-align: center;
   @media (min-width: ${rhythm(BREAK_POINT)}) {
     text-align: ${props => props.right ? 'right' : 'left'};
-    margin-top: ${rhythm(1.8)};
+    margin-top: ${props => props.right ? rhythm(3) : rhythm(2)};
     position: absolute;
     left: ${props => props.left ? rhythm(2) : 'auto'}; 
     right: ${props => props.right ? rhythm(2) : 'auto'};
@@ -83,7 +83,7 @@ const ContentContainer = styled('div')`
 `
 
 const LargeText = styled('div')`
-  font-size: ${rhythm(0.6)};  
+  font-size: ${rhythm(0.65)};  
 `
 
 
