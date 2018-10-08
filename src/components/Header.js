@@ -67,9 +67,8 @@ const Outer = styled('div')`
 `
 
 const activeLinkCss = css(`
-  // text-decoration: underline !important;
-  background-color: #ffffffb0 !important;
-  color: ${colors.primary[0]} !important;
+  // background-color: #ffffffb0 !important;
+  // color: ${colors.primary[0]} !important;
 `)
 
 
