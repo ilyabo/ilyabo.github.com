@@ -12,7 +12,7 @@ and planning for the public transportation network in Singapore:
 
 ![](alerting-new.png)
 
-![](trains.png)
+![](trains-2.png)
 
 ![](first-mile.png)
 
