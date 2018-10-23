@@ -18,4 +18,6 @@ and planning for the public transportation network in Singapore:
 
 ![](od-2.png)
 
+![](od-3.png)
+
 ![](route-options.png)
