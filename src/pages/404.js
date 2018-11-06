@@ -7,8 +7,8 @@ const NotFoundPage = () => (
     padding: rhythm(1)
   }}>
     <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-    <Link to="/">Just visit the main page instead!</Link>
+    <p>Oops, you just hit a route that doesn&#39;t exist...</p>
+    <Link to="/">Try visiting the main page instead</Link>. Maybe you'll find what you were looking for.
   </div>
 )
 
