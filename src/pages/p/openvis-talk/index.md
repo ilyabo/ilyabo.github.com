@@ -9,11 +9,11 @@ tags: [ "React", "OpenVis Conf" ]
 preview: "./openvis.png"
 
 ---
-I gave a talk at the <a href="https://openvisconf.com/2015/">OpenVis conference</a> about 
+I gave a talk at the <a href="https://openvisconf.com/2015/" target="_blank" rel="noopener">OpenVis conference</a> about 
 using React for data visualization: 
 
 <div style="text-align: center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dcLrbiHIX5M?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
-Check <a href="https://github.com/ilyabo/openvis-react" target="_blank">this page</a> for the source code of the slides.
+Check <a href="https://github.com/ilyabo/openvis-react" target="_blank" rel="noopener">this page</a> for the source code of the slides.

@@ -10,6 +10,9 @@ moragaTheme.overrideThemeStyles = ({ rhythm }, options) => ({
   'a:hover': {
     color: colors.primary[3],
   },
+  'blockquote': {
+    fontSize: rhythm(0.55),
+  },
 })
 
 // injectGlobal(`
