@@ -5,7 +5,7 @@ date: "2018-12-20"
 preview: "./gflowiz.jpg"
 category: talk
 ---
-I gave a talk 
+I was invited to give a talk 
 at the <a href="https://gflowizworkshop.sciencesconf.org" target="_blank" rel="noopener">GFlowiz workshop</a>
 at <a href="http://www.ifsttar.fr/en/welcome/" target="_blank" rel="noopener">IFSTTAR</a> 
 about the  tools we build for exploring large OD-datasets containing hundreds of millions of records. 
@@ -13,7 +13,7 @@ about the  tools we build for exploring large OD-datasets containing hundreds of
 ![](./gflowiz.jpg)
 Photo by [Laurent Jégou](https://twitter.com/ljegou).
 
-Here's the abstract:
+Here's the abstract of the talk:
 
 > Origin-destination (OD) data represent numbers of movements of people or goods between locations. The size of such data depends exponentially on the number of locations involved. It can quickly grow to hundreds of millions of rows when flow attributes like time, mode of transport, duration are added to the dataset. Such large datasets cannot be entirely visualized in one image. Their analysis requires the use of summarization or interactive exploration techniques.
 >
@@ -21,6 +21,6 @@ Here's the abstract:
 
 
 Check <a href="https://goo.gl/D36oSi" target="_blank" rel="noopener">the slides</a> of the presentation
-and the video recording:
+or the video recording:
 
 <iframe width="560" height="315" style="max-width: 500px" src="https://www.youtube.com/embed/WZpFXLhleEQ?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
