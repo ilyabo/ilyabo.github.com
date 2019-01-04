@@ -22,3 +22,6 @@ Here are <a href="https://goo.gl/D36oSi" target="_blank" rel="noopener">the slid
 and a video recording:
 
 <iframe width="560" height="315" style="max-width: 500px" src="https://www.youtube.com/embed/WZpFXLhleEQ?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+Photo by [Laurent Jégou](https://twitter.com/ljegou).
