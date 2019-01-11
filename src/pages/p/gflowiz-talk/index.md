@@ -8,7 +8,7 @@ category: talk
 I was invited to give a talk
 at the <a href="https://gflowizworkshop.sciencesconf.org" target="_blank" rel="noopener">GFlowiz workshop</a>
 at <a href="http://www.ifsttar.fr/en/welcome/" target="_blank" rel="noopener">IFSTTAR</a>
-about the  tools we build for exploring large OD-datasets containing hundreds of millions of records.
+about the  tools we build for exploring large OD-datasets with hundreds of millions of records.
 
 
 Here's the abstract of the talk:
