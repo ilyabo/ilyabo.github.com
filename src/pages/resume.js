@@ -431,7 +431,7 @@ const Resume = (props) => {
             Eurographics/IEEE-VGTC Symposium on Visualization, Vienna, Austria, June 2012.
             <br/><br/>
 
-            <span className="pubTitle"><Go to="http://onlinelibrary.wiley.com/doi/10.1111/j.1467-8659.2011.01946.x/abstract?deniedAccessCustomisedMessage=&userIsAuthenticated=false">Flowstrates: An Approach for Visual Exploration of Temporal Origin-Destination Data</Go></span>,
+            <span className="pubTitle"><Go to="/p/flowstrates/flowstrates-eurovis11-fin.pdf">Flowstrates: An Approach for Visual Exploration of Temporal Origin-Destination Data</Go></span>,
             Ilya Boyandin, Enrico Bertini, Peter Bak, Denis Lalanne.<br/>
             Computer Graphics Forum, International Journal of the Eurographics Association,
             Eurographics/IEEE-VGTC Symposium on Visualization, Bergen, Norway, June 2011.
