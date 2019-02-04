@@ -8,11 +8,11 @@ tags: [ "React", "Redux", "D3", "JavaScript"]
 preview: ./img/transport-berlin.png
 ---
 
-Working at <a href="http://www.teralytics.net" target="_blank">Teralytics</a> 
+Working at <a href="http://www.teralytics.net" target="_blank">Teralytics</a>
 I developed exploratory tools for the analysis of geographic movement of people.
 
-The following dashboard makes it possible to explore the movement of people 
- on the scales of a city or even a country:
+The following dashboard allows the users to analyse movement of people
+ in a city or a country:
 
 
 <div align=center>
@@ -22,7 +22,7 @@ The following dashboard makes it possible to explore the movement of people
 
 <div align=center>
 <img src=./img/od-sacramento.png>
-<i>Interesting structure in Sacramento</i>
+<i>Sacramento, US</i>
 </div><br>
 
 <div align=center>
