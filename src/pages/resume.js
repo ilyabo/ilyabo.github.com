@@ -415,46 +415,12 @@ const Resume = (props) => {
             <span className="em">Web:</span> React, Node.js, Express, GraphQL, Canvas, SVG, WebGL<br/>
             <span className="em">Visualization:</span> D3, Deck.gl, Vega, Tableau<br/>
             <span className="em">GIS:</span> Mapbox, PostGIS, QGIS<br/>
-            <span className="em">Databases:</span> PostgreSQL, MySQL, SQL Server, BigQuery, Redis, Clickhouse, MongoDB<br/>
+            <span className="em">Databases:</span> PostgreSQL, MySQL, BigQuery, ClickHouse, SQL Server, Redis, MongoDB<br/>
             <span className="em">UI Design:</span> Figma, Sketch, Photoshop<br/>
-            <span className="em">Cloud:</span> Heroku, Digital Ocean, Netlify, AWS, Marathon<br/>
+            <span className="em">Cloud:</span> Heroku, Digital Ocean, Netlify, AWS, Google Cloud, Marathon, Kubernetes<br/>
           </div>
 
 
-
-          <h2>Publications</h2>
-          <div className="block">
-
-            <span className="pubTitle"><Go to="http://onlinelibrary.wiley.com/doi/10.1111/j.1467-8659.2012.03093.x/abstract">A Qualitative Study on the Exploration of Temporal Changes in Flow Maps with Animation and Small-Multiples</Go></span>,
-            Ilya Boyandin, Enrico Bertini, Denis Lalanne.<br/>
-            Computer Graphics Forum, International Journal of the Eurographics Association,
-            Eurographics/IEEE-VGTC Symposium on Visualization, Vienna, Austria, June 2012.
-            <br/><br/>
-
-            <span className="pubTitle"><Go to="/p/flowstrates/flowstrates-eurovis11-fin.pdf">Flowstrates: An Approach for Visual Exploration of Temporal Origin-Destination Data</Go></span>,
-            Ilya Boyandin, Enrico Bertini, Peter Bak, Denis Lalanne.<br/>
-            Computer Graphics Forum, International Journal of the Eurographics Association,
-            Eurographics/IEEE-VGTC Symposium on Visualization, Bergen, Norway, June 2011.
-            <br/><br/>
-
-
-            {            // <!--<span className="pubTitle"><Go to="http://ilya.boyandin.me/papers/jflowmap-eurovis10-poster.pdf">Visualizing the World’s Refugee Data with JFlowMap</Go></span>,
-              // Ilya Boyandin, Enrico Bertini, Denis Lalanne.<br/>
-              // Poster Abstract at Eurographics/IEEE-VGTC Symposium on Visualization, Bordeaux, France, June 2010.
-              // <br/><br/>
-              // -->
-            }
-            <span className="pubTitle"><Go to={jflowmapPdf}>Using Flow Maps to Explore Migrations Over Time</Go></span>,
-            Ilya Boyandin, Enrico Bertini, Denis Lalanne.<br/>
-            Workshop in Geospatial Visual Analytics: Focus on Time, GeoVA(t), Guimarães, Portugal, May 2010.
-            <br/><br/>
-
-            <span className="pubTitle"><Go to="http://rcdl.ru/doc/2003/B3.pdf">Statistical Query Transformations for Question Answering in the Web</Go></span> (in Russian),
-            Ilya Boyandin, Igor Nekrestyanov.<br/>
-            Fifth Russian Conference on Digital Libraries (RCDL'2003),
-            St. Petersburg, Russia, October 2003.
-
-          </div>
 
           <h2>Public Speaking</h2>
           <div className="block notitles">
@@ -480,6 +446,43 @@ const Resume = (props) => {
             </ul>
           </div>
 
+          <h2>Publications</h2>
+          <div className="block">
+
+            <span className="pubTitle"><Go to="http://onlinelibrary.wiley.com/doi/10.1111/j.1467-8659.2012.03093.x/abstract">A Qualitative Study on the Exploration of Temporal Changes in Flow Maps with Animation and Small-Multiples</Go></span>,
+            Ilya Boyandin, Enrico Bertini, Denis Lalanne.
+            Computer Graphics Forum, International Journal of the Eurographics Association,
+            Eurographics/IEEE-VGTC Symposium on Visualization, Vienna, Austria, June 2012.
+            <br/><br/>
+
+            <span className="pubTitle"><Go to="/p/flowstrates/flowstrates-eurovis11-fin.pdf">Flowstrates: An Approach for Visual Exploration of Temporal Origin-Destination Data</Go></span>,
+            Ilya Boyandin, Enrico Bertini, Peter Bak, Denis Lalanne.
+            Computer Graphics Forum, International Journal of the Eurographics Association,
+            Eurographics/IEEE-VGTC Symposium on Visualization, Bergen, Norway, June 2011.
+            <br/><br/>
+
+
+            {            // <!--<span className="pubTitle"><Go to="http://ilya.boyandin.me/papers/jflowmap-eurovis10-poster.pdf">Visualizing the World’s Refugee Data with JFlowMap</Go></span>,
+              // Ilya Boyandin, Enrico Bertini, Denis Lalanne.<br/>
+              // Poster Abstract at Eurographics/IEEE-VGTC Symposium on Visualization, Bordeaux, France, June 2010.
+              // <br/><br/>
+              // -->
+            }
+            <span className="pubTitle"><Go to={jflowmapPdf}>Using Flow Maps to Explore Migrations Over Time</Go></span>,
+            Ilya Boyandin, Enrico Bertini, Denis Lalanne.
+            Workshop in Geospatial Visual Analytics: Focus on Time, GeoVA(t), Guimarães, Portugal, May 2010.
+            <br/><br/>
+
+            <span className="pubTitle"><Go to="http://rcdl.ru/doc/2003/B3.pdf">Statistical Query Transformations for Question Answering in the Web</Go></span> (in Russian),
+            Ilya Boyandin, Igor Nekrestyanov.
+            Fifth Russian Conference on Digital Libraries (RCDL'2003),
+            St. Petersburg, Russia, October 2003.
+            <br/><br/>
+
+            <span className="pubTitle"><Go to="/assets/thesis.pdf">Visualization of Temporal Origin-Destination Data</Go></span>,
+            PhD thesis, University of Fribourg, March 2013.
+
+          </div>
 
           <h2>Other Activities</h2>
           <div className="block notitles">
