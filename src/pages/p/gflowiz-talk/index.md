@@ -2,7 +2,7 @@
 kind: post
 title: "Scalable OD-data visualization talk"
 date: "2018-12-20"
-preview: "./gflowiz3.jpg"
+preview: "./matrix3.png"
 category: talk
 ---
 I was invited to give a talk
