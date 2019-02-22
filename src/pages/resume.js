@@ -254,7 +254,7 @@ const Resume = (props) => {
             <br/>
 
 
-            <div className="jobTitle"><span className="em">Senior Software Engineer, Technical Team Leader, IT Department, University of Applied Sciences FH Joanneum, Graz, Austria</span>
+            <div className="jobTitle"><span className="em">Senior Software Engineer, Technical Team Lead, IT Department, University of Applied Sciences FH Joanneum, Graz, Austria</span>
               &nbsp;&ndash;&nbsp;
               <span className="wtime">March 2007 - April 2009</span></div>
             <ul>
@@ -267,7 +267,7 @@ const Resume = (props) => {
               <li>Maintained the web and database server infrastructure for the online administration.</li>
               <li>Designed and developed a web application
                 for collaborative data collection and consolidation
-                which provided a statistical overview of
+                to provide a statistical overview of
                 study- and research-relevant indicators.
                 {
                   // <!--The data model allowed the administrators to define what kind of data was collected depending on the occupations of the employees. -->
@@ -410,14 +410,13 @@ const Resume = (props) => {
 
           <h2>Computer Skills</h2>
           <div className="block">
-            <span className="em">Languages #1: </span> JavaScript, Flow/TypeScript, Java, Clojure<br/>
-            <span className="em">Languages #2: </span> Python, Scala, PHP, Perl, C<br/>
-            <span className="em">Web:</span> React, Node.js, Express, GraphQL, Canvas, SVG, WebGL<br/>
+            <span className="em">Languages: </span> JavaScript/TypeScript, Clojure, Python, Java, Scala, C<br/>
+            <span className="em">Web:</span> React, Node.js, GraphQL, SVG, Canvas, WebGL<br/>
             <span className="em">Visualization:</span> D3, Deck.gl, Vega, Tableau<br/>
             <span className="em">GIS:</span> Mapbox, PostGIS, QGIS<br/>
-            <span className="em">Databases:</span> PostgreSQL, MySQL, BigQuery, ClickHouse, SQL Server, Redis, MongoDB<br/>
-            <span className="em">UI Design:</span> Figma, Sketch, Photoshop<br/>
-            <span className="em">Cloud:</span> Heroku, Digital Ocean, Netlify, AWS, Google Cloud, Marathon, Kubernetes<br/>
+            <span className="em">Databases:</span> PostgreSQL, MySQL, BigQuery, ClickHouse, SQL Server, Redis<br/>
+            <span className="em">UI Design:</span> Sketch, Figma, Photoshop<br/>
+            {/*<span className="em">Cloud:</span> Heroku, Digital Ocean, Netlify, AWS, Google Cloud, Marathon, Kubernetes<br/>*/}
           </div>
 
 
