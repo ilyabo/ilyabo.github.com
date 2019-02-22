@@ -9,10 +9,13 @@ I was invited to give a talk
 at the <a href="https://gflowizworkshop.sciencesconf.org" target="_blank" rel="noopener">GFlowiz workshop</a>
 at <a href="http://www.ifsttar.fr/en/welcome/" target="_blank" rel="noopener">IFSTTAR</a>
 about the  tools we build for exploring large OD-datasets with hundreds of millions of records.
-In the talk I demonstrated the dashboard we are developing at Teralytics
+In the talk I demonstrated the dashboard we are developing at 
+<a href="https://www.teralytics.net" target="_blank" rel="noopener">Teralytics</a>
 for the analysis of this kind of data:
 
 ![](matrix3.png)
+
+![](whole-germany.png)
 
 Here's the abstract of the talk:
 
@@ -27,4 +30,3 @@ and a video recording:
 <iframe width="560" height="315" style="max-width: 500px" src="https://www.youtube.com/embed/WZpFXLhleEQ?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-Photo by [Laurent Jégou](https://twitter.com/ljegou).
