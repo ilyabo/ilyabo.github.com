@@ -12,11 +12,12 @@ Currently I am employed at a <a href="https://www.teralytics.net/" target="_blan
 My special interest is in visualizing data about 
 geographic movement of people or goods, e.g. transport-related data.
 I wrote <a href="/assets/thesis.pdf" target="_blank" rel="noopener">my thesis</a> about this topic.
-I am the father of two wonderful kids. 
-I like to play guitar and piano and 
+I am a fan of React, D3, Mapbox and Clojure.
+In my free time I like to play guitar and piano and 
 <a href="https://soundcloud.com/ibananti" target="_blank" rel="noopener">produce electronic music</a>.
+I am the father of two wonderful kids.
 
-Check out <a href="/resume">my full resume</a> for more 
+Check out <a href="/resume">my resume</a> for more 
 details on my professional background and experience.
 
 

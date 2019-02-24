@@ -1,5 +1,5 @@
 ---
-kind: post
+kind: project
 title: "Hex density map"
 description: ""
 category: works

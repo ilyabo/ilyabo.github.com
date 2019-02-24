@@ -53,13 +53,13 @@ const PostNav = ({ next, prev, top, bottom }) =>
       )}
     </li>
 
-    <li className="home">
-      <Link to="/" rel="next">
-        <div className="item">
-          <div>Home</div>
-        </div>
-      </Link>
-    </li>
+    {/*<li className="home">*/}
+      {/*<Link to="../" rel="next">*/}
+        {/*<div className="item">*/}
+          {/*<div>⇧⇧</div>*/}
+        {/*</div>*/}
+      {/*</Link>*/}
+    {/*</li>*/}
 
     <li className="right">
       {prev && (

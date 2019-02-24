@@ -1,5 +1,5 @@
 ---
-kind: post
+kind: project
 title: "NZZ: History of WW1"
 description: "An interactive storytelling piece for Neue Zürcher Zeitung 
               engaging the audience to explore the events of the World War I."

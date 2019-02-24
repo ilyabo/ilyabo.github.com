@@ -1,5 +1,5 @@
 ---
-kind: post
+kind: project
 title: "Flowmap.gl"
 description: ""
 category: works

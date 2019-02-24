@@ -1,5 +1,5 @@
 ---
-kind: post
+kind: project
 title: "Swiss train flows"
 description: ""
 category: works

@@ -1,5 +1,5 @@
 ---
-kind: post
+kind: project
 title: "Scalable OD-data visualization talk"
 date: "2018-12-20"
 preview: "./matrix3.png"

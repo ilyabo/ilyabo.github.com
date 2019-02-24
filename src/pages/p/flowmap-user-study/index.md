@@ -1,5 +1,5 @@
 ---
-kind: post
+kind: project
 title: "Flow map user study"
 description: "User study on visualizing temporal changes in flow maps"
 category: works

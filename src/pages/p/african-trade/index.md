@@ -1,5 +1,5 @@
 ---
-kind: post
+kind: project
 title: "Global Trade: Africa"
 description: ""
 date: "2014-10-20"

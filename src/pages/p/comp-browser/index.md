@@ -1,5 +1,5 @@
 ---
-kind: post
+kind: project
 title: "ZHAW Competence Browser"
 description: ""
 category: works

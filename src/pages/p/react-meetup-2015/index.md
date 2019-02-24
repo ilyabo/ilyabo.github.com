@@ -1,5 +1,5 @@
 ---
-kind: post
+kind: project
 title: "React meetup talk '15"
 date: "2015-11-27"
 category: talk

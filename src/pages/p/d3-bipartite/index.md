@@ -1,5 +1,5 @@
 ---
-kind: post
+kind: project
 title: "d3-bipartite"
 date: "2015-07-07"
 category: works

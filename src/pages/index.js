@@ -11,7 +11,7 @@ import * as colors from '../../colors'
 
 const spacing = rhythm(0.75)
 
-class BlogIndex extends React.Component {
+class ProjectsIndex extends React.Component {
   render() {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
     const siteDescription = get(
@@ -98,7 +98,7 @@ class BlogIndex extends React.Component {
   }
 }
 
-export default BlogIndex
+export default ProjectsIndex
 
 export const pageQuery = graphql`
   query {
@@ -110,7 +110,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
     sort: { fields: [frontmatter___date], order: DESC },
-    filter: {frontmatter: {kind: {eq: "post"}}}
+    filter: {frontmatter: {kind: {eq: "project"}}}
     ) {
       edges {
         node {

@@ -1,5 +1,5 @@
 ---
-kind: post
+kind: project
 title: Berlin streets
 category: works
 preview: dot-map.png

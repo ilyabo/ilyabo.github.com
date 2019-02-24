@@ -1,5 +1,5 @@
 ---
-kind: post
+kind: project
 title: "ProClassify"
 description: ""
 category: works

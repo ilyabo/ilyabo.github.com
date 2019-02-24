@@ -1,5 +1,5 @@
 ---
-kind: post
+kind: project
 title: "Street Flow"
 description: "Visualizing people passing by ATMs in Zurich"
 date: "2015-11-15"
