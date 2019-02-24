@@ -67,8 +67,8 @@ const Outer = styled('div')`
 `
 
 const activeLinkCss = css(`
-  // background-color: #ffffffb0 !important;
-  // color: ${colors.primary[0]} !important;
+  background-color: #ffffff20;
+  color: #fff;
 `)
 
 
@@ -99,9 +99,10 @@ const Header = ({ data }) =>
   >
     <Outer>
       {/*<Logo/>*/}
-      <Link to="/" activeClassName={activeLinkCss}>Home</Link>
-      <Link to="/about" activeClassName={activeLinkCss}>About</Link>
-      <Link to="/resume" activeClassName={activeLinkCss}>CV</Link>
+      <Link to="/" activeClassName={activeLinkCss}>Projects</Link>
+      {/*<Link to="/blog/" activeClassName={activeLinkCss}>Blog</Link>*/}
+      <Link to="/about/" activeClassName={activeLinkCss}>About</Link>
+      <Link to="/resume/" activeClassName={activeLinkCss}>CV</Link>
       <div className="filler"/>
       <SocialLinksArea>
         <a href="https://twitter.com/ilyabo" target="_blank" rel="noopener"><FaTwitter/></a>
