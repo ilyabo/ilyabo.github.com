@@ -102,7 +102,7 @@ const Header = ({ data }) =>
       <Link to="/" activeClassName={activeLinkCss}>Projects</Link>
       {/*<Link to="/blog/" activeClassName={activeLinkCss}>Blog</Link>*/}
       <Link to="/about/" activeClassName={activeLinkCss}>About</Link>
-      <Link to="/resume/" activeClassName={activeLinkCss}>CV</Link>
+      {/*<Link to="/resume/" activeClassName={activeLinkCss}>CV</Link>*/}
       <div className="filler"/>
       <SocialLinksArea>
         <a href="https://twitter.com/ilyabo" target="_blank" rel="noopener"><FaTwitter/></a>
