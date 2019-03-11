@@ -15,7 +15,7 @@ const Content = styled('div')`
 
 const Header = () =>
   <Link
-    to={'/about'}
+    to={'/about/'}
     className={css({
       textDecoration: 'none !important',
     })}
@@ -42,7 +42,7 @@ const Sidebar = () =>
   <Container>
     <Content>
       <Header/>
-      <Link to="/about">
+      <Link to="/about/">
         <img
           src={profilePic}
           alt="Ilya Boyandin"
