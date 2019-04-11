@@ -424,9 +424,14 @@ const Resume = (props) => {
           <h2>Public Speaking</h2>
           <div className="block notitles">
             <ul>
+              <li><span className="pubTitle"><Go to="https://docs.google.com/presentation/d/1CBsHB6m4x61qZyz1mUkoQYoKtPvPxSbGHMTozuaBoME">Flowmap.blue: Ein Tool zur Erstellung von Flow Maps
+              </Go></span> at the <Go to="http://www.digitale-nachhaltigkeit.unibe.ch/studium/data_visualization_group/index_ger.html">Data Visualization Group meeting</Go>, University of Bern, 2019</li>
+              <li><span className="pubTitle"><Go to="https://docs.google.com/presentation/d/1ZBVETs7eHkR1LVuo6qX9dztsLdSlLC6ZC0hXDkV5tpU">Visualization of OD data</Go></span> at the UPS Advanced Technology Group workshop, online, 2019</li>
+              <li><span className="pubTitle"><Go to="https://docs.google.com/presentation/d/1bDZfB-g2AXBU_ExY3ho_HJGDderJygdk935V8rWhjXA">Flowmap.blue: Geographic flows visualisation tool
+              for the people</Go></span> at the workshop <Go to="http://www.clisel.eu/Ascona">Environmental Changes and Human Mobility</Go> in Ascona, 2019</li>
               <li><span className="pubTitle"><Go to="https://youtu.be/WZpFXLhleEQ">Scalable Origin-Destination Data Visualization</Go></span> at <Go to="https://gflowizworkshop.sciencesconf.org">GFlowiz Workshop</Go> in Paris, 2018</li>
               <li><span className="pubTitle"><Go to="https://ilyabo.github.io/graphics-with-react/#/">Graphics with React</Go></span> at <Go to="https://www.meetup.com/Zurich-ReactJS-Meetup/events/251517816/">React.js Meetup</Go> in Zurich, 2018</li>
-              <li><span className="pubTitle"><Go to="https://docs.google.com/presentation/d/1G6wZe8n7zo-NCNz7J6KdoZjBz6o7gFxjIoXzszQerhY/edit?usp=sharing">Data Visualization Engineer: Ist das ein richtiger Beruf?</Go></span> guest lecture at Hochschule Mannheim, 2017</li>
+              <li><span className="pubTitle"><Go to="https://docs.google.com/presentation/d/1G6wZe8n7zo-NCNz7J6KdoZjBz6o7gFxjIoXzszQerhY">Data Visualization Engineer: Ist das ein richtiger Beruf?</Go></span> guest lecture, University of Applied Sciences, 2017</li>
               <li><span className="pubTitle"><Go to="https://www.youtube.com/watch?v=UdFxjsf5vsA">Visualizing People Movement with React</Go></span> at <Go to="http://www.meetup.com/Zurich-ReactJS-Meetup/events/226391438/">React.js Meetup</Go> in Zurich, 2015</li>
               <li><span className="pubTitle"><Go to="https://www.youtube.com/watch?v=dcLrbiHIX5M">Interactive Data Visualization with React: Taming the Complexity of the Changing State</Go></span> at <Go to="http://openvisconf.com/">OpenVis Conf 2015</Go> in Boston</li>
               <li><span className="pubTitle">Data Visualization for Media: Processes and Tools</span> at <Go to="https://tech.ebu.ch/devcon14">EBU DevCon 2014</Go>  in Geneva</li>
