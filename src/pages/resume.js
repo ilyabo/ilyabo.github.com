@@ -136,8 +136,9 @@ const Resume = (props) => {
 
           <Contact>
             <Go to="https://twitter.com/ilyabo">@ilyabo</Go>
+            <Go to="https://github.com/ilyabo">ilyabo@github</Go>
             <Link to="/">ilya.boyandin.me</Link>
-            ilyabo@gmail.com
+            ilya@boyandin.me
           </Contact>
         </Header>
 
@@ -164,7 +165,7 @@ const Resume = (props) => {
             <span className="flabel">Thesis title:</span> Visualization of Temporal Origin-Destination Data<br/>
 
             <span className="flabel">Summary:</span>
-            Carried out an in-depth study of temporal origin-destination data
+            Carried out an <Go to="/assets/thesis.pdf">in-depth study</Go> of temporal origin-destination data
             which can represent movement of people, energy, material, etc between locations in geographic space.
             Developed <Go to="/p/flowstrates/">Flowstrates</Go>,
             a novel approach for visualizing and exploring temporal origin-destination data.
@@ -188,12 +189,18 @@ const Resume = (props) => {
               <span className="wtime">since February 2015</span>
             </div>
             <ul>
-              <li>Designed and developed interactive dashboards and data visualizations for real-time transportation
+              <li>Designed and developed <Go to="/p/tera-transport/">exploratory data</Go> <Go to="/p/street-flow-zh/">visualization tools</Go> for the analysis of people mobility
+                in various cities/countries around the world.</li>
+              <li>Designed and developed <Go to="/p/sg-trains/">interactive dashboards and data visualizations</Go> for real-time transportation
                 network monitoring, incident analysis, transportation planning in Singapore.</li>
-              <li>Developed exploratory data visualization tools for the analysis of people mobility
-                in various cities around the world.</li>
+              <li>Devised a system architecture for <Go to="/p/gflowiz-talk/">scalable OD-data visualization</Go> to
+                support interactive data analysis across billions of rows.</li>
+              <li>Technical and strategic leadership in a team of several developers.</li>
               <li>Published <Go to="https://github.com/teralytics/flowmap.gl">Flowmap.gl</Go>,
                 an open-source library for drawing flow lines representing movement on geographic maps in WebGL.</li>
+              <li>Developed <Go to="https://flowmap.blue">Flowmap.blue</Go>,
+                an open-source tool for geographic flow map visualization from spreadsheets
+                published in Google Sheets.</li>
 
               {
                 // <!--* Developed Tera Streets-->
@@ -424,9 +431,14 @@ const Resume = (props) => {
           <h2>Public Speaking</h2>
           <div className="block notitles">
             <ul>
+              <li><span className="pubTitle"><Go to="https://docs.google.com/presentation/d/1CBsHB6m4x61qZyz1mUkoQYoKtPvPxSbGHMTozuaBoME">Flowmap.blue: Ein Tool zur Erstellung von Flow Maps
+              </Go></span> at the <Go to="http://www.digitale-nachhaltigkeit.unibe.ch/studium/data_visualization_group/index_ger.html">Data Visualization Group meeting</Go>, University of Bern, 2019</li>
+              <li><span className="pubTitle"><Go to="https://docs.google.com/presentation/d/1ZBVETs7eHkR1LVuo6qX9dztsLdSlLC6ZC0hXDkV5tpU">Visualization of OD data</Go></span> at the UPS Advanced Technology Group workshop, online, 2019</li>
+              <li><span className="pubTitle"><Go to="https://docs.google.com/presentation/d/1bDZfB-g2AXBU_ExY3ho_HJGDderJygdk935V8rWhjXA">Flowmap.blue: Geographic flows visualisation tool
+              for the people</Go></span> at the workshop <Go to="http://www.clisel.eu/Ascona">Environmental Changes and Human Mobility</Go> in Ascona, 2019</li>
               <li><span className="pubTitle"><Go to="https://youtu.be/WZpFXLhleEQ">Scalable Origin-Destination Data Visualization</Go></span> at <Go to="https://gflowizworkshop.sciencesconf.org">GFlowiz Workshop</Go> in Paris, 2018</li>
               <li><span className="pubTitle"><Go to="https://ilyabo.github.io/graphics-with-react/#/">Graphics with React</Go></span> at <Go to="https://www.meetup.com/Zurich-ReactJS-Meetup/events/251517816/">React.js Meetup</Go> in Zurich, 2018</li>
-              <li><span className="pubTitle"><Go to="https://docs.google.com/presentation/d/1G6wZe8n7zo-NCNz7J6KdoZjBz6o7gFxjIoXzszQerhY/edit?usp=sharing">Data Visualization Engineer: Ist das ein richtiger Beruf?</Go></span> guest lecture at Hochschule Mannheim, 2017</li>
+              <li><span className="pubTitle"><Go to="https://docs.google.com/presentation/d/1G6wZe8n7zo-NCNz7J6KdoZjBz6o7gFxjIoXzszQerhY">Data Visualization Engineer: Ist das ein richtiger Beruf?</Go></span> guest lecture, University of Applied Sciences, 2017</li>
               <li><span className="pubTitle"><Go to="https://www.youtube.com/watch?v=UdFxjsf5vsA">Visualizing People Movement with React</Go></span> at <Go to="http://www.meetup.com/Zurich-ReactJS-Meetup/events/226391438/">React.js Meetup</Go> in Zurich, 2015</li>
               <li><span className="pubTitle"><Go to="https://www.youtube.com/watch?v=dcLrbiHIX5M">Interactive Data Visualization with React: Taming the Complexity of the Changing State</Go></span> at <Go to="http://openvisconf.com/">OpenVis Conf 2015</Go> in Boston</li>
               <li><span className="pubTitle">Data Visualization for Media: Processes and Tools</span> at <Go to="https://tech.ebu.ch/devcon14">EBU DevCon 2014</Go>  in Geneva</li>
