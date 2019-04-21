@@ -4,9 +4,9 @@ const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 
 
-function createPostPage(createPage, graphql, kind) {
+function createPostPage(createPage, graphql, kind, parentPath, parentTitle) {
   return new Promise((resolve, reject) => {
-    const postTemplate = path.resolve('./src/templates/blog-post.js')
+    const postTemplate = path.resolve('./src/templates/post.js')
     resolve(
       graphql(
         `
@@ -47,6 +47,9 @@ function createPostPage(createPage, graphql, kind) {
             context: {
               slug: post.node.fields.slug,
               previous,
+              kind,
+              parentPath,
+              parentTitle,
               next,
             },
           })
@@ -60,60 +63,9 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
   return Promise.all([
-    createPostPage(createPage, graphql,  'project'),
-    createPostPage(createPage, graphql,  'talk'),
-    createPostPage(createPage, graphql,  'blog'),
-
-    // new Promise((resolve, reject) => {
-    //   const postTemplate = path.resolve('./src/templates/blog-post.js')
-    //   resolve(
-    //     graphql(
-    //       `
-    //         {
-    //           allMarkdownRemark(
-    //             sort: { fields: [frontmatter___date], order: DESC }, limit: 1000,
-    //             filter: {frontmatter: {kind: {eq: "post"}}}
-    //           ) {
-    //             edges {
-    //               node {
-    //                 fields {
-    //                   slug
-    //                 }
-    //                 frontmatter {
-    //                   title
-    //                 }
-    //               }
-    //             }
-    //           }
-    //         }
-    //       `
-    //     ).then(result => {
-    //       if (result.errors) {
-    //         console.log(result.errors)
-    //         reject(result.errors)
-    //       }
-    //
-    //       // Create blog posts pages.
-    //       const posts = result.data.allMarkdownRemark.edges;
-    //
-    //       _.each(posts, (post, index) => {
-    //         const previous = index === posts.length - 1 ? null : posts[index + 1].node;
-    //         const next = index === 0 ? null : posts[index - 1].node;
-    //
-    //         createPage({
-    //           path: post.node.fields.slug,
-    //           component: postTemplate,
-    //           context: {
-    //             slug: post.node.fields.slug,
-    //             previous,
-    //             next,
-    //           },
-    //         })
-    //       })
-    //     })
-    //   )
-    // }),
-
+    createPostPage(createPage, graphql,  'project', '/', 'Projects'),
+    createPostPage(createPage, graphql,  'talk', '/talks/', 'Talks'),
+    createPostPage(createPage, graphql,  'blog', '/blog/', 'Blog posts'),
     new Promise((resolve, reject) => {
       const pageTemplate = path.resolve('./src/templates/page.js')
       resolve(

@@ -36,7 +36,7 @@ const styles = {
 
 
 
-const PostNav = ({ next, prev, top, bottom }) =>
+const PostNav = ({ parentPath, parentTitle, next, prev, top, bottom }) =>
   <ul
     className={styles.nav}
     style={{
@@ -53,13 +53,13 @@ const PostNav = ({ next, prev, top, bottom }) =>
       )}
     </li>
 
-    {/*<li className="home">*/}
-      {/*<Link to="../" rel="next">*/}
-        {/*<div className="item">*/}
-          {/*<div>⇧⇧</div>*/}
-        {/*</div>*/}
-      {/*</Link>*/}
-    {/*</li>*/}
+    <li className="home">
+      <Link to={`/${parentPath}`} rel="next">
+        <div className="item">
+          <div>{parentTitle}</div>
+        </div>
+      </Link>
+    </li>
 
     <li className="right">
       {prev && (
@@ -75,12 +75,12 @@ const PostNav = ({ next, prev, top, bottom }) =>
 
 
 
-class BlogPostTemplate extends React.Component {
+class PostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
     const siteDescription = post.excerpt
-    const { previous, next } = this.props.pageContext
+    const { previous, next, parentPath, parentTitle } = this.props.pageContext
 
     return (
       <Layout location={this.props.location}>
@@ -91,6 +91,8 @@ class BlogPostTemplate extends React.Component {
         />
         <div>
           <PostNav
+            parentPath={parentPath}
+            parentTitle={parentTitle}
             next={next}
             prev={previous}
             top
@@ -115,6 +117,8 @@ class BlogPostTemplate extends React.Component {
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
 
           <PostNav
+            parentPath={parentPath}
+            parentTitle={parentTitle}
             next={next}
             prev={previous}
             bottom
@@ -126,7 +130,7 @@ class BlogPostTemplate extends React.Component {
   }
 }
 
-export default BlogPostTemplate
+export default PostTemplate
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
