@@ -136,8 +136,9 @@ const Resume = (props) => {
 
           <Contact>
             <Go to="https://twitter.com/ilyabo">@ilyabo</Go>
+            <Go to="https://github.com/ilyabo">ilyabo@github</Go>
             <Link to="/">ilya.boyandin.me</Link>
-            ilyabo@gmail.com
+            ilya@boyandin.me
           </Contact>
         </Header>
 
@@ -164,7 +165,7 @@ const Resume = (props) => {
             <span className="flabel">Thesis title:</span> Visualization of Temporal Origin-Destination Data<br/>
 
             <span className="flabel">Summary:</span>
-            Carried out an in-depth study of temporal origin-destination data
+            Carried out an <Go to="/assets/thesis.pdf">in-depth study</Go> of temporal origin-destination data
             which can represent movement of people, energy, material, etc between locations in geographic space.
             Developed <Go to="/p/flowstrates/">Flowstrates</Go>,
             a novel approach for visualizing and exploring temporal origin-destination data.
@@ -188,12 +189,18 @@ const Resume = (props) => {
               <span className="wtime">since February 2015</span>
             </div>
             <ul>
-              <li>Designed and developed interactive dashboards and data visualizations for real-time transportation
+              <li>Designed and developed <Go to="/p/tera-transport/">exploratory data</Go> <Go to="/p/street-flow-zh/">visualization tools</Go> for the analysis of people mobility
+                in various cities/countries around the world.</li>
+              <li>Designed and developed <Go to="/p/sg-trains/">interactive dashboards and data visualizations</Go> for real-time transportation
                 network monitoring, incident analysis, transportation planning in Singapore.</li>
-              <li>Developed exploratory data visualization tools for the analysis of people mobility
-                in various cities around the world.</li>
+              <li>Devised a system architecture for <Go to="/p/gflowiz-talk/">scalable OD-data visualization</Go> to
+                support interactive data analysis across billions of rows.</li>
+              <li>Technical and strategic leadership in a team of several developers.</li>
               <li>Published <Go to="https://github.com/teralytics/flowmap.gl">Flowmap.gl</Go>,
                 an open-source library for drawing flow lines representing movement on geographic maps in WebGL.</li>
+              <li>Developed <Go to="https://flowmap.blue">Flowmap.blue</Go>,
+                an open-source tool for geographic flow map visualization from spreadsheets
+                published in Google Sheets.</li>
 
               {
                 // <!--* Developed Tera Streets-->
