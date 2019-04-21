@@ -16,7 +16,11 @@ moragaTheme.overrideThemeStyles = ({ rhythm }, options) => ({
 })
 
 // injectGlobal(`
-//   @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+//   .gatsby-resp-iframe-wrapper  {
+//     max-width: 800px;
+//     margin-left: auto;
+//     margin-right: auto;
+//   }
 // `)
 
 const typography = new Typography({

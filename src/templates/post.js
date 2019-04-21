@@ -54,7 +54,7 @@ const PostNav = ({ parentPath, parentTitle, next, prev, top, bottom }) =>
     </li>
 
     <li className="home">
-      <Link to={`/${parentPath}`} rel="next">
+      <Link to={`${parentPath}`} rel="next">
         <div className="item">
           <div>{parentTitle}</div>
         </div>
