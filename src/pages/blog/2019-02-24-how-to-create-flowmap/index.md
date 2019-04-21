@@ -1,5 +1,5 @@
 ---
-kind: post
+kind: blog
 title: How to create a flow map
 date: 2019-02-24
 ---

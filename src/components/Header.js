@@ -100,7 +100,8 @@ const Header = ({ data }) =>
     <Outer>
       {/*<Logo/>*/}
       <Link to="/" activeClassName={activeLinkCss}>Projects</Link>
-      <Link to="/blog/" activeClassName={activeLinkCss}>Blog</Link>
+      <Link to="/talks/" activeClassName={activeLinkCss}>Talks</Link>
+      <Link to="/blog/" partiallyActive={true} activeClassName={activeLinkCss}>Blog</Link>
       <Link to="/about/" activeClassName={activeLinkCss}>About</Link>
       {/*<Link to="/resume/" activeClassName={activeLinkCss}>CV</Link>*/}
       <div className="filler"/>

@@ -3,109 +3,116 @@ const Promise = require('bluebird')
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 
+
+function createPostPage(createPage, graphql, kind) {
+  return new Promise((resolve, reject) => {
+    const postTemplate = path.resolve('./src/templates/blog-post.js')
+    resolve(
+      graphql(
+        `
+          {
+            allMarkdownRemark(
+              sort: { fields: [frontmatter___date], order: DESC }, limit: 1000,
+              filter: {frontmatter: {kind: {eq: "${kind}"}}}
+            ) {
+              edges {
+                node {
+                  fields {
+                    slug
+                  }
+                  frontmatter {
+                    title
+                  }
+                }
+              }
+            }
+          }
+        `
+      ).then(result => {
+        if (result.errors) {
+          console.log(result.errors)
+          reject(result.errors)
+        }
+
+        // Create blog posts pages.
+        const posts = result.data.allMarkdownRemark.edges;
+
+        _.each(posts, (post, index) => {
+          const previous = index === posts.length - 1 ? null : posts[index + 1].node;
+          const next = index === 0 ? null : posts[index - 1].node;
+
+          createPage({
+            path: post.node.fields.slug,
+            component: postTemplate,
+            context: {
+              slug: post.node.fields.slug,
+              previous,
+              next,
+            },
+          })
+        })
+      })
+    )
+  });
+}
+
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
   return Promise.all([
-    new Promise((resolve, reject) => {
-      const postTemplate = path.resolve('./src/templates/blog-post.js')
-      resolve(
-        graphql(
-          `
-            {
-              allMarkdownRemark(
-                sort: { fields: [frontmatter___date], order: DESC }, limit: 1000,
-                filter: {frontmatter: {kind: {eq: "project"}}}
-              ) {
-                edges {
-                  node {
-                    fields {
-                      slug
-                    }
-                    frontmatter {
-                      title
-                    }
-                  }
-                }
-              }
-            }
-          `
-        ).then(result => {
-          if (result.errors) {
-            console.log(result.errors)
-            reject(result.errors)
-          }
+    createPostPage(createPage, graphql,  'project'),
+    createPostPage(createPage, graphql,  'talk'),
+    createPostPage(createPage, graphql,  'blog'),
 
-          // Create blog posts pages.
-          const posts = result.data.allMarkdownRemark.edges;
-
-          _.each(posts, (post, index) => {
-            const previous = index === posts.length - 1 ? null : posts[index + 1].node;
-            const next = index === 0 ? null : posts[index - 1].node;
-
-            createPage({
-              path: post.node.fields.slug,
-              component: postTemplate,
-              context: {
-                slug: post.node.fields.slug,
-                previous,
-                next,
-              },
-            })
-          })
-        })
-      )
-    }),
-
-    new Promise((resolve, reject) => {
-      const postTemplate = path.resolve('./src/templates/blog-post.js')
-      resolve(
-        graphql(
-          `
-            {
-              allMarkdownRemark(
-                sort: { fields: [frontmatter___date], order: DESC }, limit: 1000,
-                filter: {frontmatter: {kind: {eq: "post"}}}
-              ) {
-                edges {
-                  node {
-                    fields {
-                      slug
-                    }
-                    frontmatter {
-                      title
-                    }
-                  }
-                }
-              }
-            }
-          `
-        ).then(result => {
-          if (result.errors) {
-            console.log(result.errors)
-            reject(result.errors)
-          }
-
-          // Create blog posts pages.
-          const posts = result.data.allMarkdownRemark.edges;
-
-          _.each(posts, (post, index) => {
-            const previous = index === posts.length - 1 ? null : posts[index + 1].node;
-            const next = index === 0 ? null : posts[index - 1].node;
-
-            createPage({
-              path: post.node.fields.slug,
-              component: postTemplate,
-              context: {
-                slug: post.node.fields.slug,
-                previous,
-                next,
-              },
-            })
-          })
-        })
-      )
-    }),
+    // new Promise((resolve, reject) => {
+    //   const postTemplate = path.resolve('./src/templates/blog-post.js')
+    //   resolve(
+    //     graphql(
+    //       `
+    //         {
+    //           allMarkdownRemark(
+    //             sort: { fields: [frontmatter___date], order: DESC }, limit: 1000,
+    //             filter: {frontmatter: {kind: {eq: "post"}}}
+    //           ) {
+    //             edges {
+    //               node {
+    //                 fields {
+    //                   slug
+    //                 }
+    //                 frontmatter {
+    //                   title
+    //                 }
+    //               }
+    //             }
+    //           }
+    //         }
+    //       `
+    //     ).then(result => {
+    //       if (result.errors) {
+    //         console.log(result.errors)
+    //         reject(result.errors)
+    //       }
+    //
+    //       // Create blog posts pages.
+    //       const posts = result.data.allMarkdownRemark.edges;
+    //
+    //       _.each(posts, (post, index) => {
+    //         const previous = index === posts.length - 1 ? null : posts[index + 1].node;
+    //         const next = index === 0 ? null : posts[index - 1].node;
+    //
+    //         createPage({
+    //           path: post.node.fields.slug,
+    //           component: postTemplate,
+    //           context: {
+    //             slug: post.node.fields.slug,
+    //             previous,
+    //             next,
+    //           },
+    //         })
+    //       })
+    //     })
+    //   )
+    // }),
 
     new Promise((resolve, reject) => {
       const pageTemplate = path.resolve('./src/templates/page.js')
