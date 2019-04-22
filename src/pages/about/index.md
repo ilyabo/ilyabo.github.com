@@ -19,7 +19,7 @@ I am the father of two wonderful kids.
 I like to play guitar and piano and 
 <a href="https://soundcloud.com/ibananti" target="_blank" rel="noopener">produce electronic music</a>.
 
-Check out <a href="/resume">my full resume</a> for more 
+Check out <a href="/resume/">my full resume</a> for more 
 details on my professional background.
 
 

@@ -193,7 +193,7 @@ const Resume = (props) => {
                 in various cities/countries around the world.</li>
               <li>Designed and developed <Go to="/p/sg-trains/">interactive dashboards and data visualizations</Go> for real-time transportation
                 network monitoring, incident analysis, transportation planning in Singapore.</li>
-              <li>Devised a system architecture for <Go to="/talks/gflowiz-talk/">scalable OD-data visualization</Go> to
+              <li>Devised a system architecture for <Go to="/talks/2018-12-20-gflowiz/">scalable OD-data visualization</Go> to
                 support interactive data analysis across billions of rows.</li>
               <li>Technical and strategic leadership in a team of several developers.</li>
               <li>Published <Go to="https://github.com/teralytics/flowmap.gl">Flowmap.gl</Go>,
