@@ -83,7 +83,7 @@ const SocialLinksArea = styled('div')`
   }  
 `
 
-const Header = ({ data }) =>
+const Header = ({ postKind }) =>
   <Headroom
     className={css(`
       @media print {
@@ -99,8 +99,14 @@ const Header = ({ data }) =>
   >
     <Outer>
       {/*<Logo/>*/}
-      <Link to="/" activeClassName={activeLinkCss}>Projects</Link>
-      {/*<Link to="/blog/" activeClassName={activeLinkCss}>Blog</Link>*/}
+      <Link
+        to="/"
+        className={postKind === 'project' ? activeLinkCss : undefined}
+        activeClassName={activeLinkCss}>
+        Projects
+      </Link>
+      <Link to="/talks/" partiallyActive={true} activeClassName={activeLinkCss}>Talks</Link>
+      {/*<Link to="/blog/" partiallyActive={true} activeClassName={activeLinkCss}>Blog</Link>*/}
       <Link to="/about/" activeClassName={activeLinkCss}>About</Link>
       {/*<Link to="/resume/" activeClassName={activeLinkCss}>CV</Link>*/}
       <div className="filler"/>

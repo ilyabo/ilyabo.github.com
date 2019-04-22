@@ -1,5 +1,5 @@
 ---
-kind: post
+kind: project
 title: "BirdEye"
 description: ""
 category: works

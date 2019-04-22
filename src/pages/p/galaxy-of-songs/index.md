@@ -1,5 +1,5 @@
 ---
-kind: post
+kind: project
 title: Galaxy of covers
 category: works
 preview: galaxy1.png

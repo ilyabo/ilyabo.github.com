@@ -31,7 +31,7 @@ module.exports = {
             options: {
               maxWidth: 850,
               wrapperStyle: `
-                margin: 20px 0;
+                margin: 20px auto 20px auto;
                 padding: 10px;
                 border: 1px solid #eef;
                 border-radius: 5;

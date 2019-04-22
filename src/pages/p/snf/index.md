@@ -1,5 +1,5 @@
 ---
-kind: post
+kind: project
 title: SNF funding analysis
 category: works
 date: 2013-04-03

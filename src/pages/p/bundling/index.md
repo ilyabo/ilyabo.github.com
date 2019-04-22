@@ -1,5 +1,5 @@
 ---
-kind: post
+kind: project
 title: "Edge bundling"
 description: ""
 category: works

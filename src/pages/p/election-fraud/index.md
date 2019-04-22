@@ -1,5 +1,5 @@
 ---
-kind: post
+kind: project
 title: "Election fraud"
 description: "Visualizing traces of fraud in Russian presidential election in 2012 and estimating the amount of fraud."
 category: works

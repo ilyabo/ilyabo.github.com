@@ -1,5 +1,5 @@
 ---
-kind: post
+kind: project
 title: Singapore Trains
 category: works
 date: 2018-09-03

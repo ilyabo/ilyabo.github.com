@@ -1,5 +1,5 @@
 ---
-kind: post
+kind: project
 title: "TeraTransport"
 description: "An exploratory tool for the analysis of geographic movement of people."
 date: "2016-09-01"

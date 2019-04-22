@@ -87,12 +87,19 @@ const LargeText = styled('div')`
 `
 
 
-const Layout = ({ location, children }) => {
+const Layout = (props) => {
+  const { location, children } = props
+  const path = location.pathname
+  const postKind = (
+    path.startsWith('/talks/') ? 'talks' :
+    path.startsWith('/blog/') ? 'blog' :
+    path.startsWith('/p/') ? 'project' : undefined
+  )
   const rootPath = `${__PATH_PREFIX__}/`
-  const isHome = (location.pathname === rootPath)
+  const isHome = (path === rootPath)
   return (
     <React.Fragment>
-      <Header/>
+      <Header postKind={postKind} />
       <Container>
         {isHome &&
         <Sidebars>

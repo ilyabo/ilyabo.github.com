@@ -1,5 +1,5 @@
 ---
-kind: post
+kind: project
 title: "FHLiteEditor"
 description: ""
 category: works
