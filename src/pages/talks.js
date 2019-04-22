@@ -38,11 +38,12 @@ class ProjectsIndex extends React.Component {
         >
         {posts.map(({ node }) => {
           const title = get(node, 'frontmatter.title') || node.fields.slug
+          const date = get(node, 'frontmatter.date')
           return (
             <div
               key={node.fields.slug}
               className={css({
-                margin: `0px ${spacing} ${rhythm(2)} ${spacing}`,
+                margin: `0px ${spacing} ${rhythm(0.5)} ${spacing}`,
                 padding: '10px 20px',
                 borderRadius: 5,
                 WebkitTouchCallout: 'none',
@@ -54,14 +55,26 @@ class ProjectsIndex extends React.Component {
               })}
             >
 
-              <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
-                <h4
+              <Link
+                style={{
+                  boxShadow: 'none',
+                }}
+                to={node.fields.slug}
+              >
+                <h5
                   style={{
                     marginBottom: rhythm(1 / 2),
+                    display: 'flex',
+                    flexGrow: 1,
                   }}
                 >
-                  {title}
-                </h4>
+                  <div style={{flexGrow: 1}}>{title}</div>
+                  <div style={{
+                    color: '#ccc',
+                    fontSize:rhythm(0.4),
+                    alignSelf: 'center',
+                  }}>{date}</div>
+                </h5>
                 <Img
                   className={css({
                     border: '1px solid #eef',
@@ -119,11 +132,11 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "MMMM YYYY")
+            date(formatString: "MMM YYYY")
             title
             preview {
               childImageSharp {
-                fluid(maxWidth: 380, maxHeight: 220, quality: 95, cropFocus: CENTER) {
+                fluid(maxWidth: 300, maxHeight: 120, quality: 95, cropFocus: CENTER) {
                   ...GatsbyImageSharpFluid 
                 }
               }
