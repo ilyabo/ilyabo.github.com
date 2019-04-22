@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import styled, { css } from 'react-emotion'
 import profilePic from '../assets/profile-pic.jpg'
 import { rhythm } from '../utils/typography'
+import flowstratesPdf from './p/flowstrates/flowstrates-eurovis11-fin.pdf'
 import jflowmapPdf from './p/jflowmap/jflowmap-geova10.pdf'
 import Layout from '../components/Layout'
 
@@ -169,7 +170,7 @@ const Resume = (props) => {
             which can represent movement of people, energy, material, etc between locations in geographic space.
             Developed <Go to="/p/flowstrates/">Flowstrates</Go>,
             a novel approach for visualizing and exploring temporal origin-destination data.
-            Carried out a qualitative <Go to="http://onlinelibrary.wiley.com/doi/10.1111/j.1467-8659.2012.03093.x/abstract">user study</Go> comparing animated and small-multiple
+            Carried out a qualitative <Go to="/p/flowmap-user-study/">user study</Go> comparing animated and small-multiple
             representations of changes in flow maps.
 
           </div>
@@ -196,9 +197,9 @@ const Resume = (props) => {
               <li>Devised a system architecture for <Go to="/talks/2018-12-20-gflowiz/">scalable OD-data visualization</Go> to
                 support interactive data analysis across billions of rows.</li>
               <li>Technical and strategic leadership in a team of several developers.</li>
-              <li>Published <Go to="https://github.com/teralytics/flowmap.gl">Flowmap.gl</Go>,
+              <li>Published <Go to="/p/flowmap.gl/">Flowmap.gl</Go>,
                 an open-source library for drawing flow lines representing movement on geographic maps in WebGL.</li>
-              <li>Developed <Go to="https://flowmap.blue">Flowmap.blue</Go>,
+              <li>Developed <Go to="/p/flowmap.blue/">Flowmap.blue</Go>,
                 an open-source tool for geographic flow map visualization from spreadsheets
                 published in Google Sheets.</li>
 
@@ -230,9 +231,9 @@ const Resume = (props) => {
                 <Go to="/p/ww1/">Interactive timeline of WWI</Go>,{' '}
                 pieces on unemployment and <Go to="http://maps.nzzdali.ch/nzzdata/sommerserie-2014/medical-care/">medical care</Go>.
               </li>
-              <li>Developed an interactive visualization of the  <Go to="http://lab.interactivethings.com/global-trade-africa/">trade of the world's countries with Africa.</Go></li>
-              <li>Developed a <Go to="http://expertisenkarte.zhaw.ch">visualization of research expertise</Go> for Zurich University of Applied Sciences. </li>
-              <li>Developed <Go to="https://www.gemeinwohl.ch/en/atlas">Public Value Atlas</Go> with the University of St. Gallen</li>
+              <li>Developed an interactive visualization of the  <Go to="/p/african-trade/">trade of the world's countries with Africa.</Go></li>
+              <li>Developed a <Go to="/p/comp-browser/">visualization of research expertise</Go> for Zurich University of Applied Sciences. </li>
+              <li>Developed <Go to="/p/gemeinwohl/">Public Value Atlas</Go> with the University of St. Gallen</li>
               <li>Developed an <Go to="/p/snf/">exploratory data analysis tool</Go> for Swiss National Science Foundation related to research proposals and activities.</li>
             </ul>
 
@@ -431,16 +432,14 @@ const Resume = (props) => {
           <h2>Public Speaking</h2>
           <div className="block notitles">
             <ul>
-              <li><span className="pubTitle"><Go to="https://docs.google.com/presentation/d/1CBsHB6m4x61qZyz1mUkoQYoKtPvPxSbGHMTozuaBoME">Flowmap.blue: Ein Tool zur Erstellung von Flow Maps
-              </Go></span> at the <Go to="http://www.digitale-nachhaltigkeit.unibe.ch/studium/data_visualization_group/index_ger.html">Data Visualization Group meeting</Go>, University of Bern, 2019</li>
-              <li><span className="pubTitle"><Go to="https://docs.google.com/presentation/d/1ZBVETs7eHkR1LVuo6qX9dztsLdSlLC6ZC0hXDkV5tpU">Visualization of OD data</Go></span> at the UPS Advanced Technology Group workshop, online, 2019</li>
-              <li><span className="pubTitle"><Go to="https://docs.google.com/presentation/d/1bDZfB-g2AXBU_ExY3ho_HJGDderJygdk935V8rWhjXA">Flowmap.blue: Geographic flows visualisation tool
-              for the people</Go></span> at the workshop <Go to="http://www.clisel.eu/Ascona">Environmental Changes and Human Mobility</Go> in Ascona, 2019</li>
-              <li><span className="pubTitle"><Go to="https://youtu.be/WZpFXLhleEQ">Scalable Origin-Destination Data Visualization</Go></span> at <Go to="https://gflowizworkshop.sciencesconf.org">GFlowiz Workshop</Go> in Paris, 2018</li>
-              <li><span className="pubTitle"><Go to="https://ilyabo.github.io/graphics-with-react/#/">Graphics with React</Go></span> at <Go to="https://www.meetup.com/Zurich-ReactJS-Meetup/events/251517816/">React.js Meetup</Go> in Zurich, 2018</li>
-              <li><span className="pubTitle"><Go to="https://docs.google.com/presentation/d/1G6wZe8n7zo-NCNz7J6KdoZjBz6o7gFxjIoXzszQerhY">Data Visualization Engineer: Ist das ein richtiger Beruf?</Go></span> guest lecture, University of Applied Sciences, 2017</li>
-              <li><span className="pubTitle"><Go to="https://www.youtube.com/watch?v=UdFxjsf5vsA">Visualizing People Movement with React</Go></span> at <Go to="http://www.meetup.com/Zurich-ReactJS-Meetup/events/226391438/">React.js Meetup</Go> in Zurich, 2015</li>
-              <li><span className="pubTitle"><Go to="https://www.youtube.com/watch?v=dcLrbiHIX5M">Interactive Data Visualization with React: Taming the Complexity of the Changing State</Go></span> at <Go to="http://openvisconf.com/">OpenVis Conf 2015</Go> in Boston</li>
+              <li><span className="pubTitle"><Go to="/talks/2019-04-03-unibern/">Flowmap.blue: Ein Tool zur Erstellung von Flow Maps</Go></span> at the <Go to="http://www.digitale-nachhaltigkeit.unibe.ch/studium/data_visualization_group/index_ger.html">Data Visualization Group meeting</Go>, University of Bern, 2019</li>
+              <li><span className="pubTitle"><Go to="/talks/2019-03-22-ups/">Visualization of OD data</Go></span> at the UPS Advanced Technology Group workshop, online, 2019</li>
+              <li><span className="pubTitle"><Go to="/talks/2019-03-03-clisel/">Flowmap.blue: Geographic flows visualisation tool for the people</Go></span> at the workshop <Go to="http://www.clisel.eu/Ascona">Environmental Changes and Human Mobility</Go> in Ascona, 2019</li>
+              <li><span className="pubTitle"><Go to="/talks/2018-12-20-gflowiz/">Scalable Origin-Destination Data Visualization</Go></span> at <Go to="https://gflowizworkshop.sciencesconf.org">GFlowiz Workshop</Go> in Paris, 2018</li>
+              <li><span className="pubTitle"><Go to="/talks/2018-07-11-react-meetup/">Graphics with React</Go></span> at <Go to="https://www.meetup.com/Zurich-ReactJS-Meetup/events/251517816/">React.js Meetup</Go> in Zurich, 2018</li>
+              <li><span className="pubTitle"><Go to="https://docs.google.com/presentation/d/e/2PACX-1vRNRaJFAwe13zoWrr7DPnJG4ujbvIccAmrfW-WCL4CGNU_GfYmRJlzbfJ7APOPl_9va1YzS0RNTrXjN/pub?start=false&loop=false&delayms=3000">Data Visualization Engineer: Ist das ein richtiger Beruf?</Go></span> guest lecture, University of Applied Sciences, 2017</li>
+              <li><span className="pubTitle"><Go to="/talks/2015-11-27-react-meetup/">Visualizing People Movement with React</Go></span> at <Go to="http://www.meetup.com/Zurich-ReactJS-Meetup/events/226391438/">React.js Meetup</Go> in Zurich, 2015</li>
+              <li><span className="pubTitle"><Go to="/talks/2015-04-03-openvis/">Interactive Data Visualization with React: Taming the Complexity of the Changing State</Go></span> at <Go to="http://openvisconf.com/">OpenVis Conf 2015</Go> in Boston</li>
               <li><span className="pubTitle">Data Visualization for Media: Processes and Tools</span> at <Go to="https://tech.ebu.ch/devcon14">EBU DevCon 2014</Go>  in Geneva</li>
               <li><span className="pubTitle">Making Sense of Data with Visualization</span> at SICHH Forum Data Visualization & Big Data, 2014</li>
               <li>Presented research work at the scientific data visualization conferences EuroVis and VisWeek</li>
@@ -460,18 +459,17 @@ const Resume = (props) => {
           <h2>Publications</h2>
           <div className="block">
 
-            <span className="pubTitle"><Go to="http://onlinelibrary.wiley.com/doi/10.1111/j.1467-8659.2012.03093.x/abstract">A Qualitative Study on the Exploration of Temporal Changes in Flow Maps with Animation and Small-Multiples</Go></span>,
-            Ilya Boyandin, Enrico Bertini, Denis Lalanne.
-            Computer Graphics Forum, International Journal of the Eurographics Association,
-            Eurographics/IEEE-VGTC Symposium on Visualization, Vienna, Austria, June 2012.
-            <br/><br/>
-
-            <span className="pubTitle"><Go to="/p/flowstrates/flowstrates-eurovis11-fin.pdf">Flowstrates: An Approach for Visual Exploration of Temporal Origin-Destination Data</Go></span>,
+            <span className="pubTitle"><Go to={flowstratesPdf}>Flowstrates: An Approach for Visual Exploration of Temporal Origin-Destination Data</Go></span>,
             Ilya Boyandin, Enrico Bertini, Peter Bak, Denis Lalanne.
             Computer Graphics Forum, International Journal of the Eurographics Association,
             Eurographics/IEEE-VGTC Symposium on Visualization, Bergen, Norway, June 2011.
             <br/><br/>
 
+            <span className="pubTitle"><Go to="/assets/jflowmap-user-study.pdf">A Qualitative Study on the Exploration of Temporal Changes in Flow Maps with Animation and Small-Multiples</Go></span>,
+            Ilya Boyandin, Enrico Bertini, Denis Lalanne.
+            Computer Graphics Forum, International Journal of the Eurographics Association,
+            Eurographics/IEEE-VGTC Symposium on Visualization, Vienna, Austria, June 2012.
+            <br/><br/>
 
             {            // <!--<span className="pubTitle"><Go to="http://ilya.boyandin.me/papers/jflowmap-eurovis10-poster.pdf">Visualizing the World’s Refugee Data with JFlowMap</Go></span>,
               // Ilya Boyandin, Enrico Bertini, Denis Lalanne.<br/>
