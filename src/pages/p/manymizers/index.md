@@ -18,7 +18,7 @@ The tool was largely inspired by the original version of
 
 The source code is available at [github.com/ilyabo/manymizers](https://github.com/ilyabo/manymizers).
 
-[![](manymizers.png)](http://ilya.boyandin.me/manymizers/).
+[![](manymizers.png)](https://manymizers.netlify.com/).
 
          
 
