@@ -22,7 +22,7 @@ for the analysis of this kind of data.
 
 Here's the abstract of the talk:
 
-> Origin-destination (OD) data represent numbers of movements of people or goods between locations. The size of such data depends exponentially on the number of locations involved. It can quickly grow to hundreds of millions of rows when flow attributes like time, mode of transport, duration are added to the dataset. Such large datasets cannot be entirely visualized in one image. Their analysis requires the use of summarization or interactive exploration techniques.
+> Origin-destination (OD) data represent numbers of movements of people or goods between locations. The size of such data depends quadratically on the number of locations involved. It can quickly grow to hundreds of millions of rows when flow attributes like time, mode of transport, duration are added to the dataset. Such large datasets cannot be entirely visualized in one image. Their analysis requires the use of summarization or interactive exploration techniques.
 >
 > I will speak about the web applications we are building at Teralytics for the analysis of movement of people in cities and countries. Scalability to the always growing data is an important challenge we are facing. I will discuss how we are using geographic flow map visualizations and other representations in this context, how we support querying across space and time and how we apply techniques like cross-filtering and on-the-fly aggregation for slicing and dicing the data. I will elaborate on choosing the right tools and the system architecture to ensure smooth interactivity and short query response times necessary for such interactive analysis.
 
