@@ -18,4 +18,4 @@ with the live flow map and the source code.
 
 <iframe width="846" height="556" src="https://www.youtube-nocookie.com/embed/ZmbT06xajik?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-[![](0.png)](https://observablehq.com/@ilyabo/animated-flow-map-of-commuters-in-the-netherlands-in-2016)
+[![](./0.png)](https://observablehq.com/@ilyabo/animated-flow-map-of-commuters-in-the-netherlands-in-2016)
