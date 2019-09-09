@@ -7,8 +7,8 @@ preview: NL-dark1.png
 date: 2019-02-05
 ---
 
-[flowmap.blue](https://flowmap.blue) is a free and open source flow map visualization tool 
-designed for representing aggregated numbers of movements between geographic locations. 
+[flowmap.blue](https://flowmap.blue) is a free and open source flow map visualization tool.
+It is designed for representing aggregated numbers of movements between geographic locations. 
 Until recently making flow maps has involved manual drawing, knowledge of programming or 
 specialised software. 
  I had learned from my experience developing
