@@ -1,14 +1,16 @@
 ---
 kind: project
-title: "Animated 3D flow map"
+title: "Animated flow map of NL commuters"
 description: ""
 date: "2019-10-20"
 category: works
 preview: "./0.png"
 ---
+
 This is an experimental shader-based demo using 
 Mapbox GL JS [custom style layer API](https://docs.mapbox.com/mapbox-gl-js/example/custom-style-layer/)
 showing commuters in the Netherlands in 2016.
+
 Inspired by the [cf. city flows](https://uclab.fh-potsdam.de/cf/) project. 
 The data is from [Statistics Netherlands](https://opendata.cbs.nl/#/CBS/nl/dataset/83628NED/table?dl=F076).
 
