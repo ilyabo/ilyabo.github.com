@@ -6,16 +6,28 @@ category: works
 preview: NL-dark1.png
 date: 2019-02-05
 ---
-[flowmap.blue](https://flowmap.blue) is an online flow map visualization tool.
-It makes it possible to publish interactive flow maps from data uploaded to Google Sheets.
-Until recently making flow maps has involved manual drawing or knowledge of programming
- or specialized software. I had learned from my experience developing
+
+[flowmap.blue](https://flowmap.blue) is a free and open source flow map visualization tool 
+designed for representing aggregated numbers of movements between geographic locations. 
+Until recently making flow maps has involved manual drawing, knowledge of programming or 
+specialised software. 
+ I had learned from my experience developing
  [flow](https://github.com/ilyabo/jflowmap)
  [mapping](https://github.com/ilyabo/jflowmap.js)
  [libraries](https://github.com/teralytics/flowmap.gl)
- that there was a need for a tool with which people without special knowledge could make flow maps and
- share them online. This is why I developed [flowmap.blue](https://flowmap.blue).
+ that there was a need for an *easy-to-use* tool with which people without special 
+knowledge could make flow maps. 
+This is why I decided to develop flowmap.blue. 
+The tool makes it possible to publish interactive flow maps from data uploaded to Google Sheets.
  It's free, it requires no installation and allows anyone to create a flow map in no time.
+
+Since the tool has been released, people from different parts of the world have been using 
+it to visualize various datasets and are sharing some of them online. 
+It has been used to represent data on urban mobility 
+(commuting behavior, bus and subway travels, bicycle and scooter sharing), 
+migration, trade, freight transportation, epidemiology, bird migration, 
+fishery, scientific collaboration, sewer systems, historical data and other topics.
+
 
 ![](NL-dark1.png)
 [![](nl.png)](https://flowmap.blue/1Oe3zM219uSfJ3sjdRT90SAK2kU3xIvzdcCW6cwTsAuc)
