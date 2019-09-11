@@ -21,3 +21,8 @@
   from = "/p/react-meetup-2015"
   to = "/talks/2015-11-27-react-meetup/"
   status = 301
+
+[[redirects]]
+  from = "/p/flowmap-3d"
+  to = "/p/stellar-commutes/"
+  status = 301
