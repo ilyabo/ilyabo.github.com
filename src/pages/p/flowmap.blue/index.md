@@ -29,7 +29,8 @@ migration, trade, freight transportation, epidemiology, bird migration,
 fishery, scientific collaboration, sewer systems, historical data and other topics.
 
 
-![](NL-dark1.png)
+[![](commuters-in-netherlands.png)](https://flowmap.blue/1Oe3zM219uSfJ3sjdRT90SAK2kU3xIvzdcCW6cwTsAuc)
+[![](color-schemes.png)](https://flowmap.blue/1Aum0anWxPx6bHyfcFXWCCTE8u0xtfenIls_kPAJEDIA)
 [![](nl.png)](https://flowmap.blue/1Oe3zM219uSfJ3sjdRT90SAK2kU3xIvzdcCW6cwTsAuc)
 [![](london.png)](https://flowmap.blue/1Z6dVVFFrdooHIs8xnJ_O7eM5bhS5KscCi7G_k0jUNDI)
 
