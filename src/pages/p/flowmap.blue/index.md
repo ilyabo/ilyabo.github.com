@@ -3,7 +3,7 @@ kind: project
 title: "flowmap.blue"
 description: ""
 category: works
-preview: NL-dark1.png
+preview: commuters-in-netherlands.png
 date: 2019-02-05
 ---
 
