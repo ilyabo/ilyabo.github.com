@@ -31,6 +31,7 @@ historical data and other topics.
 
 
 [![](commuters-in-netherlands.png)](https://flowmap.blue/1Oe3zM219uSfJ3sjdRT90SAK2kU3xIvzdcCW6cwTsAuc)
+<img src=nyc_citibike.png>
 [![](color-schemes.png)](https://flowmap.blue/1Aum0anWxPx6bHyfcFXWCCTE8u0xtfenIls_kPAJEDIA)
 [![](nl.png)](https://flowmap.blue/1Oe3zM219uSfJ3sjdRT90SAK2kU3xIvzdcCW6cwTsAuc)
 [![](london.png)](https://flowmap.blue/1Z6dVVFFrdooHIs8xnJ_O7eM5bhS5KscCi7G_k0jUNDI)
