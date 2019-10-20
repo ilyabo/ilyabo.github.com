@@ -432,6 +432,7 @@ const Resume = (props) => {
           <h2>Public Speaking</h2>
           <div className="block notitles">
             <ul>
+              <li><span className="pubTitle"><Go to="/talks/2019-10-11-urban-mobility-symp/">Scalability of OD-data visualizations</Go></span> at the <Go to="https://www.citylab-berlin.org/events/mobilitysymposium_en/">Urban Mobility Symposium</Go>, CityLAB Berlin, 2019</li>
               <li><span className="pubTitle"><Go to="/talks/2019-04-03-unibern/">Flowmap.blue: Ein Tool zur Erstellung von Flow Maps</Go></span> at the <Go to="http://www.digitale-nachhaltigkeit.unibe.ch/studium/data_visualization_group/index_ger.html">Data Visualization Group meeting</Go>, University of Bern, 2019</li>
               <li><span className="pubTitle"><Go to="/talks/2019-03-22-ups/">Visualization of OD data</Go></span> at the UPS Advanced Technology Group workshop, online, 2019</li>
               <li><span className="pubTitle"><Go to="/talks/2019-03-03-clisel/">Flowmap.blue: Geographic flows visualisation tool for the people</Go></span> at the workshop <Go to="http://www.clisel.eu/Ascona">Environmental Changes and Human Mobility</Go> in Ascona, 2019</li>
@@ -439,8 +440,8 @@ const Resume = (props) => {
               <li><span className="pubTitle"><Go to="/talks/2018-07-11-react-meetup/">Graphics with React</Go></span> at <Go to="https://www.meetup.com/Zurich-ReactJS-Meetup/events/251517816/">React.js Meetup</Go> in Zurich, 2018</li>
               <li><span className="pubTitle"><Go to="https://docs.google.com/presentation/d/e/2PACX-1vRNRaJFAwe13zoWrr7DPnJG4ujbvIccAmrfW-WCL4CGNU_GfYmRJlzbfJ7APOPl_9va1YzS0RNTrXjN/pub?start=false&loop=false&delayms=3000">Data Visualization Engineer: Ist das ein richtiger Beruf?</Go></span> guest lecture, Mannheim University of Applied Sciences, 2017</li>
               <li><span className="pubTitle"><Go to="/talks/2015-11-27-react-meetup/">Visualizing People Movement with React</Go></span> at <Go to="http://www.meetup.com/Zurich-ReactJS-Meetup/events/226391438/">React.js Meetup</Go> in Zurich, 2015</li>
-              <li><span className="pubTitle"><Go to="/talks/2015-04-03-openvis/">Interactive Data Visualization with React: Taming the Complexity of the Changing State</Go></span> at <Go to="http://openvisconf.com/">OpenVis Conf 2015</Go> in Boston</li>
-              <li><span className="pubTitle">Data Visualization for Media: Processes and Tools</span> at <Go to="https://tech.ebu.ch/devcon14">EBU DevCon 2014</Go>  in Geneva</li>
+              <li><span className="pubTitle"><Go to="/talks/2015-04-03-openvis/">Interactive Data Visualization with React: Taming the Complexity of the Changing State</Go></span> at <Go to="http://openvisconf.com/">OpenVis Conf</Go> in Boston, 2015</li>
+              <li><span className="pubTitle">Data Visualization for Media: Processes and Tools</span> at <Go to="https://tech.ebu.ch/devcon14">EBU DevCon</Go>  in Geneva, 2014</li>
               <li><span className="pubTitle">Making Sense of Data with Visualization</span> at SICHH Forum Data Visualization & Big Data, 2014</li>
               <li>Presented research work at the scientific data visualization conferences EuroVis and VisWeek</li>
             </ul>

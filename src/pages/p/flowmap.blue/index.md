@@ -25,8 +25,9 @@ Since the tool has been released, people from different parts of the world have 
 it to visualize various datasets and are sharing some of them online. 
 It has been used to represent data on urban mobility 
 (commuting behavior, bus and subway travels, bicycle and scooter sharing), 
-migration, trade, freight transportation, epidemiology, bird migration, 
-fishery, scientific collaboration, sewer systems, historical data and other topics.
+human and bird migration, trade, freight transportation, epidemiology, 
+human trafficking, fishery, scientific collaboration, sewer systems,
+historical data and other topics.
 
 
 [![](commuters-in-netherlands.png)](https://flowmap.blue/1Oe3zM219uSfJ3sjdRT90SAK2kU3xIvzdcCW6cwTsAuc)
