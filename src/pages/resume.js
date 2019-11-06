@@ -432,7 +432,7 @@ const Resume = (props) => {
           <h2>Public Speaking</h2>
           <div className="block notitles">
             <ul>
-              <li><span className="pubTitle"><Go to="/talks/2019-11-05-on-data-and-design/">Visualizing Mobility</Go></span> at the <Go to="https://www.meetup.com/de-DE/ondataanddesign-Switzerland/events/265947767/">on data and design Meetup</Go>, YAAY Studio, Basel, 2019</li>
+              <li><span className="pubTitle"><Go to="/talks/2019-11-05-on-data-and-design/">Visualizing Mobility</Go></span> at the <Go to="https://www.meetup.com/de-DE/ondataanddesign-Switzerland/events/265947767/">On data and design meetup</Go>, YAAY Studio, Basel, 2019</li>
               <li><span className="pubTitle"><Go to="/talks/2019-10-11-urban-mobility-symp/">Scalability of OD-data visualizations</Go></span> at the <Go to="https://www.citylab-berlin.org/events/mobilitysymposium_en/">Urban Mobility Symposium</Go>, CityLAB Berlin, 2019</li>
               <li><span className="pubTitle"><Go to="/talks/2019-04-03-unibern/">Flowmap.blue: Ein Tool zur Erstellung von Flow Maps</Go></span> at the <Go to="http://www.digitale-nachhaltigkeit.unibe.ch/studium/data_visualization_group/index_ger.html">Data Visualization Group meeting</Go>, University of Bern, 2019</li>
               <li><span className="pubTitle"><Go to="/talks/2019-03-22-ups/">Visualization of OD data</Go></span> at the UPS Advanced Technology Group workshop, online, 2019</li>
