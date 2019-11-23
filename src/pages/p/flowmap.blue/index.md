@@ -37,6 +37,7 @@ historical data and other topics.
 
 
 [![](commuters-in-netherlands.png)](https://flowmap.blue/1Oe3zM219uSfJ3sjdRT90SAK2kU3xIvzdcCW6cwTsAuc)
+[![Cyclable trips in Waterloo Region](waterloo.jpg)](https://flowmap.blue/1e3Euejg1bPCe5mdSPFVahi6Fy_LqXFyPTKJT-BcpMP8)
 <img src=nyc_citibike.png>
 [![](color-schemes.png)](https://flowmap.blue/1Aum0anWxPx6bHyfcFXWCCTE8u0xtfenIls_kPAJEDIA)
 [![](nl.png)](https://flowmap.blue/1Oe3zM219uSfJ3sjdRT90SAK2kU3xIvzdcCW6cwTsAuc)
