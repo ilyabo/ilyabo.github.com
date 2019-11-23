@@ -43,8 +43,8 @@ class ProjectsIndex extends React.Component {
               key={node.fields.slug}
               className={css({
                 margin: `0px ${spacing} ${rhythm(2)} ${spacing}`,
-                padding: '10px 20px',
-                borderRadius: 5,
+                padding: 20,
+                borderRadius: 15,
                 WebkitTouchCallout: 'none',
                 WebkitTapHighlightColor: 'transparent',
                 userSelect: 'none',
@@ -55,18 +55,18 @@ class ProjectsIndex extends React.Component {
             >
 
               <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
-                <h4
+                <h5
                   style={{
                     marginBottom: rhythm(3/4),
                   }}
                 >
                   {title}
-                </h4>
+                </h5>
                 <Img
                   className={css({
-                    border: '1px solid #eef',
-                    borderRadius: 5,
-                    boxShadow: '0px 0px 5px #ccc',
+                    border: '1px solid #ddd',
+                    borderRadius: 15,
+                    // boxShadow: '0px 0px 5px #ccc',
                     width: rhythm(18),
                     [`@media (max-width: ${rhythm(68)})`]: {
                       width: rhythm(15),
@@ -123,7 +123,7 @@ export const pageQuery = graphql`
             title
             preview {
               childImageSharp {
-                fluid(maxWidth: 480, maxHeight: 150, quality: 95, cropFocus: ATTENTION) {
+                fluid(maxWidth: 300, maxHeight: 150, quality: 95, cropFocus: ATTENTION) {
                   ...GatsbyImageSharpFluid 
                 }
               }
