@@ -2,7 +2,7 @@
 kind: talk
 title: "Scalable OD-data visualization at IFSTTAR"
 date: "2018-12-20"
-preview: "./matrix3.png"
+preview: "./blending.jpg"
 category: talk
 ---
 I was invited to give a talk

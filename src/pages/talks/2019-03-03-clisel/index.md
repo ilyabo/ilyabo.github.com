@@ -1,8 +1,8 @@
 ---
 kind: talk
-title: "Flowmap.blue talk at CLISEL"
+title: "Human Mobility talk at CLISEL"
 date: "2019-03-03"
-preview: "clisel-slides.png"
+preview: "ascona-flowmap-talk.jpg"
 category: talk
 ---
 

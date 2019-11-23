@@ -2,7 +2,7 @@
 kind: talk
 title: "Flowmap.blue talk at the University of Bern"
 date: "2019-04-03"
-preview: "ch-commuters.png"
+preview: "flowmap.blue-unibern-talk.jpg"
 category: talk
 ---
               

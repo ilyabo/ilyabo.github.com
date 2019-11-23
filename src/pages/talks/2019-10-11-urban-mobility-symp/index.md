@@ -2,7 +2,7 @@
 kind: talk
 title: "Talk at the Urban Mobility Symposium, Berlin"
 date: "2019-10-11"
-preview: "urban-mob-talk.jpg"
+preview: "talk.jpg"
 category: talk
 ---
 The talk "Scalability of OD-data visualizations" was presented at the [Urban Mobility Symposium](https://www.citylab-berlin.org/events/mobilitysymposium_en/) at CityLAB Berlin.
