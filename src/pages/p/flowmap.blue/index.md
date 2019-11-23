@@ -7,7 +7,12 @@ preview: commuters-in-netherlands.png
 date: 2019-02-05
 ---
 
-[flowmap.blue](https://flowmap.blue) is a free and open source flow map visualization tool.
+*NEWS:* The project [won bronze](https://twitter.com/kachkaev/status/1197262339935997952) 
+in the "Visualization & Information Design" category of the 
+[Information is Beautiful Awards](https://www.informationisbeautifulawards.com/showcase/3815-flowmap-blue).  
+
+
+[Flowmap.blue](https://flowmap.blue) is a free and open source flow map visualization tool.
 It is designed for representing aggregated numbers of movements between geographic locations. 
 Until recently making flow maps has involved manual drawing, knowledge of programming or 
 specialised software. 
@@ -28,6 +33,7 @@ It has been used to represent data on urban mobility
 human and bird migration, trade, freight transportation, epidemiology, 
 human trafficking, fishery, scientific collaboration, sewer systems,
 historical data and other topics.
+
 
 
 [![](commuters-in-netherlands.png)](https://flowmap.blue/1Oe3zM219uSfJ3sjdRT90SAK2kU3xIvzdcCW6cwTsAuc)

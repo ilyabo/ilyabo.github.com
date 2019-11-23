@@ -432,7 +432,8 @@ const Resume = (props) => {
           <h2>Public Speaking</h2>
           <div className="block notitles">
             <ul>
-              <li><span className="pubTitle"><Go to="/talks/2019-11-05-on-data-and-design/">Visualizing Mobility</Go></span> at the <Go to="https://www.meetup.com/de-DE/ondataanddesign-Switzerland/events/265947767/">On data and design meetup</Go>, YAAY Studio, Basel, 2019</li>
+              <li><span className="pubTitle"><Go to="/talks/2019-11-17-on-data-and-design/">Visualizing Mobility</Go></span> at the <Go to="https://datafest.ge">DataFest</Go>, Tbilisi, 2019</li>
+              <li><span className="pubTitle">Meet-up talk on <Go to="/talks/2019-11-05-on-data-and-design/">Visualizing Mobility</Go></span> at <Go to="https://www.meetup.com/de-DE/ondataanddesign-Switzerland/events/265947767/">On data and design</Go>, YAAY Studio, Basel, 2019</li>
               <li><span className="pubTitle"><Go to="/talks/2019-10-11-urban-mobility-symp/">Scalability of OD-data visualizations</Go></span> at the <Go to="https://www.citylab-berlin.org/events/mobilitysymposium_en/">Urban Mobility Symposium</Go>, CityLAB Berlin, 2019</li>
               <li><span className="pubTitle"><Go to="/talks/2019-04-03-unibern/">Flowmap.blue: Ein Tool zur Erstellung von Flow Maps</Go></span> at the <Go to="http://www.digitale-nachhaltigkeit.unibe.ch/studium/data_visualization_group/index_ger.html">Data Visualization Group meeting</Go>, University of Bern, 2019</li>
               <li><span className="pubTitle"><Go to="/talks/2019-03-22-ups/">Visualization of OD data</Go></span> at the UPS Advanced Technology Group workshop, online, 2019</li>
@@ -451,6 +452,8 @@ const Resume = (props) => {
           <h2>Workshops</h2>
           <div className="block notitles">
             <ul>
+              <li><span className="pubTitle">Hands-on Visualization of Geographic Movement:
+                How to make an interactive flow map</span> at <Go to="https://datafest.ge">DataFest</Go>, Tbilisi, 2019</li>
               <li><span className="pubTitle">Robotics/Programming for kids with LEGO boost robot</span> at Freie Schule Bergmeilen, 2018</li>
               <li><span className="pubTitle">UI development with Reagent in ClojureScript</span> at Clojure Meetup in Zurich, 2014</li>
               <li><span className="pubTitle">Women in science: Drawing with computer for schoolgirls</span> at University of Fribourg, 2011 and 2012</li>
@@ -495,6 +498,26 @@ const Resume = (props) => {
 
           </div>
 
+          <h2>Awards</h2>
+          <div className="block notitles">
+            <ul>
+              <li>Bronze award in the  “Visualization & Information Design” category of
+                the <Go to="https://www.informationisbeautifulawards.com/showcase/3815-flowmap-blue">Information
+                  is Beautiful Awards</Go> for <Go to="https://flowmap.blue">flowmap.blue</Go> in 2019.
+              </li>
+              <li>
+                Shortlisted in the  “Interactive Visualization” category of
+                the <Go to="https://iibawards.herokuapp.com/showcase/552-public-value-atlas">Information
+                  is Beautiful Awards</Go> for <Go to="/p/gemeinwohl">Gemeinwohl</Go> in 2014.
+              </li>
+              <li>
+                First prize in the  “Interactive Graphics” category of
+                the <Go to="http://www.dpa.de/Pressemitteilungen-Detailansic.107+M5d04e3a21eb.0.html">dpa-infografik
+                award</Go>  for the <Go to="/p/swiss-maps">Swiss maps series</Go> in 2013.
+              </li>
+            </ul>
+          </div>
+
           <h2>Other Activities</h2>
           <div className="block notitles">
             <ul>
@@ -503,9 +526,6 @@ const Resume = (props) => {
                 {' '}published by the newspapers <Go to="http://www.tageswoche.ch/de/2013_19/schweiz/540004/milliarden-aus-der-fremde.htm">TagesWoche.ch</Go> and <Go to="http://derstandard.at/1363710784566/Wieviel-Geld-Migranten-zurueck-in-ihre-Heimat-schicken">derStandard.at</Go>.
               </li>
               <li>Developed a <Go to="/p/swiss-trains/">visualization of SBB train flows</Go> in a team of several developers at the Make Opendata Camp in Zurich.</li>
-              <li>
-                Developed a mobile app for Pocket PC for vocabulary training.
-              </li>
               <li>
                 {
                   // <!--Participated in the organization of the Russian Information Retrieval Evaluation Sembit.ly/sichhinar (ROMIP) and-->
@@ -531,11 +551,6 @@ const Resume = (props) => {
               <li>French (intermediate)</li>
               <li>Russian (mother tongue)</li>
             </ul>
-          </div>
-
-          <h2>Legal</h2>
-          <div className="block">
-            Work authorization for Switzerland (permit C)
           </div>
 
           <h2>Hobbies</h2>
