@@ -10,6 +10,9 @@ const Container = styled('div')`
   margin-left: auto;
   margin-right: auto;
   max-width: ${rhythm(24)};
+  & > * + * {
+    margin-top: ${rhythm(1)};
+  }
   @media (min-width: ${rhythm(BREAK_POINT)}) {
     max-width: ${rhythm(80)};
     padding-left: ${rhythm(2)};
@@ -33,14 +36,12 @@ const Sidebars = styled('div')`
   display: flex;
   flex-direction: column;
   align-items: center;
-  @media (max-width: ${rhythm(BREAK_POINT)}) {
     margin-top: ${rhythm(1.75)};
     & > * + * {
-      margin-top: ${rhythm(1.25)};
+      margin-top: ${rhythm(0.5)};
     }
     margin-left: ${rhythm(1)}; 
     margin-right: ${rhythm(1)};
-  }
 `
 
 const SidebarContainer = styled('div')`
@@ -50,26 +51,6 @@ const SidebarContainer = styled('div')`
   // margin-top: ${rhythm(1)};
   // border: 1px solid red;
   text-align: center;
-  @media (min-width: ${rhythm(BREAK_POINT)}) {
-    text-align: ${props => props.right ? 'right' : 'left'};
-    margin-top: ${props => props.right ? rhythm(3) : rhythm(2)};
-    position: absolute;
-    left: ${props => props.left ? rhythm(2) : 'auto'}; 
-    right: ${props => props.right ? rhythm(2) : 'auto'};
-    max-width: ${props => rhythm(props.right ? 6.2 : 7)}; 
-    // width: ${rhythm(SIDEBAR_WIDTH)};
-    // &:after {
-    //   background: #eee;
-    //   background: linear-gradient(to bottom, #fff 0%, #eee 20%, #eee 80%, #fff 100%);
-    //   position: absolute;
-    //   content: '';
-    //   width: 1px;
-    //   height: 100%;
-    //   top: ${rhythm(1)};
-    //   right: -${rhythm(1)};
-    //   bottom: 0;
-    // }
-  }
 `
 
 const ContentContainer = styled('div')`

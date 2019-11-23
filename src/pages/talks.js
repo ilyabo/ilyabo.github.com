@@ -43,14 +43,14 @@ class ProjectsIndex extends React.Component {
             <div
               key={node.fields.slug}
               className={css({
-                margin: `0px ${spacing} ${rhythm(0.5)} ${spacing}`,
+                margin: `0px ${spacing} ${rhythm(3)} ${spacing}`,
                 padding: '10px 20px',
                 borderRadius: 5,
                 WebkitTouchCallout: 'none',
                 WebkitTapHighlightColor: 'transparent',
                 userSelect: 'none',
                 '&:hover': {
-                  boxShadow: `0px 0px 15px ${colors.primary[2]}`,
+                  boxShadow: `0px 0px 3px ${colors.primary[2]}`,
                 },
               })}
             >
@@ -136,7 +136,7 @@ export const pageQuery = graphql`
             title
             preview {
               childImageSharp {
-                fluid(maxWidth: 300, maxHeight: 120, quality: 95, cropFocus: CENTER) {
+                fluid(maxWidth: 300, maxHeight: 150, quality: 95, cropFocus: CENTER) {
                   ...GatsbyImageSharpFluid 
                 }
               }

@@ -49,7 +49,7 @@ class ProjectsIndex extends React.Component {
                 WebkitTapHighlightColor: 'transparent',
                 userSelect: 'none',
                 '&:hover': {
-                  boxShadow: `0px 0px 15px ${colors.primary[2]}`,
+                  boxShadow: `0px 0px 3px ${colors.primary[2]}`,
                 },
               })}
             >
@@ -57,7 +57,7 @@ class ProjectsIndex extends React.Component {
               <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
                 <h4
                   style={{
-                    marginBottom: rhythm(1 / 2),
+                    marginBottom: rhythm(3/4),
                   }}
                 >
                   {title}
@@ -123,7 +123,7 @@ export const pageQuery = graphql`
             title
             preview {
               childImageSharp {
-                fluid(maxWidth: 480, maxHeight: 320, quality: 95) {
+                fluid(maxWidth: 480, maxHeight: 150, quality: 95, cropFocus: ATTENTION) {
                   ...GatsbyImageSharpFluid 
                 }
               }
