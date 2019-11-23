@@ -1,7 +1,8 @@
 ---
 kind: talk
-title: Visualizing Mobility talk at the DataFest, Tbilisi
+title: Visualizing Mobility talk at the DataFest
 date: "2019-11-17"
+place: Tbilisi
 preview: "waterloo.jpg"
 category: talk
 ---

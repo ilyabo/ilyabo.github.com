@@ -7,6 +7,7 @@ using React for Data Visualization."
 category: talk
 tags: [ "React", "OpenVis Conf" ]
 preview: "./openvis.png"
+place: Boston
 
 ---
 I gave a talk at the <a href="https://openvisconf.com/2015/" target="_blank" rel="noopener">OpenVis conference</a> about 

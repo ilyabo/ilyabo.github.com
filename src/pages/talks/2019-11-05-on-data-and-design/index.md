@@ -1,9 +1,10 @@
 ---
 kind: talk
-title: "Talk at the \"On data and design\" meetup, Basel"
+title: "Talk at the \"On data and design\" meetup"
 date: "2019-11-05"
 preview: "cover.jpg"
 category: talk
+place: Basel
 ---
 The talk "Visualizing mobility" was presented at the [ondata and design Meetup](https://www.meetup.com/de-DE/ondataanddesign-Switzerland/events/265947767/) at the 
 [YAAY studio](http://yaay.ch/) in Basel.

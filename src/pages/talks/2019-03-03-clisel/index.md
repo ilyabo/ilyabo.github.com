@@ -4,6 +4,7 @@ title: "Human Mobility talk at CLISEL"
 date: "2019-03-03"
 preview: "ascona-flowmap-talk.jpg"
 category: talk
+place: Ascona
 ---
 
 [Slides](https://docs.google.com/presentation/d/1bDZfB-g2AXBU_ExY3ho_HJGDderJygdk935V8rWhjXA)

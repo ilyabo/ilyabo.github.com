@@ -4,6 +4,7 @@ title: "Scalable OD-data visualization at IFSTTAR"
 date: "2018-12-20"
 preview: "./blending.jpg"
 category: talk
+place: Paris
 ---
 I was invited to give a talk
 at the <a href="https://gflowizworkshop.sciencesconf.org" target="_blank" rel="noopener">GFlowiz workshop</a>

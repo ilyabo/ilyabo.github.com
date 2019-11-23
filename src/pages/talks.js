@@ -39,6 +39,7 @@ class ProjectsIndex extends React.Component {
         {posts.map(({ node }) => {
           const title = get(node, 'frontmatter.title') || node.fields.slug
           const date = get(node, 'frontmatter.date')
+          const place = get(node, 'frontmatter.place')
           return (
             <div
               key={node.fields.slug}
@@ -73,7 +74,7 @@ class ProjectsIndex extends React.Component {
                     color: '#ccc',
                     fontSize:rhythm(0.4),
                     alignSelf: 'center',
-                  }}>{date}</div>
+                  }}>{place ? `${place}, ` : ''}{date}</div>
                 </h5>
                 <Img
                   className={css({
@@ -132,6 +133,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
+            place
             date(formatString: "MMM YYYY")
             title
             preview {
