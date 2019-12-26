@@ -24,6 +24,9 @@ Flowstrates is a part of JFlowMap, an open-source tool for the analysis of spati
 JFlowMap can be downloaded from [here](https://code.google.com/p/jflowmap/downloads/list).
 The source code is available at [github.com/ilyabo/jflowmap](https://github.com/ilyabo/jflowmap/).
  
+Here is a promotional video about the project: 
+<iframe src="https://player.vimeo.com/video/90155602" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 
 
 
