@@ -512,7 +512,7 @@ const Resume = (props) => {
               </li>
               <li>
                 First prize in the  “Interactive Graphics” category of
-                the <Go to="http://www.dpa.de/Pressemitteilungen-Detailansic.107+M5d04e3a21eb.0.html">dpa-infografik
+                the <Go to="https://www.wan-ifra.org/de/articles/2013/10/24/preistraeger-des-dpa-infografik-awards-2013-ausgezeichnet">dpa-infografik
                 award</Go>  for the <Go to="/p/swiss-maps">Swiss maps series</Go> in 2013.
               </li>
             </ul>
