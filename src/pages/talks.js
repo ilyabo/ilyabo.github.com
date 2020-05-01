@@ -107,6 +107,10 @@ class ProjectsIndex extends React.Component {
           )
         })}
           </div>
+
+        <div style={{ textAlign: 'center' }}>
+          <Link to="/resume/#talks">Full list of talks</Link>
+        </div>
       </Layout>
     )
   }

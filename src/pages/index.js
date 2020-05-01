@@ -69,19 +69,19 @@ class ProjectsIndex extends React.Component {
                     // boxShadow: '0px 0px 5px #ccc',
                     width: rhythm(18),
                     [`@media (max-width: ${rhythm(68)})`]: {
-                      width: rhythm(15),
-                    },
-                    [`@media (max-width: ${rhythm(61)})`]: {
                       width: rhythm(14),
                     },
-                    [`@media (max-width: ${rhythm(59)})`]: {
+                    [`@media (max-width: ${rhythm(61)})`]: {
                       width: rhythm(13),
                     },
-                    [`@media (max-width: ${rhythm(16)})`]: {
+                    [`@media (max-width: ${rhythm(59)})`]: {
                       width: rhythm(12),
                     },
+                    [`@media (max-width: ${rhythm(16)})`]: {
+                      width: rhythm(11),
+                    },
                     [`@media (max-width: ${rhythm(14)})`]: {
-                      width: rhythm(10),
+                      width: rhythm(9),
                     },
                   })}
                   fluid={
