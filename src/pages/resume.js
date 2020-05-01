@@ -432,6 +432,7 @@ const Resume = (props) => {
           <h2>Public Speaking</h2>
           <div className="block notitles">
             <ul>
+              <li><span className="pubTitle"><Go to="https://docs.google.com/presentation/d/13zrP0d7vCXxqh44x9hDeQpnoR6JGUF0rOvqnAmk0nww/edit?usp=sharing">Interactive Queries over Billions of Trips: Using ClickHouse for Mobility Data</Go></span> at the <Go to="https://www.meetup.com/en-AU/DataCouncil-AI-Zurich-Data-Engineering-Science/events/267081855/">DataCouncil Meetup</Go>, Zurich, 2020</li>
               <li><span className="pubTitle"><Go to="/talks/2019-11-17-on-data-and-design/">Visualizing Mobility</Go></span> at the <Go to="https://datafest.ge">DataFest</Go>, Tbilisi, 2019</li>
               <li><span className="pubTitle">Meet-up talk on <Go to="/talks/2019-11-05-on-data-and-design/">Visualizing Mobility</Go></span> at <Go to="https://www.meetup.com/de-DE/ondataanddesign-Switzerland/events/265947767/">On data and design</Go>, YAAY Studio, Basel, 2019</li>
               <li><span className="pubTitle"><Go to="/talks/2019-10-11-urban-mobility-symp/">Scalability of OD-data visualizations</Go></span> at the <Go to="https://www.citylab-berlin.org/events/mobilitysymposium_en/">Urban Mobility Symposium</Go>, CityLAB Berlin, 2019</li>
@@ -463,6 +464,9 @@ const Resume = (props) => {
 
           <h2>Publications</h2>
           <div className="block">
+            <span className="pubTitle"><Go to="https://medium.com/teralytics/visualizing-mobility-data-the-scalability-challenge-2575fe819702">Visualizing mobility data: the scalability challenge</Go></span>,
+            Ilya Boyandin. Medium, Dec 2019.
+            <br/><br/>
 
             <span className="pubTitle"><Go to={flowstratesPdf}>Flowstrates: An Approach for Visual Exploration of Temporal Origin-Destination Data</Go></span>,
             Ilya Boyandin, Enrico Bertini, Peter Bak, Denis Lalanne.
