@@ -1,6 +1,6 @@
 ---
 kind: talk
-title: Flow Maps talk at DataVis Meetup
+title: Flow Maps talk at the DataVis Meetup
 date: "2020-05-13"
 place: Online
 preview: "two-kinds-of-flow-maps.png"
