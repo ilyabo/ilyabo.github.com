@@ -1,19 +1,26 @@
 ---
 kind: project
-title: "flowmap.blue"
+title: "Flowmap.blue"
 description: ""
 category: works
-preview: nyc_citibike.png
+preview: ny.jpg
+sticky: true
 date: 2019-02-05
 ---
 
-*NEWS:* The project [won bronze](https://twitter.com/kachkaev/status/1197262339935997952) 
-in the "Visualization & Information Design" category of the 
-[Information is Beautiful Awards](https://www.informationisbeautifulawards.com/showcase/3815-flowmap-blue).  
+[Flowmap.blue](https://flowmap.blue) 
+ is a free tool for representing aggregated numbers of movements between geographic
+  locations as flow maps. It is used to visualize urban mobility, commuting behavior, 
+  bus, subway and air travels, bicycle sharing, human and bird migration, refugee flows, 
+  marine traffic, freight transportation, trade, supply chains, scientific collaborations,
+   epidemiological and historical data and data on many other topics.
 
 
-[Flowmap.blue](https://flowmap.blue) is a free and open source flow map visualization tool.
-It is designed for representing aggregated numbers of movements between geographic locations. 
+The project [won bronze](https://twitter.com/kachkaev/status/1197262339935997952) 
+at the [Information is Beautiful Awards](https://www.informationisbeautifulawards.com/showcase/3815-flowmap-blue) 
+in 2019. 
+
+  
 Until recently making flow maps has involved manual drawing, knowledge of programming or 
 specialised software. 
  I had learned from my experience developing
@@ -26,30 +33,11 @@ This is why I decided to develop flowmap.blue.
 The tool makes it possible to publish interactive flow maps from data uploaded to Google Sheets.
  It's free, it requires no installation and allows anyone to create a flow map in no time.
 
-Since the tool has been released, people from different parts of the world have been using 
-it to visualize various datasets and are sharing some of them online. 
-It has been used to represent data on urban mobility 
-(commuting behavior, bus and subway travels, bicycle and scooter sharing), 
-human and bird migration, trade, freight transportation, epidemiology, 
-human trafficking, fishery, scientific collaboration, sewer systems,
-historical data and other topics.
 
 
 
-[![](commuters-in-netherlands.png)](https://flowmap.blue/1Oe3zM219uSfJ3sjdRT90SAK2kU3xIvzdcCW6cwTsAuc)
-[![Cyclable trips in Waterloo Region](waterloo.jpg)](https://flowmap.blue/1e3Euejg1bPCe5mdSPFVahi6Fy_LqXFyPTKJT-BcpMP8)
-<img src=nyc_citibike.png>
-[![](color-schemes.png)](https://flowmap.blue/1Aum0anWxPx6bHyfcFXWCCTE8u0xtfenIls_kPAJEDIA)
-[![](nl.png)](https://flowmap.blue/1Oe3zM219uSfJ3sjdRT90SAK2kU3xIvzdcCW6cwTsAuc)
-[![](london.png)](https://flowmap.blue/1Z6dVVFFrdooHIs8xnJ_O7eM5bhS5KscCi7G_k0jUNDI)
+[![New York Citi Bike trips 2018](ny.jpg)](https://flowmap.blue/1Aum0anWxPx6bHyfcFXWCCTE8u0xtfenIls_kPAJEDIA?v=40.733700,-73.985072,12.47&a=0&d=1&c=1&f=45)
+[![BIXI rides Montreal](bixi.jpg)](https://flowmap.blue/1qTVOzkPB7U1ySI4g4uPtVBzzEDCI8n1WXAmQeZL15fE?v=45.495056,-73.564832,11.84,0,0&a=0&b=1&bo=75&c=1&d=1&lt=1&lfm=ALL&t=20190701T050000,20190702T020000&col=Default&f=50)
+[![Cyclable trips in Waterloo Region](waterloo2.jpg)](https://flowmap.blue/1e3Euejg1bPCe5mdSPFVahi6Fy_LqXFyPTKJT-BcpMP8?v=43.448098,-80.516348,11.16,0,0&a=0&b=1&bo=75&c=1&d=1&lt=1&lfm=ALL&col=BurgYl&f=50)
 
-flowmap.blue supports automatic clustering of the locations
-based on the zoom level. It's very useful for dense or messy datasets where some locations
-are very close to each other and others are farther away:
-<div style="text-align: center">
-<a href="https://flowmap.blue/1MQK6xs-lS82crlfubyAzSXRQDiWTUrIgNuvkXhUKjUs" target="_blank" rel="noopener">
-  <img src="Australia-zoom-480.gif"/>
- </a>
-</div>
-
-
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/cZ4M-Mib5JA?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

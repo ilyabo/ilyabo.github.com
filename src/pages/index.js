@@ -21,7 +21,7 @@ class ProjectsIndex extends React.Component {
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
 
     return (
-      <Layout location={this.props.location}>
+      <Layout location={this.props.location} breakpoint={65}>
         <Helmet
           htmlAttributes={{ lang: 'en' }}
           meta={[{ name: 'description', content: siteDescription }]}
@@ -36,7 +36,12 @@ class ProjectsIndex extends React.Component {
             padding: `10px ${spacing}`,
           })}
         >
-        {posts.map(({ node }) => {
+        {posts
+          .filter(({ node }) => node.frontmatter.sticky)
+          .concat(
+            posts.filter(({ node }) => !node.frontmatter.sticky)
+          )
+          .map(({ node }) => {
           const title = get(node, 'frontmatter.title') || node.fields.slug
           return (
             <div
@@ -67,22 +72,24 @@ class ProjectsIndex extends React.Component {
                     border: '1px solid #ddd',
                     borderRadius: 15,
                     // boxShadow: '0px 0px 5px #ccc',
-                    width: rhythm(18),
-                    [`@media (max-width: ${rhythm(68)})`]: {
-                      width: rhythm(14),
-                    },
-                    [`@media (max-width: ${rhythm(61)})`]: {
-                      width: rhythm(13),
-                    },
-                    [`@media (max-width: ${rhythm(59)})`]: {
-                      width: rhythm(12),
-                    },
-                    [`@media (max-width: ${rhythm(16)})`]: {
-                      width: rhythm(11),
-                    },
-                    [`@media (max-width: ${rhythm(14)})`]: {
-                      width: rhythm(9),
-                    },
+                    width: rhythm(13),
+
+                    // width: rhythm(18),
+                    // [`@media (max-width: ${rhythm(68)})`]: {
+                    //   width: rhythm(14),
+                    // },
+                    // [`@media (max-width: ${rhythm(61)})`]: {
+                    //   width: rhythm(13),
+                    // },
+                    // [`@media (max-width: ${rhythm(59)})`]: {
+                    //   width: rhythm(12),
+                    // },
+                    // [`@media (max-width: ${rhythm(16)})`]: {
+                    //   width: rhythm(11),
+                    // },
+                    // [`@media (max-width: ${rhythm(14)})`]: {
+                    //   width: rhythm(9),
+                    // },
                   })}
                   fluid={
                     get(node, 'frontmatter.preview.childImageSharp.fluid', {})
@@ -120,6 +127,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             date(formatString: "MMMM YYYY")
+            sticky
             title
             preview {
               childImageSharp {

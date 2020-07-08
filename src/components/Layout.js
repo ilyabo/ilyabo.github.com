@@ -4,22 +4,20 @@ import { rhythm } from '../utils/typography'
 import Sidebar from './Sidebar'
 import Header from './Header'
 
-export const BREAK_POINT = 57
-
-const Container = styled('div')`
+const Container = styled('div')(({ breakpoint }) => `
   margin-left: auto;
   margin-right: auto;
   max-width: ${rhythm(24)};
   & > * + * {
     margin-top: ${rhythm(1)};
   }
-  @media (min-width: ${rhythm(BREAK_POINT)}) {
+  @media (min-width: ${rhythm(breakpoint)}) {
     max-width: ${rhythm(80)};
     padding-left: ${rhythm(2)};
     padding-right: ${rhythm(2)};
   }
-  @media (max-width: ${rhythm(BREAK_POINT)}) {
-    max-width: ${rhythm(BREAK_POINT)};
+  @media (max-width: ${rhythm(breakpoint)}) {
+    max-width: ${rhythm(breakpoint)};
     flex-direction: ${'column'};
     padding-bottom: 0;
     padding-left: ${rhythm(0.5)};
@@ -30,7 +28,7 @@ const Container = styled('div')`
     margin-left: 0;
     margin-right: 0;
   }
-`
+`)
 
 const Sidebars = styled('div')`
   display: flex;
@@ -53,15 +51,15 @@ const SidebarContainer = styled('div')`
   text-align: center;
 `
 
-const ContentContainer = styled('div')`
+const ContentContainer = styled('div')(({ breakpoint }) => `
   padding: ${rhythm(1.5)} ${rhythm(0.5)};
-  @media (min-width: ${rhythm(BREAK_POINT)}) {
+  @media (min-width: ${rhythm(breakpoint)}) {
     padding: ${rhythm(1.4)} ${rhythm(6)};
   }
   @media print {
     padding: 0;
   }
-`
+`)
 
 const LargeText = styled('div')`
   font-size: ${rhythm(0.65)};  
@@ -69,7 +67,11 @@ const LargeText = styled('div')`
 
 
 const Layout = (props) => {
-  const { location, children } = props
+  const {
+    breakpoint = 57,
+    location,
+    children,
+  } = props
   const path = location.pathname
   const postKind = (
     path.startsWith('/talks/') ? 'talks' :
@@ -81,21 +83,21 @@ const Layout = (props) => {
   return (
     <React.Fragment>
       <Header postKind={postKind} />
-      <Container>
+      <Container breakpoint={breakpoint}>
         {isHome &&
         <Sidebars>
           <SidebarContainer left>
             <Sidebar />
           </SidebarContainer>
           <SidebarContainer right>
-            <LargeText>
+            <LargeText style={{marginTop:rhythm(0.5) }}>
             {/*I design and develop interactive data visualizations for the web.*/}
-            I design and develop data visualizations.
+            I design and develop data visualizations and maps.
             </LargeText>
           </SidebarContainer>
         </Sidebars>
         }
-        <ContentContainer>
+        <ContentContainer breakpoint={breakpoint}>
           {children}
         </ContentContainer>
       </Container>

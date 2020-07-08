@@ -1,6 +1,6 @@
 ---
 kind: talk
-title: ClickHouse talk at the DataCouncil Meetup
+title: ClickHouse talk at DataCouncil
 date: "2020-05-13"
 place: Zurich
 preview: "cover.png"
