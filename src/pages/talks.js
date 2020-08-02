@@ -128,7 +128,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-    sort: { fields: [frontmatter___date], order: DESC },
+    sort: { fields: [frontmatter___sticky, frontmatter___date], order: [ASC,DESC] },    
     filter: {frontmatter: {kind: {eq: "talk"}}}
     ) {
       edges {
