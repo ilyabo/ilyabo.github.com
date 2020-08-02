@@ -1,6 +1,6 @@
 ---
 kind: talk
-title: AGIT Symposium talk
+title: AGIT Symposium talk (German)
 date: "2020-07-07"
 preview: "agit.jpg"
 category: talk
