@@ -37,10 +37,6 @@ class ProjectsIndex extends React.Component {
           })}
         >
         {posts
-          .filter(({ node }) => node.frontmatter.sticky)
-          .concat(
-            posts.filter(({ node }) => !node.frontmatter.sticky)
-          )
           .map(({ node }) => {
           const title = get(node, 'frontmatter.title') || node.fields.slug
           return (
@@ -116,7 +112,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-    sort: { fields: [frontmatter___date], order: DESC },
+    sort: { fields: [frontmatter___sticky, frontmatter___date], order: [ASC,DESC] },
     filter: {frontmatter: {kind: {eq: "project"}}}
     ) {
       edges {

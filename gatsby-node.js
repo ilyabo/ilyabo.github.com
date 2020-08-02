@@ -12,7 +12,7 @@ function createPostPage(createPage, graphql, kind, parentPath, parentTitle) {
         `
           {
             allMarkdownRemark(
-              sort: { fields: [frontmatter___date], order: DESC }, limit: 1000,
+              sort: { fields: [frontmatter___sticky, frontmatter___date], order: [ASC,DESC] }, limit: 1000,
               filter: {frontmatter: {kind: {eq: "${kind}"}}}
             ) {
               edges {
