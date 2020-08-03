@@ -16,7 +16,7 @@ Aggregated into a regular grid:
 Showing changes during the day for each grid cell:
 ![](tseries-map.png)
 
-Cross-visitorship with the recursive OD-map: 
+Cross-visitorship with the recursive [OD-map](https://openaccess.city.ac.uk/id/eprint/537/1/wood_visualization_2010.pdf): 
 ![](od-map-30.png)
 
 

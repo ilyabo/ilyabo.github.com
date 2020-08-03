@@ -6,8 +6,10 @@ category: works
 preview: germany.png
 date: 2015-01-01
 ---
-An adaptive hexagon overlay for representing density heat maps with a self-developed geographic 
-mapping engine: 
+A zoom-adaptive hexagon overlay for representing density heat maps 
+with a self-developed slippy map engine. 
+Here we also used our hierarchical hexagonal system [TeraHex](https://github.com/teralytics/geohex)
+for geospatial indexing: 
 
 ![](germany.png)
 
