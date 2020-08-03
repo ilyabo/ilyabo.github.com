@@ -25,7 +25,7 @@ JFlowMap can be downloaded from [here](https://code.google.com/p/jflowmap/downlo
 The source code is available at [github.com/ilyabo/jflowmap](https://github.com/ilyabo/jflowmap/).
  
 Here is a promotional video about the project: 
-<iframe src="https://player.vimeo.com/video/90155602" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ntY2i7toBPo?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 
