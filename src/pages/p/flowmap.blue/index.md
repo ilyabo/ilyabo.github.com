@@ -40,4 +40,4 @@ The tool makes it possible to publish interactive flow maps from data uploaded t
 [![BIXI rides Montreal](bixi.jpg)](https://flowmap.blue/1qTVOzkPB7U1ySI4g4uPtVBzzEDCI8n1WXAmQeZL15fE?v=45.495056,-73.564832,11.84,0,0&a=0&b=1&bo=75&c=1&d=1&lt=1&lfm=ALL&t=20190701T050000,20190702T020000&col=Default&f=50)
 [![Cyclable trips in Waterloo Region](waterloo2.jpg)](https://flowmap.blue/1e3Euejg1bPCe5mdSPFVahi6Fy_LqXFyPTKJT-BcpMP8?v=43.448098,-80.516348,11.16,0,0&a=0&b=1&bo=75&c=1&d=1&lt=1&lfm=ALL&col=BurgYl&f=50)
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/cZ4M-Mib5JA?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/378757494" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>

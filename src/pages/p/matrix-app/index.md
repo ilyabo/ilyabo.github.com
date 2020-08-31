@@ -5,6 +5,7 @@ description: ""
 category: works
 preview: atlanta-corridor.png
 date: 2019-01-01
+sticky: true
 ---
 OD-matrix app is an interactive web application we developed at [Teralytics](http://teralytics.net)
 for representing and analyzing mobility data in cities and countries (origin-destination data). 
