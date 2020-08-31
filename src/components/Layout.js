@@ -92,7 +92,7 @@ const Layout = (props) => {
           <SidebarContainer right>
             <LargeText style={{marginTop:rhythm(0.5) }}>
             {/*I design and develop interactive data visualizations for the web.*/}
-            I design and develop data visualizations and maps.
+            I develop interactive data visualizations and maps.
             </LargeText>
           </SidebarContainer>
         </Sidebars>
