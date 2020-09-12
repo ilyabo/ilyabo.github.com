@@ -5,7 +5,7 @@ description: ""
 category: works
 tags: [ "Java", "Piccolo" ]
 preview: cgvis_onmac7.png
-date: 2009-01-01
+date: 2009-03-01
 ---
 
 CGVis is an open source generic data visualization tool with an innovative zoomable user interface and animations which help the user find particular features in his data.
