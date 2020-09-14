@@ -1,6 +1,6 @@
 ---
 kind: project
-title: ROMIP website
+title: ROMIP
 description: ""
 category: works
 preview: romip.jpg

@@ -1,6 +1,6 @@
 ---
 kind: project
-title: Website for Freie Schule Bergmeilen 
+title: Freie Schule Bergmeilen 
 description: ""
 category: works
 preview: fsb1.jpg
