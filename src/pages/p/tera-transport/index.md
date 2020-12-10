@@ -30,3 +30,9 @@ The following dashboard allows the users to analyse movement of people
 <i>Transport dashboard US</i>
 </div><br>
 
+
+<div align=center>
+<img src=./img/georg-od.jpg>
+<i>Georg Polzer, Teralytics founder, presenting Tera Transport dashboard</i>
+</div><br>
+
