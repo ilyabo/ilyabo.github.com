@@ -16,7 +16,7 @@ My special interest is in visualizing data about
 geographic movement of people or goods, e.g. transport-related data.
 I wrote <a href="/assets/thesis.pdf" target="_blank" rel="noopener">my thesis</a> about this topic 
 and developed <a href="https://flowmap.blue" target="_blank" rel="noopener">Flowmap.blue</a>, a
-free online tool for visualizing origin-destination movement data. 
+free online tool for visualizing origin-destination movement. 
 I share [much of my code online](https://github.com/ilyabo). 
 
 I am the father of two wonderful kids. I like to play guitar and piano and 
