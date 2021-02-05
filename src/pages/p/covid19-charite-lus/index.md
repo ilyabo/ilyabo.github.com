@@ -1,6 +1,6 @@
 ---
 kind: project
-title: COVID-19 lung ultrasound study
+title: Lung ultrasound study
 description: ""
 category: works
 preview: grading.jpg
