@@ -1,6 +1,6 @@
 ---
 kind: project
-title: Map of protests
+title: Map of detainments
 category: works
 date: 2021-01-31
 preview: preview.jpg
