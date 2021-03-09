@@ -184,10 +184,32 @@ const Resume = (props) => {
 
 
             <div className="jobTitle">
-            <span className="em">Staff Software Engineer, Front End and Data Visualization, Teralytics,
+              <span className="em">Founding Engineer, <Go to="https://www.unfolded.ai/">Unfolded</Go>, San Francisco, USA (remote)</span>
+              &nbsp;&ndash;&nbsp;
+              <span className="wtime">since January 2021</span>
+            </div>
+            <ul>
+              <li>Helping to build the <Go to="http://studio.unfolded.ai/">next generation geospatial analytics platform</Go>.</li>
+            </ul>
+
+            <br/>
+
+            <div className="jobTitle">
+              <span className="em">Founder, <Go to="https://www.geovisually.com/">GeoVisually</Go>, Zurich, Switzerland</span>
+              &nbsp;&ndash;&nbsp;
+              <span className="wtime">since November 2020</span>
+            </div>
+            <ul>
+              <li>Geo data visualization consultancy.</li>
+            </ul>
+
+            <br/>
+
+            <div className="jobTitle">
+              <span className="em">Staff Software Engineer, Front End and Data Visualization, <Go to="https://teralytics.net/">Teralytics</Go>,
           Zurich, Switzerland</span>
               &nbsp;&ndash;&nbsp;
-              <span className="wtime">since February 2015</span>
+              <span className="wtime">February 2015 - December 2020</span>
             </div>
             <ul>
               <li>Designed and developed <Go to="/p/tera-transport/">exploratory data</Go> <Go to="/p/street-flow-zh/">visualization tools</Go> for the analysis of people mobility
@@ -202,6 +224,8 @@ const Resume = (props) => {
               <li>Developed <Go to="/p/flowmap.blue/">Flowmap.blue</Go>,
                 an open-source tool for geographic flow map visualization from spreadsheets
                 published in Google Sheets.</li>
+              <li>Developed a series of interactive maps showing the <Go to="/p/covid-19/">effect the lock-down had on mobility</Go> which
+                were published in La Repubblica, Forbes, Daily Mail, Bild, Osnabrücker Zeitung.</li>
 
               {
                 // <!--* Developed Tera Streets-->
@@ -221,7 +245,7 @@ const Resume = (props) => {
 
 
 
-            <div className="jobTitle"><span className="em">Data Visualization Engineer, Interactive Things,
+            <div className="jobTitle"><span className="em">Data Visualization Engineer, <Go to="http://interactivethings.com/">Interactive Things</Go>,
           Zurich, Switzerland</span>
               &nbsp;&ndash;&nbsp;
               <span className="wtime">June 2013 - January 2015</span></div>
@@ -528,6 +552,8 @@ const Resume = (props) => {
           <h2>Other Activities</h2>
           <div className="block notitles">
             <ul>
+              <li>Developed a <Go to="/p/covid19-charite-lus/">web app  used for the COVID-19 medical study</Go> carried
+                 out at Charité Universitätsmedizin Berlin.</li>
               <li>Developed an interactive
                 {' '}<Go to="/p/remittances/">visualization of the worldwide remittance flows</Go>
                 {' '}published by the newspapers <Go to="http://www.tageswoche.ch/de/2013_19/schweiz/540004/milliarden-aus-der-fremde.htm">TagesWoche.ch</Go> and <Go to="http://derstandard.at/1363710784566/Wieviel-Geld-Migranten-zurueck-in-ihre-Heimat-schicken">derStandard.at</Go>.
