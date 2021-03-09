@@ -200,7 +200,7 @@ const Resume = (props) => {
               <span className="wtime">since November 2020</span>
             </div>
             <ul>
-              <li>Geo data visualization consultancy.</li>
+              <li>Interactive maps and geographic data visualization consultancy.</li>
             </ul>
 
             <br/>
