@@ -456,6 +456,8 @@ const Resume = (props) => {
           <h2 id="talks">Public Speaking</h2>
           <div className="block notitles">
             <ul>
+              <li><span className="pubTitle"><Link to="/talks/2021-03-02-geohackmin/">Tools for Geo
+Data Visualization from the Unfolded team</Link></span> at the <Go to="https://cividi.ch/geohackmin-en/">Geo.Hackmin Week</Go>, 2021</li>
               <li><span className="pubTitle"><Link to="/talks/2020-07-30-uc.foundation/">Presenting Flowmap.blue</Link></span> at the <Go to="https://uc.foundation/">Urban Computing Foundation</Go> Technical Advisory Council meeting, 2020</li>
               <li><span className="pubTitle"><Link to="/talks/2020-07-07-agit/">Flowmap.blue</Link></span> (in German) at the <Go to="https://agit.at/">AGIT symposium</Go>, 2020</li>
               <li><span className="pubTitle"><Link to="/talks/2020-05-13-datavis-meetup/">Flow Maps</Link></span> at the <Go to="https://www.meetup.com/datavis-zurich/events/270384574/">Data Visualization Zurich Meetup</Go>, online, 2020</li>
