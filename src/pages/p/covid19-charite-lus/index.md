@@ -1,14 +1,19 @@
 ---
 kind: project
-title: Lung ultrasound study
+title: Charité lung ultrasound study
 description: ""
 category: works
 preview: grading.jpg
 date: 2020-06-01
 ---
 This was a project I volunteered to help with. 
-I built a simple video annotation tool used for the medical study “Interobserver and intraobserver variability in point-of-care lung 
-ultrasound of intensive care patients with confirmed Covid-19” at [Charité Universitätsmedizin Berlin](https://nephrologie-intensivmedizin.charite.de). 
+I built a simple video annotation tool used for the medical study
+“Point-of-care lung ultrasound in COVID-19 patients: inter- and intra-observer agreement in a prospective observational study”
+carried out at [Charité – Universitätsmedizin Berlin](https://nephrologie-intensivmedizin.charite.de/).
+
+The results of the study were published in [Nature - Scientific Reports](https://www.nature.com/articles/s41598-021-90153-2).
+
+
 The source code is available [here](https://github.com/ilyabo/covid19-charite-lus).
 
 <div align="center">
