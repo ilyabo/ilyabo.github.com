@@ -52,6 +52,7 @@
     "url": "git+https://github.com/ilyabo/ilyabo.github.io.git"
   },
   "scripts": {
+    "start": "gatsby develop",
     "dev": "gatsby develop",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
