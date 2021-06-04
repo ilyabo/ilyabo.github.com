@@ -44,11 +44,13 @@ class ProjectsIndex extends React.Component {
               key={node.fields.slug}
               className={css({
                 margin: `0px ${spacing} ${rhythm(2)} ${spacing}`,
-                padding: 20,
+                padding: '20px 30px 30px 30px',
                 borderRadius: 15,
                 WebkitTouchCallout: 'none',
                 WebkitTapHighlightColor: 'transparent',
                 userSelect: 'none',
+                boxShadow: '1px 1px 10px #55738555',
+                transition: 'box-shadow 0.2s',
                 '&:hover': {
                   boxShadow: `0px 0px 3px ${colors.primary[2]}`,
                 },
