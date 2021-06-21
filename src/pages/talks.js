@@ -50,7 +50,6 @@ class ProjectsIndex extends React.Component {
                 WebkitTouchCallout: 'none',
                 WebkitTapHighlightColor: 'transparent',
                 userSelect: 'none',
-                transition: 'box-shadow 0.2s',
                 '&:hover': {
                   boxShadow: `0px 0px 3px ${colors.primary[2]}`,
                 },
