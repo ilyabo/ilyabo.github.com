@@ -21,7 +21,7 @@ and developed <a href="https://flowmap.blue" target="_blank" rel="noopener">Flow
 free online tool for visualizing origin-destination movement. 
 I share [much of my code online](https://github.com/ilyabo). 
 
-I am the father of two wonderful kids. I like to play guitar and piano and 
+I am the father of two wonderful kids. My wife is a <a href="http://tanja-boyandin.com/" target="_blank" rel="noopener">professional translator</a>. I like to play guitar and piano and 
 <a href="https://soundcloud.com/ibananti" target="_blank" rel="noopener">produce electronic music</a>.
 
 Check out <a href="/resume/">my full resume</a> and the <a href="/">project portfolio</a> for more 
