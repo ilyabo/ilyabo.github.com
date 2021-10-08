@@ -24,7 +24,7 @@
     "gatsby-transformer-remark": "^2.3.8",
     "gatsby-transformer-sharp": "^2.1.18",
     "lodash": "^4.17.11",
-    "prismjs": "^1.15.0",
+    "prismjs": "^1.25.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-emotion": "^9.2.8",
