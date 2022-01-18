@@ -442,12 +442,12 @@ const Resume = (props) => {
 
           <h2>Computer Skills</h2>
           <div className="block">
-            <span className="em">Languages: </span> JavaScript/TypeScript, Clojure, Python, Java, Scala, C<br/>
+            <span className="em">Languages: </span> JavaScript/TypeScript, Java, Python, Clojure, Scala, C<br/>
             <span className="em">Web:</span> React, Node.js, GraphQL, SVG, Canvas, WebGL<br/>
-            <span className="em">Visualization:</span> D3, Deck.gl, Vega, Tableau<br/>
-            <span className="em">GIS:</span> Mapbox, PostGIS, QGIS<br/>
+            <span className="em">Visualization:</span> D3, Tableau<br/>
+            <span className="em">Geo:</span> Deck.gl, Mapbox GL JS, PostGIS, QGIS<br/>
             <span className="em">Databases:</span> PostgreSQL, MySQL, BigQuery, ClickHouse, SQL Server, Redis<br/>
-            <span className="em">UI Design:</span> Sketch, Figma, Photoshop<br/>
+            <span className="em">UI Design:</span> Figma, Sketch, Photoshop<br/>
             {/*<span className="em">Cloud:</span> Heroku, Digital Ocean, Netlify, AWS, Google Cloud, Marathon, Kubernetes<br/>*/}
           </div>
 
